@@ -1,0 +1,56 @@
+name: Скачать ВСН с meganorm.ru
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_total_mb:
+        description: "Лимит объёма папки files/ в этом репозитории, МБ"
+        default: "4500"
+      only_ids:
+        description: "Только эти id документов через запятую (для докачки в другой репозиторий); пусто = все"
+        default: ""
+      delay:
+        description: "Пауза между запросами, сек"
+        default: "1.5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vsn-download
+  cancel-in-progress: false
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Настройка git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+
+      - name: Скачивание (с промежуточными коммитами каждые 25 документов)
+        env:
+          OUT_DIR: ${{ github.workspace }}
+          MAX_TOTAL_MB: ${{ inputs.max_total_mb }}
+          ONLY_IDS: ${{ inputs.only_ids }}
+          DELAY: ${{ inputs.delay }}
+          COMMIT_EVERY: "25"
+        run: python scripts/download_vsn.py
+
+      - name: Финальный коммит (реестр, README, остаток)
+        if: always()
+        run: |
+          git add -A
+          git diff --cached --quiet || git commit -m "ВСН: реестр index.csv, README, remaining.csv"
+          git pull --rebase -q || true
+          git push
