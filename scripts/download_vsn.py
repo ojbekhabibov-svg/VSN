@@ -29,7 +29,10 @@ ROOT = Path(os.environ.get("OUT_DIR", ".")).resolve()
 FILES_DIR = ROOT / "files"
 MAX_TOTAL_MB = float(os.environ.get("MAX_TOTAL_MB", "4500"))   # лимит на репозиторий
 MAX_FILE_MB = 95                                               # GitHub: файл < 100 МБ
-DELAY = float(os.environ.get("DELAY", "1.5"))
+DELAY = float(os.environ.get("DELAY", "1.0"))          # пауза после PDF/HTM
+ASSET_DELAY = float(os.environ.get("ASSET_DELAY", "0.15"))  # пауза после картинки
+RUN_MINUTES = float(os.environ.get("RUN_MINUTES", "0"))    # 0 = без ограничения
+T0 = time.time()
 COMMIT_EVERY = int(os.environ.get("COMMIT_EVERY", "0"))   # 0 = не коммитить из скрипта
 ONLY_IDS = set(filter(None, os.environ.get("ONLY_IDS", "").split(",")))  # для докачки в др. репо
 
@@ -113,11 +116,11 @@ def dir_size_mb(p):
     return sum(f.stat().st_size for f in p.rglob("*") if f.is_file()) / 1048576 if p.exists() else 0
 
 
-def save(url, dest):
+def save(url, dest, delay=None):
     if dest.exists() and dest.stat().st_size > 0:
         return "exists"
     r = get(url)
-    time.sleep(DELAY)
+    time.sleep(DELAY if delay is None else delay)
     if r is None:
         return "fail"
     if len(r.content) > MAX_FILE_MB * 1048576:
@@ -140,66 +143,10 @@ def htm_assets(htm_url, dest):
         if ref.startswith(("http://", "https://")) and "meganorm.ru" not in ref:
             continue
         aurl = urllib.parse.urljoin(htm_url, ref)
-        save(aurl, local_path(aurl))
+        save(aurl, local_path(aurl), ASSET_DELAY)
 
 
-def git_checkpoint(msg):
-    if not COMMIT_EVERY:
-        return
-    subprocess.run(["git", "add", "-A", "files"], cwd=ROOT, check=True)
-    if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
-        return
-    subprocess.run(["git", "commit", "-q", "-m", msg], cwd=ROOT, check=True)
-    for _ in range(3):
-        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
-            print("  -> pushed:", msg, flush=True)
-            return
-        subprocess.run(["git", "pull", "-q", "--rebase"], cwd=ROOT)
-    print("  !! push не удался", flush=True)
-
-
-def main():
-    docs, seen = [], set()
-    for lu in LIST_URLS:
-        r = get(lu)
-        if not r:
-            sys.exit(f"Не удалось получить список {lu}")
-        for d in parse_list(decode(r)):
-            key = (d["id"], d["pdf_url"], d["htm_url"])
-            if key not in seen:
-                seen.add(key)
-                docs.append(d)
-    print(f"В списке документов: {len(docs)}", flush=True)
-    if not docs:
-        sys.exit("Список пуст — вероятно, сайт заблокировал запрос.")
-
-    remaining, stats = [], {}
-    for i, d in enumerate(docs, 1):
-        d["pdf_path"] = d["htm_path"] = ""
-        d["note"] = ""
-        if ONLY_IDS and d["id"] not in ONLY_IDS:
-            continue
-        if dir_size_mb(FILES_DIR) > MAX_TOTAL_MB:
-            d["note"] = "не скачан: лимит репозитория"
-            remaining.append(d)
-            continue
-        print(f"[{i}/{len(docs)}] {d['number']} — {d['name'][:70]}", flush=True)
-        for kind in ("pdf", "htm"):
-            url = d[f"{kind}_url"]
-            if not url:
-                continue
-            dest = local_path(url)
-            res = save(url, dest)
-            stats[res] = stats.get(res, 0) + 1
-            if res in ("ok", "exists"):
-                d[f"{kind}_path"] = dest.relative_to(ROOT).as_posix()
-                if kind == "htm":
-                    htm_assets(url, dest)
-            else:
-                d["note"] += f"{kind}: {res}; "
-        if COMMIT_EVERY and i % COMMIT_EVERY == 0:
-            git_checkpoint(f"ВСН: файлы до №{i} из {len(docs)}")
-
+def write_reports(docs, remaining):
     fields = ["id", "number", "name", "date", "status", "pdf_path", "htm_path",
               "pdf_url", "htm_url", "card_url", "note"]
     with open(ROOT / "index.csv", "w", newline="", encoding="utf-8-sig") as f:
@@ -230,6 +177,75 @@ def main():
         name = d["name"].replace("|", "/")
         lines.append(f"| {n} | {d['number']} | {name} | {d['date']} | {d['status']} | {files or '—'} |")
     (ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def git_checkpoint(msg):
+    if not COMMIT_EVERY:
+        return
+    subprocess.run(["git", "add", "-A", "files", "index.csv", "README.md"], cwd=ROOT, check=True)
+    if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
+        return
+    subprocess.run(["git", "commit", "-q", "-m", msg], cwd=ROOT, check=True)
+    for _ in range(3):
+        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+            print("  -> pushed:", msg, flush=True)
+            return
+        subprocess.run(["git", "pull", "-q", "--rebase"], cwd=ROOT)
+    print("  !! push не удался", flush=True)
+
+
+def main():
+    docs, seen = [], set()
+    for lu in LIST_URLS:
+        r = get(lu)
+        if not r:
+            sys.exit(f"Не удалось получить список {lu}")
+        for d in parse_list(decode(r)):
+            key = (d["id"], d["pdf_url"], d["htm_url"])
+            if key not in seen:
+                seen.add(key)
+                docs.append(d)
+    print(f"В списке документов: {len(docs)}", flush=True)
+    if not docs:
+        sys.exit("Список пуст — вероятно, сайт заблокировал запрос.")
+
+    remaining, stats, stopped = [], {}, False
+    for d in docs:
+        d["pdf_path"] = d["htm_path"] = d["note"] = ""
+        for kind in ("pdf", "htm"):  # уже скачанное в прошлых прогонах
+            if d[f"{kind}_url"] and local_path(d[f"{kind}_url"]).exists():
+                d[f"{kind}_path"] = local_path(d[f"{kind}_url"]).relative_to(ROOT).as_posix()
+    for i, d in enumerate(docs, 1):
+        if RUN_MINUTES and (time.time() - T0) / 60 > RUN_MINUTES:
+            stopped = True
+            break
+        if ONLY_IDS and d["id"] not in ONLY_IDS:
+            continue
+        if dir_size_mb(FILES_DIR) > MAX_TOTAL_MB:
+            d["note"] = "не скачан: лимит репозитория"
+            remaining.append(d)
+            continue
+        print(f"[{i}/{len(docs)}] {d['number']} — {d['name'][:70]}", flush=True)
+        for kind in ("pdf", "htm"):
+            url = d[f"{kind}_url"]
+            if not url:
+                continue
+            dest = local_path(url)
+            res = save(url, dest)
+            stats[res] = stats.get(res, 0) + 1
+            if res in ("ok", "exists"):
+                d[f"{kind}_path"] = dest.relative_to(ROOT).as_posix()
+                if kind == "htm":
+                    htm_assets(url, dest)
+            else:
+                d["note"] += f"{kind}: {res}; "
+        if COMMIT_EVERY and i % COMMIT_EVERY == 0:
+            write_reports(docs, remaining)
+            git_checkpoint(f"ВСН: файлы до №{i} из {len(docs)}")
+
+    status = "complete" if not stopped and not remaining else ("incomplete" if stopped else "limit")
+    write_reports(docs, remaining)
+    (ROOT / ".status").write_text(status + "\n")
     print("Итог:", stats, "| объём files/, МБ:", round(dir_size_mb(FILES_DIR), 1), flush=True)
 
 
