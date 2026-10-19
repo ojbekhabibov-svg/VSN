@@ -75,4 +75,7 @@ jobs:
               -f delay="${{ inputs.delay }}" \
               -f attempt="$NEXT"
             echo "Запущен прогон $NEXT"
+          elif [ "$STATUS" = "complete" ] || [ "$STATUS" = "limit" ]; then
+            gh workflow run build.yml --ref main
+            echo "Скачивание завершено — запущена сборка регистров"
           fi

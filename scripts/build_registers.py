@@ -1,0 +1,423 @@
+#!/usr/bin/env python3
+"""
+Сборка регистров ВСН по направлениям и упрощённых текстов.
+
+Вход:  index.csv (после download_vsn.py), files/, registers/classification.csv
+Выход:
+  text/<номер>__<id>.md          — упрощённый текст (шапка, оглавление, чистый текст)
+  registers/NN_<направление>.md  — регистр направления (таблица со ссылками)
+  registers/Реестр_ВСН.xlsx      — все регистры в Excel (лист на направление)
+  registers/registers.json       — машиночитаемый реестр
+  AI_INDEX.md                    — компактный индекс для работы Claude (одна строка на документ)
+"""
+import csv
+import html
+import json
+import os
+import re
+import subprocess
+import sys
+import urllib.parse
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from vsn_directions import DIRECTIONS, CODES, classify  # noqa: E402
+
+ROOT = Path(os.environ.get("OUT_DIR", ".")).resolve()
+REPO_URL = "https://github.com/ojbekhabibov-svg/VSN/blob/main/"
+OCR_DIR = Path(os.environ.get("OCR_DIR", "ocr_out"))
+DIR = {d[0]: d for d in DIRECTIONS}
+VALID = {"действует", "введен впервые", "взамен", "частично действует",
+         "не установлен срок действия", "не определен законодательством",
+         "организационно-ограниченного применения", "заменен в части"}
+
+
+# ---------------------------------------------------------------- текст из HTM
+def htm_to_text(raw: bytes) -> str:
+    try:
+        t = raw.decode("utf-8")
+    except UnicodeDecodeError:
+        t = raw.decode("cp1251", errors="replace")
+    t = re.sub(r"(?is)<(script|style|head)\b.*?</\1>", "", t)
+    t = re.sub(r"(?is)<p[^>]*class=\"?MsoToc[^>]*>.*?</p>", "", t)       # оглавление Word — своё соберём
+    t = re.sub(r"(?is)<img[^>]*>", " [рис.] ", t)
+    t = re.sub(r"(?is)<h([1-4])[^>]*>(.*?)</h\1>",
+               lambda m: "\n\n" + "#" * (int(m.group(1)) + 1) + " " + " ".join(re.sub("<[^>]+>", " ", m.group(2)).split()) + "\n\n", t)
+    t = re.sub(r"(?is)</t[dh]>", " | ", t)
+    t = re.sub(r"(?is)</tr>", "\n", t)
+    t = re.sub(r"(?is)<br\s*/?>", "\n", t)
+    t = re.sub(r"(?is)</(p|div|li|table)>", "\n", t)
+    t = re.sub(r"(?s)<[^>]+>", " ", t)
+    t = html.unescape(t).replace("\xa0", " ")
+    out = []
+    for line in t.splitlines():
+        line = " ".join(line.split())
+        line = re.sub(r"(\s*\|\s*)+$", "", line)
+        line = re.sub(r"^\|\s*", "", line)
+        if re.fullmatch(r"[|\s]*", line):
+            out.append("")
+            continue
+        out.append(line)
+    return tidy(out)
+
+
+# ---------------------------------------------------------------- текст из PDF
+_SPACED = re.compile(r"\b(?:[А-ЯЁA-Z0-9]{1,2} ){2,}[А-ЯЁA-Z0-9]{1,3}\b")
+
+
+def fix_spaced(line: str) -> str:
+    """'ПРОМ Ы Ш ЛЕННО СТИ' -> 'ПРОМЫШЛЕННОСТИ' для строк заглавными (артефакты OCR)."""
+    letters = [c for c in line if c.isalpha()]
+    if letters and sum(c.isupper() for c in letters) / len(letters) > 0.8:
+        toks = line.split(" ")
+        if sum(len(x) <= 2 for x in toks if x) > len(toks) * 0.4:
+            return re.sub(r"(?<=\S) (?=\S{1,3}\b)", "", line)
+    return line
+
+
+def pdf_pages_text(path: Path):
+    """Текстовый слой PDF через PyMuPDF (лучше pdftotext для старого OCR-слоя)."""
+    try:
+        import pymupdf
+        with pymupdf.open(path) as d:
+            return [p.get_text(sort=True) for p in d]
+    except Exception:
+        out = subprocess.run(["pdftotext", "-enc", "UTF-8", str(path), "-"],
+                             capture_output=True, timeout=600).stdout.decode("utf-8", "replace")
+        return out.split("\f")
+
+
+_WORD = re.compile(r"[А-Яа-яЁё]+")
+VOCAB = set()
+
+
+def build_vocab(texts):
+    """Словарь из чистых текстов (HTM) — для склейки разорванных слов в PDF-тексте."""
+    from collections import Counter
+    c = Counter()
+    for t in texts:
+        c.update(w.lower() for w in _WORD.findall(t))
+    VOCAB.update(w for w, n in c.items() if n >= 2)
+
+
+def repair_words(line: str) -> str:
+    toks = line.split(" ")
+    changed = True
+    while changed and VOCAB:
+        changed, out, i = False, [], 0
+        while i < len(toks):
+            if i + 1 < len(toks) and _WORD.fullmatch(toks[i] or "-"):
+                m = re.match(r"([а-яё]+)(.*)", toks[i + 1] or "")
+                if m:
+                    a, b = toks[i], m.group(1)
+                    if (a + b).lower() in VOCAB and (a.lower() not in VOCAB or b not in VOCAB):
+                        out.append(a + b + m.group(2))
+                        i += 2
+                        changed = True
+                        continue
+            out.append(toks[i])
+            i += 1
+        toks = out
+    return " ".join(toks)
+
+
+def pdf_to_text(path: Path, ocr_file: Path = None):
+    if ocr_file and ocr_file.exists():
+        pages, method = ocr_file.read_text(encoding="utf-8").split("\f"), "ocr"
+    else:
+        pages, method = pdf_pages_text(path), "pdf-text"
+    lines = []
+    for n, p in enumerate(pages, 1):
+        p = re.sub(r"\xad\s*", "", p)
+        pl = [" ".join(l.split()) for l in p.splitlines()]
+        if method == "pdf-text":
+            pl = [repair_words(fix_spaced(l)) for l in pl]
+        pl = [l for l in pl if l and not re.fullmatch(r"(?:стр\.?|с\.)?\s*-?\s*\d{1,3}\s*-?", l, re.I)]
+        if pl:
+            lines.append(f"<!-- стр. {n} -->")
+            lines.extend(pl)
+            lines.append("")
+    return tidy(join_paragraphs(lines)), method, len(pages)
+
+
+def join_paragraphs(lines):
+    """Склейка строк PDF в абзацы: перенос по слогам и строки без конца предложения."""
+    out = []
+    for l in lines:
+        if out and out[-1] and l and not l.startswith(("<!--", "#")) and not out[-1].startswith("<!--"):
+            prev = out[-1]
+            starts_new = re.match(r"^(\d+(\.\d+)*\.?\s|[а-я]\)\s|-\s|—\s|•|Таблица|Рис\.|Приложение|ПРИЛОЖЕНИЕ)", l)
+            if prev.endswith("-") and l[:1].islower():
+                out[-1] = prev[:-1] + l
+                continue
+            if not starts_new and not re.search(r"[.:;!?]$", prev) and (l[:1].islower() or l[:1] in "(«\""):
+                out[-1] = prev + " " + l
+                continue
+        out.append(l)
+    return out
+
+
+def tidy(lines):
+    text = "\n".join(lines)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    text = re.sub(r"(\[рис\.\]\s*){2,}", "[рис.] ", text)
+    return text.strip() + "\n"
+
+
+# ---------------------------------------------------------------- оглавление
+_HEAD_RX = re.compile(
+    r"^(?:#{2,5} .+|(?:\d{1,2}\.){1,2}\s*[А-ЯЁ][А-ЯЁA-Z ,\-–—()]{4,}$|"
+    r"(?:РАЗДЕЛ|Раздел|ГЛАВА|Глава)\s+[\dIVX]+.*|ПРИЛОЖЕНИЕ\s*\d*.*|Приложение\s+\d+.*|"
+    r"\d{1,2}\.\s+[А-ЯЁ][А-ЯЁ ,\-–—]{6,})$")
+
+
+def toc(text: str, limit=60):
+    items = []
+    for line in text.splitlines():
+        s = line.strip()
+        if len(s) > 160 or len(s) < 5:
+            continue
+        if _HEAD_RX.match(s):
+            s = s.lstrip("#").strip()
+            if s not in items:
+                items.append(s)
+        if len(items) >= limit:
+            break
+    return items
+
+
+# ---------------------------------------------------------------- утилиты
+def slug(number: str, doc_id: str) -> str:
+    s = re.sub(r"[^\w.\-]+", "_", number.replace("/", "-").replace("*", "x")).strip("_") or "VSN"
+    return f"{s}__{doc_id}"
+
+
+def gh(path: str) -> str:
+    return REPO_URL + urllib.parse.quote(path) if path else ""
+
+
+def md_link(path, label):
+    return f"[{label}](../{urllib.parse.quote(path)})" if path else ""
+
+
+def is_valid(status: str) -> bool:
+    return status.strip().lower() in VALID
+
+
+# ---------------------------------------------------------------- main
+def main():
+    rows = list(csv.DictReader(open(ROOT / "index.csv", encoding="utf-8-sig"), delimiter=";"))
+    manual = {}
+    cpath = ROOT / "registers" / "classification.csv"
+    if cpath.exists():
+        for r in csv.DictReader(open(cpath, encoding="utf-8-sig"), delimiter=";"):
+            manual[(r["id"], r["number"])] = [c for c in r["directions"].split(",") if c in CODES]
+
+    (ROOT / "text").mkdir(exist_ok=True)
+    (ROOT / "registers").mkdir(exist_ok=True)
+    build_vocab(htm_to_text((ROOT / r["htm_path"]).read_bytes()) for r in rows
+                if r.get("htm_path") and (ROOT / r["htm_path"]).exists())
+    print("словарь:", len(VOCAB), flush=True)
+    docs = []
+    for n, r in enumerate(rows, 1):
+        dirs = manual.get((r["id"], r["number"])) or classify(r["name"])
+        d = dict(r, n=n, directions=dirs, text_path="", text_src="", pages="", text_kb=0, toc=[])
+        src_htm = ROOT / r["htm_path"] if r.get("htm_path") else None
+        src_pdf = ROOT / r["pdf_path"] if r.get("pdf_path") else None
+        tfile = ROOT / "text" / (slug(r["number"], r["id"]) + ".md")
+        body, method = "", ""
+        has_new_ocr = (ROOT / OCR_DIR / f"{r['id']}.txt").exists() and not r.get("htm_path")
+        if tfile.exists() and os.environ.get("REBUILD_TEXT") != "1" and not has_new_ocr:
+            body = tfile.read_text(encoding="utf-8").split("\n---\n", 1)[-1]
+            m = re.search(r"^Источник текста: (\S+)", tfile.read_text(encoding="utf-8"), re.M)
+            method = m.group(1) if m else ""
+        elif src_htm and src_htm.exists():
+            body, method = htm_to_text(src_htm.read_bytes()), "htm"
+        elif src_pdf and src_pdf.exists():
+            body, method, pages = pdf_to_text(src_pdf, (ROOT / OCR_DIR / f"{r['id']}.txt"))
+            d["pages"] = pages
+        if body.strip():
+            d["toc"] = toc(body)
+            head = [
+                f"# {r['number']} — {r['name']}",
+                "",
+                f"Статус: {r['status']} | Дата введения: {r['date']} | id: {r['id']}",
+                f"Направления: {', '.join(DIR[c][2] for c in dirs)}",
+                f"Источник текста: {method} | Оригиналы: "
+                + " ".join(filter(None, [r.get("pdf_path", ""), r.get("htm_path", "")])),
+                "Примечание: упрощённая текстовая версия; формулы, рисунки и сложные таблицы смотреть в оригинале.",
+                "",
+                "## Оглавление (автоматически)",
+                "",
+            ] + [f"- {x}" for x in d["toc"]] + ["", "---", ""]
+            tfile.write_text("\n".join(head) + body, encoding="utf-8")
+            d["text_path"] = tfile.relative_to(ROOT).as_posix()
+            d["text_src"] = method
+            d["text_kb"] = round(tfile.stat().st_size / 1024)
+        docs.append(d)
+        if n % 50 == 0:
+            print(f"текст: {n}/{len(rows)}", flush=True)
+
+    write_md_registers(docs)
+    write_xlsx(docs)
+    write_ai_index(docs)
+    json.dump([{k: d[k] for k in ("id", "number", "name", "date", "status", "directions",
+                                   "pdf_path", "htm_path", "text_path", "text_src", "toc")} for d in docs],
+              open(ROOT / "registers" / "registers.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    update_readme(docs)
+    print("Готово. Документов:", len(docs), "| с текстом:", sum(1 for d in docs if d["text_path"]))
+
+
+def write_md_registers(docs):
+    for code, fname, title, ppr in DIRECTIONS:
+        sel = [d for d in docs if code in d["directions"]]
+        sel.sort(key=lambda d: (not is_valid(d["status"]), d["number"]))
+        lines = [f"# {fname.split('_', 1)[0]}. {title}", "",
+                 f"Документов: **{len(sel)}**, из них действующих: **{sum(is_valid(d['status']) for d in sel)}**."
+                 + (" Направление важно для ППР." if ppr else ""), "",
+                 "Сначала действующие, затем заменённые/недействующие (справочно).", "",
+                 "| № | Номер | Название | Дата | Статус | Файлы | Текст |", "|---|---|---|---|---|---|---|"]
+        for i, d in enumerate(sel, 1):
+            files = " ".join(filter(None, [md_link(d["pdf_path"], "PDF"), md_link(d["htm_path"], "HTM")]))
+            st = d["status"] if is_valid(d["status"]) else f"~~{d['status']}~~"
+            lines.append(f"| {i} | {d['number']} | {d['name'].replace('|', '/')} | {d['date']} | {st} | "
+                         f"{files or '—'} | {md_link(d['text_path'], 'TXT') or '—'} |")
+        (ROOT / "registers" / f"{fname}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    idx = ["# Регистры ВСН по направлениям", "", "| Код | Направление | Документов | Действующих | ППР |", "|---|---|---|---|---|"]
+    for code, fname, title, ppr in DIRECTIONS:
+        sel = [d for d in docs if code in d["directions"]]
+        idx.append(f"| {code} | [{title}]({urllib.parse.quote(fname)}.md) | {len(sel)} | "
+                   f"{sum(is_valid(d['status']) for d in sel)} | {'да' if ppr else ''} |")
+    idx += ["", "Документ может входить в несколько направлений. Распределение — `classification.csv` "
+            "(колонка directions, коды через запятую); правки вносятся туда, затем пересборка workflow «Регистры ВСН».",
+            "", "Excel-версия всех регистров: `Реестр_ВСН.xlsx`."]
+    (ROOT / "registers" / "README.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
+
+
+def write_xlsx(docs):
+    from openpyxl import Workbook
+    from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+    from openpyxl.utils import get_column_letter
+
+    wb = Workbook()
+    thin = Side(style="thin", color="999999")
+    border = Border(left=thin, right=thin, top=thin, bottom=thin)
+    hfill = PatternFill("solid", fgColor="CCFFFF")
+    ok_fill = PatternFill("solid", fgColor="E2EFDA")
+    old_fill = PatternFill("solid", fgColor="F2F2F2")
+    link = Font(name="Calibri", size=10, color="0563C1", underline="single")
+    heads = ["№", "Номер", "Наименование", "Дата введения", "Статус", "Направления", "PDF", "HTM", "Текст"]
+    widths = [5, 24, 80, 13, 20, 26, 7, 7, 7]
+
+    def sheet(ws, sel, title):
+        ws.append([title])
+        ws["A1"].font = Font(name="Calibri", size=12, bold=True)
+        ws.append(heads)
+        for c in range(1, len(heads) + 1):
+            cell = ws.cell(row=2, column=c)
+            cell.font = Font(name="Calibri", size=10, bold=True)
+            cell.fill = hfill
+            cell.border = border
+            cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+            ws.column_dimensions[get_column_letter(c)].width = widths[c - 1]
+        for i, d in enumerate(sel, 1):
+            ws.append([i, d["number"], d["name"], d["date"], d["status"], ", ".join(d["directions"]),
+                       "PDF" if d["pdf_path"] else "", "HTM" if d["htm_path"] else "", "TXT" if d["text_path"] else ""])
+            r = ws.max_row
+            fill = ok_fill if is_valid(d["status"]) else old_fill
+            for c in range(1, len(heads) + 1):
+                cell = ws.cell(row=r, column=c)
+                cell.border = border
+                cell.font = Font(name="Calibri", size=10, color="000000" if is_valid(d["status"]) else "808080")
+                cell.alignment = Alignment(vertical="top", wrap_text=c in (3, 6))
+                if c == 5:
+                    cell.fill = fill
+            for c, key in ((7, "pdf_path"), (8, "htm_path"), (9, "text_path")):
+                if d[key]:
+                    ws.cell(row=r, column=c).hyperlink = gh(d[key])
+                    ws.cell(row=r, column=c).font = link
+        ws.freeze_panes = "A3"
+        ws.auto_filter.ref = f"A2:{get_column_letter(len(heads))}{ws.max_row}"
+
+    ws = wb.active
+    ws.title = "Сводка"
+    ws.append(["Регистры ВСН по направлениям (источник: meganorm.ru)"])
+    ws["A1"].font = Font(name="Calibri", size=12, bold=True)
+    ws.append(["Код", "Направление", "Лист", "Документов", "Действующих", "Важно для ППР"])
+    for c in range(1, 7):
+        ws.cell(row=2, column=c).font = Font(name="Calibri", size=10, bold=True)
+        ws.cell(row=2, column=c).fill = hfill
+        ws.cell(row=2, column=c).border = border
+    for col, w in zip("ABCDEF", (8, 70, 30, 12, 13, 13)):
+        ws.column_dimensions[col].width = w
+    allws = wb.create_sheet("Все ВСН")
+    sheet(allws, docs, f"Все ВСН — {len(docs)} документов")
+    for code, fname, title, ppr in DIRECTIONS:
+        sel = sorted([d for d in docs if code in d["directions"]], key=lambda d: (not is_valid(d["status"]), d["number"]))
+        name = fname[:31]
+        sheet(wb.create_sheet(name), sel, f"{title} — {len(sel)} док.")
+        ws.append([code, title, name, len(sel), sum(is_valid(d["status"]) for d in sel), "да" if ppr else ""])
+        r = ws.max_row
+        ws.cell(row=r, column=3).hyperlink = f"#'{name}'!A1"
+        ws.cell(row=r, column=3).font = link
+        for c in range(1, 7):
+            ws.cell(row=r, column=c).border = border
+            if c != 3:
+                ws.cell(row=r, column=c).font = Font(name="Calibri", size=10, bold=ppr and c == 2)
+    ws.append([])
+    ws.append(["Зелёный статус — действующий документ; серый текст — заменён/не действует (справочно)."])
+    wb.save(ROOT / "registers" / "Реестр_ВСН.xlsx")
+
+
+def write_ai_index(docs):
+    lines = [
+        "# AI_INDEX — компактный индекс ВСН (для Claude)",
+        "",
+        "Как пользоваться (экономно):",
+        "1. Найти документы по направлению/номеру/словам в этом файле (одна строка = один документ).",
+        "2. Читать `text/<файл>.md`: шапка + автоглавление в начале, дальше чистый текст. Сначала оглавление, "
+        "потом только нужный раздел (grep по номеру пункта/ключевому слову), а не весь файл.",
+        "3. Поиск по всем текстам: `grep -ril \"ключевое слово\" text/`. PDF/HTM — только для формул, рисунков и таблиц.",
+        "4. Приоритет: действующие (статус не «заменен»/«не действует»). Заменённые — только справочно; для РУз "
+        "проверять наличие действующего ШНК/КМК.",
+        "",
+        "Коды направлений: " + "; ".join(f"{c}={DIR[c][2]}" for c in CODES),
+        "",
+        "Формат: `номер | статус | направления | название | text-файл | КБ | источник текста`",
+        "",
+    ]
+    for code, fname, title, ppr in DIRECTIONS:
+        sel = sorted([d for d in docs if code == d["directions"][0]], key=lambda d: d["number"])
+        if not sel:
+            continue
+        lines.append(f"## {code} — {title}")
+        for d in sel:
+            st = "ДЕЙСТВ" if is_valid(d["status"]) else d["status"]
+            lines.append(f"{d['number']} | {st} | {','.join(d['directions'])} | {d['name']} | "
+                         f"{d['text_path'].removeprefix('text/') or '—'} | {d['text_kb']} | {d['text_src'] or '—'}")
+        lines.append("")
+    (ROOT / "AI_INDEX.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def update_readme(docs):
+    p = ROOT / "README.md"
+    t = p.read_text(encoding="utf-8") if p.exists() else "# ВСН\n"
+    block = ["<!-- registers:start -->", "## Регистры по направлениям", "",
+             "Excel: [`registers/Реестр_ВСН.xlsx`](registers/Реестр_ВСН.xlsx) · сводка: [`registers/`](registers/README.md) · "
+             "упрощённые тексты: `text/` · индекс для Claude: [`AI_INDEX.md`](AI_INDEX.md)", "",
+             "| Направление | Документов | Действующих |", "|---|---|---|"]
+    for code, fname, title, ppr in DIRECTIONS:
+        sel = [d for d in docs if code in d["directions"]]
+        block.append(f"| [{title}](registers/{urllib.parse.quote(fname)}.md) | {len(sel)} | {sum(is_valid(d['status']) for d in sel)} |")
+    block.append("<!-- registers:end -->")
+    b = "\n".join(block)
+    if "<!-- registers:start -->" in t:
+        t = re.sub(r"<!-- registers:start -->.*<!-- registers:end -->", b, t, flags=re.S)
+    else:
+        t = t.replace("\n| № | Номер |", "\n" + b + "\n\n## Полный список\n\n| № | Номер |", 1) if "\n| № | Номер |" in t else t + "\n" + b + "\n"
+    p.write_text(t, encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()

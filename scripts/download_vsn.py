@@ -176,7 +176,15 @@ def write_reports(docs, remaining):
         files = " ".join(filter(None, [link(d["pdf_path"], "PDF"), link(d["htm_path"], "HTM")]))
         name = d["name"].replace("|", "/")
         lines.append(f"| {n} | {d['number']} | {name} | {d['date']} | {d['status']} | {files or '—'} |")
-    (ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    readme = ROOT / "README.md"
+    keep = ""
+    if readme.exists():  # блок регистров (build_registers.py) сохраняем
+        m = re.search(r"<!-- registers:start -->.*<!-- registers:end -->", readme.read_text(encoding="utf-8"), re.S)
+        keep = m.group(0) if m else ""
+    if keep:
+        i = lines.index("| № | Номер | Название | Дата введения | Статус | Файлы |")
+        lines[i:i] = [keep, "", "## Полный список", ""]
+    readme.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def git_checkpoint(msg):
