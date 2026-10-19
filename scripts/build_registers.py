@@ -50,7 +50,9 @@ def htm_to_text(raw: bytes, htm_path: Path = None) -> str:
         try:
             from PIL import Image
             w, h = Image.open(f).size
-            if f.suffix.lower() in (".jpg", ".jpeg") or (w >= 150 and h >= 90):
+            ext = f.suffix.lower()
+            if ext in (".jpg", ".jpeg") or (ext == ".gif" and w >= 150 and h >= 90) \
+                    or (w >= 350 and h >= 250):  # PNG в этих HTM — почти всегда формулы
                 kind = "РИС"
         except Exception:
             kind = "РИС" if f.suffix.lower() in (".jpg", ".jpeg") else "ф"
@@ -157,11 +159,19 @@ def pdf_to_text(path: Path, ocr_file: Path = None, fig_pages: dict = None):
     return tidy(join_paragraphs(lines)), method, len(pages)
 
 
+def apply_fig_markers(body: str, fp: dict) -> str:
+    """Снять старые метки [РИС стр.N: …] и поставить заново по figures/<id>/index.json."""
+    body = re.sub(r"\[РИС стр\.\d+: [^\]]+\] ?\n?", "", body)
+    return re.sub(r"<!-- стр\. (\d+) -->\n",
+                  lambda m: m.group(0) + (f"[РИС стр.{m.group(1)}: {fp[int(m.group(1))]}]\n" if int(m.group(1)) in fp else ""),
+                  body)
+
+
 def join_paragraphs(lines):
     """Склейка строк PDF в абзацы: перенос по слогам и строки без конца предложения."""
     out = []
     for l in lines:
-        if out and out[-1] and l and not l.startswith(("<!--", "#")) and not out[-1].startswith("<!--"):
+        if out and out[-1] and l and not l.startswith(("<!--", "#", "[РИС")) and not out[-1].startswith(("<!--", "[РИС")):
             prev = out[-1]
             starts_new = re.match(r"^(\d+(\.\d+)*\.?\s|[а-я]\)\s|-\s|—\s|•|Таблица|Рис\.|Приложение|ПРИЛОЖЕНИЕ)", l)
             if prev.endswith("-") and l[:1].islower():
@@ -297,7 +307,7 @@ def main():
                 fp = {pg: path for path, cap, pg in figures_pdf(r["id"])}
                 cached = ROOT / OCR_DIR / f"{r['id']}.txt"
                 if method == "ocr" and not cached.exists():
-                    body = tfile.read_text(encoding="utf-8").split("\n---\n", 1)[-1]
+                    body = apply_fig_markers(tfile.read_text(encoding="utf-8").split("\n---\n", 1)[-1], fp)
                 else:
                     body, method, _ = pdf_to_text(src_pdf, cached, fp)
         elif src_htm and src_htm.exists():
