@@ -33,14 +33,29 @@ VALID = {"действует", "введен впервые", "взамен", "�
 
 
 # ---------------------------------------------------------------- текст из HTM
-def htm_to_text(raw: bytes) -> str:
+def htm_to_text(raw: bytes, htm_path: Path = None) -> str:
     try:
         t = raw.decode("utf-8")
     except UnicodeDecodeError:
         t = raw.decode("cp1251", errors="replace")
     t = re.sub(r"(?is)<(script|style|head)\b.*?</\1>", "", t)
     t = re.sub(r"(?is)<p[^>]*class=\"?MsoToc[^>]*>.*?</p>", "", t)       # оглавление Word — своё соберём
-    t = re.sub(r"(?is)<img[^>]*>", " [рис.] ", t)
+    def img(m):
+        src = re.search(r'src="([^"]+)"', m.group(0), re.I)
+        if not src or htm_path is None:
+            return " [рис.] "
+        f = (htm_path.parent / urllib.parse.unquote(src.group(1))).resolve()
+        name = f.name
+        kind = "ф"
+        try:
+            from PIL import Image
+            w, h = Image.open(f).size
+            if f.suffix.lower() in (".jpg", ".jpeg") or (w >= 150 and h >= 90):
+                kind = "РИС"
+        except Exception:
+            kind = "РИС" if f.suffix.lower() in (".jpg", ".jpeg") else "ф"
+        return f" [{kind}:{name}] "
+    t = re.sub(r"(?is)<img[^>]*>", img, t)
     t = re.sub(r"(?is)<h([1-4])[^>]*>(.*?)</h\1>",
                lambda m: "\n\n" + "#" * (int(m.group(1)) + 1) + " " + " ".join(re.sub("<[^>]+>", " ", m.group(2)).split()) + "\n\n", t)
     t = re.sub(r"(?is)</t[dh]>", " | ", t)
@@ -121,7 +136,7 @@ def repair_words(line: str) -> str:
     return " ".join(toks)
 
 
-def pdf_to_text(path: Path, ocr_file: Path = None):
+def pdf_to_text(path: Path, ocr_file: Path = None, fig_pages: dict = None):
     if ocr_file and ocr_file.exists():
         pages, method = ocr_file.read_text(encoding="utf-8").split("\f"), "ocr"
     else:
@@ -133,6 +148,8 @@ def pdf_to_text(path: Path, ocr_file: Path = None):
         if method == "pdf-text":
             pl = [repair_words(fix_spaced(l)) for l in pl]
         pl = [l for l in pl if l and not re.fullmatch(r"(?:стр\.?|с\.)?\s*-?\s*\d{1,3}\s*-?", l, re.I)]
+        if fig_pages and n in fig_pages:
+            pl.insert(0, f"[РИС стр.{n}: {fig_pages[n]}]")
         if pl:
             lines.append(f"<!-- стр. {n} -->")
             lines.extend(pl)
@@ -161,7 +178,37 @@ def tidy(lines):
     text = "\n".join(lines)
     text = re.sub(r"\n{3,}", "\n\n", text)
     text = re.sub(r"(\[рис\.\]\s*){2,}", "[рис.] ", text)
+    text = re.sub(r" +(\[(?:ф|РИС):)", r" \1", text)
     return text.strip() + "\n"
+
+
+# ---------------------------------------------------------------- рисунки
+CAPTION = re.compile(r"^\s*(?:Рис\.?|Рисунок|Черт\.?|Чертеж|Схема)\s*[\dIVX№]", re.I)
+
+
+def figures_htm(body: str, assets_dir: str):
+    """Список рисунков из HTM-текста: (файл, подпись)."""
+    lines = body.splitlines()
+    figs = []
+    for i, l in enumerate(lines):
+        for name in re.findall(r"\[РИС:([^\]]+)\]", l):
+            cap = ""
+            for c in [l] + lines[i + 1:i + 4]:
+                m = re.search(r"((?:Рис\.?|Рисунок|Черт\.?|Схема)\s*[\dIVX№][^|]{0,140})", c)
+                if m:
+                    cap = " ".join(m.group(1).split())
+                    break
+            figs.append((f"{assets_dir}/{name}", cap))
+    return figs
+
+
+def figures_pdf(doc_id: str):
+    """Страницы-рисунки из OCR: figures/<id>/index.json -> [(путь, подпись, стр.)]."""
+    idx = ROOT / "figures" / doc_id / "index.json"
+    if not idx.exists():
+        return []
+    data = json.load(open(idx, encoding="utf-8"))
+    return [(f"figures/{doc_id}/{x['file']}", x.get("caption", ""), x["page"]) for x in data]
 
 
 # ---------------------------------------------------------------- оглавление
@@ -205,6 +252,18 @@ def is_valid(status: str) -> bool:
 
 
 # ---------------------------------------------------------------- main
+def import_figures(doc_id: str):
+    """Перенести страницы-рисунки из результатов OCR в figures/<id>/."""
+    src = ROOT / OCR_DIR / "figs" / doc_id
+    if not src.exists():
+        return
+    import shutil
+    dst = ROOT / "figures" / doc_id
+    if dst.exists():
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
+
+
 def main():
     rows = list(csv.DictReader(open(ROOT / "index.csv", encoding="utf-8-sig"), delimiter=";"))
     manual = {}
@@ -221,7 +280,7 @@ def main():
     docs = []
     for n, r in enumerate(rows, 1):
         dirs = manual.get((r["id"], r["number"])) or classify(r["name"])
-        d = dict(r, n=n, directions=dirs, text_path="", text_src="", pages="", text_kb=0, toc=[])
+        d = dict(r, n=n, directions=dirs, text_path="", text_src="", pages="", text_kb=0, toc=[], figures=0)
         src_htm = ROOT / r["htm_path"] if r.get("htm_path") else None
         src_pdf = ROOT / r["pdf_path"] if r.get("pdf_path") else None
         tfile = ROOT / "text" / (slug(r["number"], r["id"]) + ".md")
@@ -231,13 +290,30 @@ def main():
             body = tfile.read_text(encoding="utf-8").split("\n---\n", 1)[-1]
             m = re.search(r"^Источник текста: (\S+)", tfile.read_text(encoding="utf-8"), re.M)
             method = m.group(1) if m else ""
+            body = ""  # пересобираем шапку и рисунки из источника, если он есть
+            if method == "htm" and src_htm and src_htm.exists():
+                body = htm_to_text(src_htm.read_bytes(), src_htm)
+            elif src_pdf and src_pdf.exists():
+                fp = {pg: path for path, cap, pg in figures_pdf(r["id"])}
+                cached = ROOT / OCR_DIR / f"{r['id']}.txt"
+                if method == "ocr" and not cached.exists():
+                    body = tfile.read_text(encoding="utf-8").split("\n---\n", 1)[-1]
+                else:
+                    body, method, _ = pdf_to_text(src_pdf, cached, fp)
         elif src_htm and src_htm.exists():
-            body, method = htm_to_text(src_htm.read_bytes()), "htm"
+            body, method = htm_to_text(src_htm.read_bytes(), src_htm), "htm"
         elif src_pdf and src_pdf.exists():
-            body, method, pages = pdf_to_text(src_pdf, (ROOT / OCR_DIR / f"{r['id']}.txt"))
+            import_figures(r["id"])
+            fp = {pg: path for path, cap, pg in figures_pdf(r["id"])}
+            body, method, pages = pdf_to_text(src_pdf, (ROOT / OCR_DIR / f"{r['id']}.txt"), fp)
             d["pages"] = pages
         if body.strip():
             d["toc"] = toc(body)
+            if method == "htm":
+                figs = [(p, c, "") for p, c in figures_htm(body, Path(r["htm_path"]).with_suffix(".files").as_posix())]
+            else:
+                figs = figures_pdf(r["id"])
+            d["figures"] = len(figs)
             head = [
                 f"# {r['number']} — {r['name']}",
                 "",
@@ -249,7 +325,15 @@ def main():
                 "",
                 "## Оглавление (автоматически)",
                 "",
-            ] + [f"- {x}" for x in d["toc"]] + ["", "---", ""]
+            ] + [f"- {x}" for x in d["toc"]] + [""]
+            if figs:
+                head += ["## Рисунки и схемы", "",
+                         ("В тексте метки [РИС:файл] — рисунок, [ф:файл] — формула картинкой; файлы в папке "
+                          f"`{Path(r['htm_path']).with_suffix('.files').as_posix()}/`." if method == "htm" else
+                          "Страницы-сканы с рисунками; в тексте метки [РИС стр.N: путь]."), ""]
+                head += [f"- `{p}`" + (f" стр.{pg}" if pg else "") + (f" — {c}" if c else "") for p, c, pg in figs]
+                head += [""]
+            head += ["---", ""]
             tfile.write_text("\n".join(head) + body, encoding="utf-8")
             d["text_path"] = tfile.relative_to(ROOT).as_posix()
             d["text_src"] = method
@@ -384,7 +468,11 @@ def write_ai_index(docs):
         "",
         "Коды направлений: " + "; ".join(f"{c}={DIR[c][2]}" for c in CODES),
         "",
-        "Формат: `номер | статус | направления | название | text-файл | КБ | источник текста`",
+        "5. Рисунки/схемы: в шапке text-файла раздел «Рисунки и схемы» (путь + подпись); в тексте метки "
+        "[РИС:файл] (HTM), [РИС стр.N: figures/<id>/pNNN.png] (скан-страница), [ф:файл] — формула картинкой. "
+        "Открывать картинку (Read) только когда схема реально нужна.",
+        "",
+        "Формат: `номер | статус | направления | название | text-файл | КБ | источник текста | рис.`",
         "",
     ]
     for code, fname, title, ppr in DIRECTIONS:
@@ -395,7 +483,7 @@ def write_ai_index(docs):
         for d in sel:
             st = "ДЕЙСТВ" if is_valid(d["status"]) else d["status"]
             lines.append(f"{d['number']} | {st} | {','.join(d['directions'])} | {d['name']} | "
-                         f"{d['text_path'].removeprefix('text/') or '—'} | {d['text_kb']} | {d['text_src'] or '—'}")
+                         f"{d['text_path'].removeprefix('text/') or '—'} | {d['text_kb']} | {d['text_src'] or '—'} | {d['figures']}")
         lines.append("")
     (ROOT / "AI_INDEX.md").write_text("\n".join(lines), encoding="utf-8")
 
