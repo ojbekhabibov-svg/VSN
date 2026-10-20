@@ -138,9 +138,9 @@ def repair_words(line: str) -> str:
     return " ".join(toks)
 
 
-def pdf_to_text(path: Path, ocr_file: Path = None, fig_pages: dict = None):
+def pdf_to_text(path: Path, ocr_file: Path = None, fig_pages: dict = None, method_name: str = "ocr"):
     if ocr_file and ocr_file.exists():
-        pages, method = ocr_file.read_text(encoding="utf-8").split("\f"), "ocr"
+        pages, method = ocr_file.read_text(encoding="utf-8").split("\f"), method_name
     else:
         pages, method = pdf_pages_text(path), "pdf-text"
     lines = []
@@ -221,6 +221,14 @@ def figures_pdf(doc_id: str):
     return [(f"figures/{doc_id}/{x['file']}", x.get("caption", ""), x["page"]) for x in data]
 
 
+def page_figs(doc_id: str):
+    """Только страницы-сканы (не встроенные картинки) — для меток [РИС стр.N] в начале страницы."""
+    idx = ROOT / "figures" / doc_id / "index.json"
+    if not idx.exists():
+        return {}
+    return {x["page"]: f"figures/{doc_id}/{x['file']}" for x in json.load(open(idx, encoding="utf-8")) if not x.get("inline")}
+
+
 # ---------------------------------------------------------------- оглавление
 _HEAD_RX = re.compile(
     r"^(?:#{2,5} .+|(?:\d{1,2}\.){1,2}\s*[А-ЯЁ][А-ЯЁA-Z ,\-–—()]{4,}$|"
@@ -275,7 +283,10 @@ def import_figures(doc_id: str):
 
 
 def main():
-    rows = list(csv.DictReader(open(ROOT / "index.csv", encoding="utf-8-sig"), delimiter=";"))
+    rows = [dict(r, kind="vsn") for r in csv.DictReader(open(ROOT / "index.csv", encoding="utf-8-sig"), delimiter=";")]
+    extra = ROOT / "index_extra.csv"   # документы из архива пользователя
+    if extra.exists():
+        rows += list(csv.DictReader(open(extra, encoding="utf-8-sig"), delimiter=";"))
     manual = {}
     cpath = ROOT / "registers" / "classification.csv"
     if cpath.exists():
@@ -289,14 +300,23 @@ def main():
     print("словарь:", len(VOCAB), flush=True)
     docs = []
     for n, r in enumerate(rows, 1):
-        dirs = manual.get((r["id"], r["number"])) or classify(r["name"])
+        if r.get("directions"):
+            dirs = [c for c in r["directions"].split(",") if c in CODES]
+            if r.get("kind") == "other":
+                dirs = ["NTD"] + dirs
+        else:
+            dirs = manual.get((r["id"], r["number"])) or classify(r["name"])
         d = dict(r, n=n, directions=dirs, text_path="", text_src="", pages="", text_kb=0, toc=[], figures=0)
         src_htm = ROOT / r["htm_path"] if r.get("htm_path") else None
         src_pdf = ROOT / r["pdf_path"] if r.get("pdf_path") else None
         tfile = ROOT / "text" / (slug(r["number"], r["id"]) + ".md")
         body, method = "", ""
+        user_txt = ROOT / "user_text" / f"{r['id']}.txt"
         has_new_ocr = (ROOT / OCR_DIR / f"{r['id']}.txt").exists() and not r.get("htm_path")
-        if tfile.exists() and os.environ.get("REBUILD_TEXT") != "1" and not has_new_ocr:
+        if user_txt.exists() and src_pdf and src_pdf.exists():
+            body, method, pages = pdf_to_text(src_pdf, user_txt, page_figs(r["id"]), "pdf-print")
+            d["pages"] = pages
+        elif tfile.exists() and os.environ.get("REBUILD_TEXT") != "1" and not has_new_ocr:
             body = tfile.read_text(encoding="utf-8").split("\n---\n", 1)[-1]
             m = re.search(r"^Источник текста: (\S+)", tfile.read_text(encoding="utf-8"), re.M)
             method = m.group(1) if m else ""
@@ -325,12 +345,13 @@ def main():
                 figs = figures_pdf(r["id"])
             d["figures"] = len(figs)
             head = [
-                f"# {r['number']} — {r['name']}",
+                f"# {r['number']} — {r['name']}" + (" (не ВСН)" if r.get("kind") == "other" else ""),
                 "",
                 f"Статус: {r['status']} | Дата введения: {r['date']} | id: {r['id']}",
                 f"Направления: {', '.join(DIR[c][2] for c in dirs)}",
                 f"Источник текста: {method} | Оригиналы: "
                 + " ".join(filter(None, [r.get("pdf_path", ""), r.get("htm_path", "")])),
+                *([f"Поступление: {r['note']}"] if r.get("note", "").startswith("архив") else []),
                 "Примечание: упрощённая текстовая версия; формулы, рисунки и сложные таблицы смотреть в оригинале.",
                 "",
                 "## Оглавление (автоматически)",
@@ -340,6 +361,8 @@ def main():
                 head += ["## Рисунки и схемы", "",
                          ("В тексте метки [РИС:файл] — рисунок, [ф:файл] — формула картинкой; файлы в папке "
                           f"`{Path(r['htm_path']).with_suffix('.files').as_posix()}/`." if method == "htm" else
+                          f"В тексте метки [РИС:figures/{r['id']}/…] — рисунок на своём месте, [ф:…] — формула/мелкая картинка; "
+                          "[РИС стр.N: путь] — страница-скан с рисунком." if method == "pdf-print" else
                           "Страницы-сканы с рисунками; в тексте метки [РИС стр.N: путь]."), ""]
                 head += [f"- `{p}`" + (f" стр.{pg}" if pg else "") + (f" — {c}" if c else "") for p, c, pg in figs]
                 head += [""]
@@ -355,7 +378,7 @@ def main():
     write_md_registers(docs)
     write_xlsx(docs)
     write_ai_index(docs)
-    json.dump([{k: d[k] for k in ("id", "number", "name", "date", "status", "directions",
+    json.dump([{k: d.get(k, "") for k in ("id", "number", "name", "date", "status", "directions", "kind",
                                    "pdf_path", "htm_path", "text_path", "text_src", "toc")} for d in docs],
               open(ROOT / "registers" / "registers.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     update_readme(docs)

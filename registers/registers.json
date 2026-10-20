@@ -9,6 +9,7 @@
    "EL",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293797/4293797564.pdf",
   "htm_path": "",
   "text_path": "text/ВСН__4293797564.md",
@@ -46,6 +47,7 @@
    "ZD",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293739/4293739884.pdf",
   "htm_path": "",
   "text_path": "text/ВСН__4293739884.md",
@@ -66,6 +68,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835568.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_1.02.01-85__4293835568.md",
@@ -99,6 +102,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293832/4293832509.pdf",
   "htm_path": "files/Data2/1/4293832/4293832509.htm",
   "text_path": "text/ВСН_1-46-73__4293832509.md",
@@ -131,6 +135,7 @@
    "AKZ",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834732.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_1-58-74__4293834732.md",
@@ -157,6 +162,7 @@
   "directions": [
    "MOST"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767543.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_1-69-Минавтодор_РСФСР__4293767543.md",
@@ -177,6 +183,7 @@
    "ZR",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738189.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_1-70__4293738189.md",
@@ -221,6 +228,7 @@
    "ZR",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853842.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_001-71__4294853842.md",
@@ -255,6 +263,7 @@
    "ZD",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293778/4293778483.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_1-71-Госгражданстрой__4293778483.md",
@@ -277,6 +286,7 @@
    "TT",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786066.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_01-75__4293786066.md",
@@ -296,6 +306,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293769/4293769511.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_01-76-Минцветмет_СССР__4293769511.md",
@@ -316,6 +327,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293842/4293842611.pdf",
   "htm_path": "files/Data2/1/4293842/4293842611.htm",
   "text_path": "text/ВСН_01-78__4293842611.md",
@@ -354,6 +366,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293830/4293830565.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_01-82__4293830565.md",
@@ -383,6 +396,7 @@
    "DOR",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851162.pdf",
   "htm_path": "files/Data2/1/4294851/4294851162.htm",
   "text_path": "text/ВСН_1-83__4294851162.md",
@@ -430,6 +444,7 @@
    "TT",
    "SV"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847369.htm",
   "text_path": "text/ВСН_1-84__4294847369.md",
@@ -451,6 +466,7 @@
    "PB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848456.htm",
   "text_path": "text/ВСН_01-87__4294848456.md",
@@ -476,6 +492,7 @@
    "ZD",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851707.pdf",
   "htm_path": "files/Data2/1/4294851/4294851707.htm",
   "text_path": "text/ВСН_01-89__4294851707.md",
@@ -505,6 +522,7 @@
    "EL",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851029.pdf",
   "htm_path": "files/Data2/1/4294851/4294851029.htm",
   "text_path": "text/ВСН_1-90__4294851029.md",
@@ -548,6 +566,7 @@
    "ZD",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293788/4293788993.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_01-91__4293788993.md",
@@ -573,6 +592,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851289.htm",
   "text_path": "text/ВСН_1-93__4294851289.md",
@@ -603,6 +623,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294848/4294848111.pdf",
   "htm_path": "files/Data2/1/4294848/4294848111.htm",
   "text_path": "text/ВСН_1-94__4294848111.md",
@@ -642,6 +663,7 @@
    "BZB",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846901.htm",
   "text_path": "text/ВСН_2-22-71__4294846901.md",
@@ -673,6 +695,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293831/4293831237.pdf",
   "htm_path": "files/Data2/1/4293831/4293831237.htm",
   "text_path": "text/ВСН_2-28-76__4293831237.md",
@@ -713,6 +736,7 @@
    "SV",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786505.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-47-81__4293786505.md",
@@ -738,6 +762,7 @@
    "LCH",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293780/4293780449.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-59-75-Миннефтегазстрой__4293780449.md",
@@ -757,6 +782,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786550.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-71-Госгражданстрой__4293786550.md",
@@ -788,6 +814,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293831/4293831285.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-71-76__4293831285.md",
@@ -814,6 +841,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835397.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-72-82__4293835397.md",
@@ -842,6 +870,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293821/4293821086.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_02-73__4293821086.md",
@@ -863,6 +892,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786130.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_02-73__4293786130.md",
@@ -888,6 +918,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767189.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_02-73-МО_СССР__4293767189.md",
@@ -927,6 +958,7 @@
    "BZB",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853841.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_02-74__4294853841.md",
@@ -944,6 +976,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767674.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-79-Минсельстрой_СССР__4293767674.md",
@@ -967,6 +1000,7 @@
    "TT",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846757.htm",
   "text_path": "text/ВСН_2-82__4294846757.md",
@@ -1000,6 +1034,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850964.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-85__4294850964.md",
@@ -1054,6 +1089,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847252.htm",
   "text_path": "text/ВСН_2-89__4294847252.md",
@@ -1130,6 +1166,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293830/4293830673.pdf",
   "htm_path": "files/Data2/1/4293830/4293830673.htm",
   "text_path": "text/ВСН_2-93-81__4293830673.md",
@@ -1168,6 +1205,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848112.htm",
   "text_path": "text/ВСН_2-94__4294848112.md",
@@ -1207,6 +1245,7 @@
    "DOR",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854703.pdf",
   "htm_path": "files/Data2/1/4293854/4293854703.htm",
   "text_path": "text/ВСН_2-105-78__4293854703.md",
@@ -1236,6 +1275,7 @@
    "AKZ",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835502.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-106-78__4293835502.md",
@@ -1263,6 +1303,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293824/4293824459.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-112-79__4293824459.md",
@@ -1296,6 +1337,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835507.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-118-80__4293835507.md",
@@ -1318,6 +1360,7 @@
    "SV",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293744/4293744789.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-120-80-Миннефтегазстрой__4293744789.md",
@@ -1349,6 +1392,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835504.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-124-80__4293835504.md",
@@ -1376,6 +1420,7 @@
    "AKZ",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293799/4293799346.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-127-81__4293799346.md",
@@ -1405,6 +1450,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834799.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-128-81__4293834799.md",
@@ -1429,6 +1475,7 @@
    "ORG",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834800.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-133-81__4293834800.md",
@@ -1446,6 +1493,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854614.pdf",
   "htm_path": "files/Data2/1/4293854/4293854614.htm",
   "text_path": "text/ВСН_2-134-81__4293854614.md",
@@ -1494,6 +1542,7 @@
    "ORG",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786517.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-135-81__4293786517.md",
@@ -1517,6 +1566,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786512.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-136-81__4293786512.md",
@@ -1535,6 +1585,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293853/4293853389.pdf",
   "htm_path": "files/Data2/1/4293853/4293853389.htm",
   "text_path": "text/ВСН_2-137-81__4293853389.md",
@@ -1559,6 +1610,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834803.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-138-82__4293834803.md",
@@ -1580,6 +1632,7 @@
   "directions": [
    "SV"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834804.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-139-82__4293834804.md",
@@ -1607,6 +1660,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834805.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-140-82__4293834805.md",
@@ -1630,6 +1684,7 @@
    "AKZ",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834797.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-144-82__4293834797.md",
@@ -1658,6 +1713,7 @@
    "SV",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834798.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-146-82__4293834798.md",
@@ -1681,6 +1737,7 @@
    "SV",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293850/4293850391.pdf",
   "htm_path": "files/Data2/1/4293850/4293850391.htm",
   "text_path": "text/ВСН_2-148-82__4293850391.md",
@@ -1705,6 +1762,7 @@
    "LCH",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834733.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_2-149-82__4293834733.md",
@@ -1726,6 +1784,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738160.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_3-64__4293738160.md",
@@ -1744,6 +1803,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767183.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_3-67-ММФ__4293767183.md",
@@ -1768,6 +1828,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293828/4293828550.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_3-71-Госгражданстрой__4293828550.md",
@@ -1798,6 +1859,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850946.pdf",
   "htm_path": "files/Data2/1/4294850/4294850946.htm",
   "text_path": "text/ВСН_03-74__4294850946.md",
@@ -1827,6 +1889,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293753/4293753368.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_03-76__4293753368.md",
@@ -1853,6 +1916,7 @@
    "PB",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293814/4293814178.htm",
   "text_path": "text/ВСН_03-77__4293814178.md",
@@ -1875,6 +1939,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847451.pdf",
   "htm_path": "files/Data2/1/4294847/4294847451.htm",
   "text_path": "text/ВСН_3-80-Минморфлот__4294847451.md",
@@ -1919,6 +1984,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849702.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_3-81__4294849702.md",
@@ -1940,6 +2006,7 @@
    "TT",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849644.pdf",
   "htm_path": "files/Data2/1/4294849/4294849644.htm",
   "text_path": "text/ВСН_003-88__4294849644.md",
@@ -1970,6 +2037,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847983.pdf",
   "htm_path": "files/Data2/1/4294847/4294847983.htm",
   "text_path": "text/ВСН_3-94__4294847983.md",
@@ -1992,6 +2060,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293829/4293829820.pdf",
   "htm_path": "files/Data2/1/4293829/4293829820.htm",
   "text_path": "text/ВСН_04-71__4293829820.md",
@@ -2014,6 +2083,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779926.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_4-71-Госгражданстрой__4293779926.md",
@@ -2036,6 +2106,7 @@
    "MOST",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851180.pdf",
   "htm_path": "files/Data2/1/4294851/4294851180.htm",
   "text_path": "text/ВСН_4-81__4294851180.md",
@@ -2077,6 +2148,7 @@
    "LCH",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850747.pdf",
   "htm_path": "files/Data2/1/4294850/4294850747.htm",
   "text_path": "text/ВСН_004-88__4294850747.md",
@@ -2116,6 +2188,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293828/4293828398.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_4-88-ММФ__4293828398.md",
@@ -2136,6 +2209,7 @@
    "IS",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847984.pdf",
   "htm_path": "files/Data2/1/4294847/4294847984.htm",
   "text_path": "text/ВСН_4-94__4294847984.md",
@@ -2159,6 +2233,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851222.pdf",
   "htm_path": "files/Data2/1/4294851/4294851222.htm",
   "text_path": "text/ВСН_05-64__4294851222.md",
@@ -2192,6 +2267,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851405.pdf",
   "htm_path": "files/Data2/1/4294851/4294851405.htm",
   "text_path": "text/ВСН_5-71__4294851405.md",
@@ -2223,6 +2299,7 @@
    "ORG",
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851161.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_5-81__4294851161.md",
@@ -2268,6 +2345,7 @@
    "ISP",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293842/4293842612.pdf",
   "htm_path": "files/Data2/1/4293842/4293842612.htm",
   "text_path": "text/ВСН_05-82__4293842612.md",
@@ -2289,6 +2367,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294844/4294844890.htm",
   "text_path": "text/ВСН_5-84-ММФ__4294844890.md",
@@ -2310,6 +2389,7 @@
    "DOR",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294817/4294817558.htm",
   "text_path": "text/ВСН_05-87__4294817558.md",
@@ -2355,6 +2435,7 @@
    "LCH",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850745.pdf",
   "htm_path": "files/Data2/1/4294850/4294850745.htm",
   "text_path": "text/ВСН_005-88__4294850745.md",
@@ -2400,6 +2481,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293830/4293830281.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_6-71-Госгражданстрой__4293830281.md",
@@ -2428,6 +2510,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847734.htm",
   "text_path": "text/ВСН_6-75__4294847734.md",
@@ -2466,6 +2549,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767672.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_06-77-Минсельстрой_СССР__4293767672.md",
@@ -2488,6 +2572,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779981.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_6-79-Минавтодор_РСФСР__4293779981.md",
@@ -2520,6 +2605,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850016.pdf",
   "htm_path": "files/Data2/1/4294850/4294850016.htm",
   "text_path": "text/ВСН_006-89__4294850016.md",
@@ -2580,6 +2666,7 @@
    "DOR",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851160.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_6-90__4294851160.md",
@@ -2611,6 +2698,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847986.pdf",
   "htm_path": "files/Data2/1/4294847/4294847986.htm",
   "text_path": "text/ВСН_6-94__4294847986.md",
@@ -2633,6 +2721,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786975.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_7-71-Госгражданстрой__4293786975.md",
@@ -2654,6 +2743,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834509.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_07-74__4293834509.md",
@@ -2683,6 +2773,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293829/4293829686.htm",
   "text_path": "text/ВСН_7-82__4293829686.md",
@@ -2721,6 +2812,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294817/4294817433.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_7-83-ММФ__4294817433.md",
@@ -2786,6 +2878,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849541.pdf",
   "htm_path": "files/Data2/1/4294849/4294849541.htm",
   "text_path": "text/ВСН_007-88__4294849541.md",
@@ -2810,6 +2903,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851159.pdf",
   "htm_path": "files/Data2/1/4294851/4294851159.htm",
   "text_path": "text/ВСН_7-89__4294851159.md",
@@ -2844,6 +2938,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293743/4293743354.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_07-90-МПС_СССР__4293743354.md",
@@ -2860,6 +2955,7 @@
    "DOR",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848237.htm",
   "text_path": "text/ВСН_7-94__4294848237.md",
@@ -2904,6 +3000,7 @@
    "BZB",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293736/4293736829.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_8-67__4293736829.md",
@@ -2922,6 +3019,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779969.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_8-72__4293779969.md",
@@ -2944,6 +3042,7 @@
    "EL",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835574.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_8-86__4293835574.md",
@@ -2974,6 +3073,7 @@
    "AKZ",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850015.pdf",
   "htm_path": "files/Data2/1/4294850/4294850015.htm",
   "text_path": "text/ВСН_008-88__4294850015.md",
@@ -3012,6 +3112,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845275.htm",
   "text_path": "text/ВСН_8-88__4294845275.md",
@@ -3028,6 +3129,7 @@
    "OOS",
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851158.pdf",
   "htm_path": "files/Data2/1/4294851/4294851158.htm",
   "text_path": "text/ВСН_8-89__4294851158.md",
@@ -3083,6 +3185,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849677.pdf",
   "htm_path": "files/Data2/1/4294849/4294849677.htm",
   "text_path": "text/ВСН_8-94__4294849677.md",
@@ -3103,6 +3206,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293802/4293802590.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_9-63__4293802590.md",
@@ -3123,6 +3227,7 @@
    "ZD",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293756/4293756938.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_9-72__4293756938.md",
@@ -3139,6 +3244,7 @@
    "OOS",
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854050.pdf",
   "htm_path": "files/Data2/1/4293854/4293854050.htm",
   "text_path": "text/ВСН_9-79__4293854050.md",
@@ -3168,6 +3274,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767673.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_09-79-Минсельстрой_СССР__4293767673.md",
@@ -3194,6 +3301,7 @@
   "directions": [
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293796/4293796265.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_09-81_МО_РФ__4293796265.md",
@@ -3243,6 +3351,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294817/4294817432.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_9-85-ММФ__4294817432.md",
@@ -3259,6 +3368,7 @@
    "AKZ",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849701.pdf",
   "htm_path": "files/Data2/1/4294849/4294849701.htm",
   "text_path": "text/ВСН_009-88__4294849701.md",
@@ -3286,6 +3396,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294849/4294849680.htm",
   "text_path": "text/ВСН_9-94__4294849680.md",
@@ -3347,6 +3458,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779022.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_10-73__4293779022.md",
@@ -3389,6 +3501,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293821/4293821858.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_10-74__4293821858.md",
@@ -3432,6 +3545,7 @@
    "DOR",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779994.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_10-82-Минавтодор_РСФСР__4293779994.md",
@@ -3457,6 +3571,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847841.pdf",
   "htm_path": "files/Data2/1/4294847/4294847841.htm",
   "text_path": "text/ВСН_10-83-Минхимпром__4294847841.md",
@@ -3508,6 +3623,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767693.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_10-83-Минсельстрой_СССР__4293767693.md",
@@ -3533,6 +3649,7 @@
   "directions": [
    "PB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294817/4294817431.pdf",
   "htm_path": "files/Data2/1/4294817/4294817431.htm",
   "text_path": "text/ВСН_10-86-ММФ__4294817431.md",
@@ -3551,6 +3668,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847458.htm",
   "text_path": "text/ВСН_010-88__4294847458.md",
@@ -3596,6 +3714,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853840.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_10-91__4294853840.md",
@@ -3620,6 +3739,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779019.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_11-73-Госгражданстрой__4293779019.md",
@@ -3652,6 +3772,7 @@
   "directions": [
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767176.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_11-75-МО_СССР__4293767176.md",
@@ -3679,6 +3800,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849673.pdf",
   "htm_path": "files/Data2/1/4294849/4294849673.htm",
   "text_path": "text/ВСН_011-88__4294849673.md",
@@ -3711,6 +3833,7 @@
    "IS",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848083.htm",
   "text_path": "text/ВСН_11-94__4294848083.md",
@@ -3737,6 +3860,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854828.pdf",
   "htm_path": "files/Data2/1/4293854/4293854828.htm",
   "text_path": "text/ВСН_12-72__4293854828.md",
@@ -3762,6 +3886,7 @@
   "directions": [
    "MOST"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851190.pdf",
   "htm_path": "files/Data2/1/4294851/4294851190.htm",
   "text_path": "text/ВСН_12-73__4294851190.md",
@@ -3819,6 +3944,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786930.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_12-73-Госгражданстрой__4293786930.md",
@@ -3837,6 +3963,7 @@
    "PB",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849498.pdf",
   "htm_path": "files/Data2/1/4294849/4294849498.htm",
   "text_path": "text/ВСН_12-87-ММФ__4294849498.md",
@@ -3875,6 +4002,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849661.pdf",
   "htm_path": "files/Data2/1/4294849/4294849661.htm",
   "text_path": "text/ВСН_012-88__4294849661.md",
@@ -3910,6 +4038,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849645.pdf",
   "htm_path": "files/Data2/1/4294849/4294849645.htm",
   "text_path": "text/ВСН_012-88__4294849645.md",
@@ -3943,6 +4072,7 @@
    "EL",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851028.htm",
   "text_path": "text/ВСН_12-92__4294851028.md",
@@ -4019,6 +4149,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848119.htm",
   "text_path": "text/ВСН_12-94__4294848119.md",
@@ -4045,6 +4176,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786548.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_13-73-Госгражданстрой__4293786548.md",
@@ -4067,6 +4199,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846994.htm",
   "text_path": "text/ВСН_13-77__4294846994.md",
@@ -4141,6 +4274,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293828/4293828934.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_13-78__4293828934.md",
@@ -4165,6 +4299,7 @@
    "LCH",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850886.pdf",
   "htm_path": "files/Data2/1/4294850/4294850886.htm",
   "text_path": "text/ВСН_013-88-Миннефтегазстрой__4294850886.md",
@@ -4197,6 +4332,7 @@
    "PB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293844/4293844090.htm",
   "text_path": "text/ВСН_13-94__4293844090.md",
@@ -4244,6 +4380,7 @@
    "PB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293826/4293826964.pdf",
   "htm_path": "files/Data2/1/4293826/4293826964.htm",
   "text_path": "text/ВСН_13-2002__4293826964.md",
@@ -4288,6 +4425,7 @@
    "AKZ",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767175.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_14-75-МО_СССР__4293767175.md",
@@ -4311,6 +4449,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835579.pdf",
   "htm_path": "files/Data2/1/4293835/4293835579.htm",
   "text_path": "text/ВСН_14-85__4293835579.md",
@@ -4327,6 +4466,7 @@
    "OOS",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849714.pdf",
   "htm_path": "files/Data2/1/4294849/4294849714.htm",
   "text_path": "text/ВСН_014-89__4294849714.md",
@@ -4358,6 +4498,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849682.pdf",
   "htm_path": "files/Data2/1/4294849/4294849682.htm",
   "text_path": "text/ВСН_14-95__4294849682.md",
@@ -4402,6 +4543,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779020.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_15-73-Госгражданстрой__4293779020.md",
@@ -4441,6 +4583,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738193.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_15-73-Минавтодор_РСФСР__4293738193.md",
@@ -4471,6 +4614,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293839/4293839194.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_15-87__4293839194.md",
@@ -4497,6 +4641,7 @@
    "EL",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849713.pdf",
   "htm_path": "files/Data2/1/4294849/4294849713.htm",
   "text_path": "text/ВСН_015-89__4294849713.md",
@@ -4526,6 +4671,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848113.htm",
   "text_path": "text/ВСН_15-95__4294848113.md",
@@ -4548,6 +4694,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850046.pdf",
   "htm_path": "files/Data2/1/4294850/4294850046.htm",
   "text_path": "text/ВСН_16-73__4294850046.md",
@@ -4573,6 +4720,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786546.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_16-73-Госгражданстрой__4293786546.md",
@@ -4597,6 +4745,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293770/4293770712.pdf",
   "htm_path": "files/Data2/1/4293770/4293770712.htm",
   "text_path": "text/ВСН_16-84-Минпромстрой_СССР__4293770712.md",
@@ -4627,6 +4776,7 @@
    "ORG",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851221.pdf",
   "htm_path": "files/Data2/1/4294851/4294851221.htm",
   "text_path": "text/ВСН_16-89__4294851221.md",
@@ -4684,6 +4834,7 @@
    "DOR",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848330.htm",
   "text_path": "text/ВСН_16-95__4294848330.md",
@@ -4721,6 +4872,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854615.pdf",
   "htm_path": "files/Data2/1/4293854/4293854615.htm",
   "text_path": "text/ВСН_17-73__4293854615.md",
@@ -4775,6 +4927,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786552.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_17-73-Госгражданстрой__4293786552.md",
@@ -4807,6 +4960,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738196.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_17-75__4293738196.md",
@@ -4838,6 +4992,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293769/4293769514.pdf",
   "htm_path": "files/Data2/1/4293769/4293769514.htm",
   "text_path": "text/ВСН_17-77-Миндорстрой_БССР__4293769514.md",
@@ -4869,6 +5024,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293784/4293784289.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_17-79-Минобороны__4293784289.md",
@@ -4889,6 +5045,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293831/4293831393.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_17-86__4293831393.md",
@@ -4904,6 +5061,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847987.htm",
   "text_path": "text/ВСН_17-94-ДС__4294847987.md",
@@ -4929,6 +5087,7 @@
    "MK",
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779021.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_18-73-Госгражданстрой__4293779021.md",
@@ -4969,6 +5128,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851155.htm",
   "text_path": "text/ВСН_18-84__4294851155.md",
@@ -5019,6 +5179,7 @@
    "ORG",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851052.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_18-89__4294851052.md",
@@ -5034,6 +5195,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294849/4294849670.htm",
   "text_path": "text/ВСН_18-95__4294849670.md",
@@ -5067,6 +5229,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293821/4293821488.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_19-70-ММФ__4293821488.md",
@@ -5084,6 +5247,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293827/4293827806.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_19-74__4293827806.md",
@@ -5115,6 +5279,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767174.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_19-76-МО_СССР__4293767174.md",
@@ -5135,6 +5300,7 @@
    "DOR",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851154.pdf",
   "htm_path": "files/Data2/1/4294851/4294851154.htm",
   "text_path": "text/ВСН_19-89__4294851154.md",
@@ -5178,6 +5344,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847988.htm",
   "text_path": "text/ВСН_19-95__4294847988.md",
@@ -5208,6 +5375,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848549.htm",
   "text_path": "text/ВСН_20-67__4294848549.md",
@@ -5228,6 +5396,7 @@
    "DOR",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848547.htm",
   "text_path": "text/ВСН_20-68__4294848547.md",
@@ -5272,6 +5441,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293778/4293778629.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_20-74-Госгражданстрой__4293778629.md",
@@ -5293,6 +5463,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851153.pdf",
   "htm_path": "files/Data2/1/4294851/4294851153.htm",
   "text_path": "text/ВСН_20-87__4294851153.md",
@@ -5333,6 +5504,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849571.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_20-95__4294849571.md",
@@ -5356,6 +5528,7 @@
   "directions": [
    "PB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293743/4293743608.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_21-02-01-МО_РФ__4293743608.md",
@@ -5380,6 +5553,7 @@
    "ORG",
    "OT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848569.htm",
   "text_path": "text/ВСН_21-62__4294848569.md",
@@ -5401,6 +5575,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293789/4293789994.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_21-74-Госгражданстрой__4293789994.md",
@@ -5423,6 +5598,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294848/4294848082.pdf",
   "htm_path": "files/Data2/1/4294848/4294848082.htm",
   "text_path": "text/ВСН_21-77__4294848082.md",
@@ -5456,6 +5632,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849703.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_21-83__4294849703.md",
@@ -5481,6 +5658,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845165.pdf",
   "htm_path": "files/Data2/1/4294845/4294845165.htm",
   "text_path": "text/ВСН_21-95__4294845165.md",
@@ -5504,6 +5682,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848567.htm",
   "text_path": "text/ВСН_22-67__4294848567.md",
@@ -5529,6 +5708,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834292.pdf",
   "htm_path": "files/Data2/1/4293834/4293834292.htm",
   "text_path": "text/ВСН_22-79__4293834292.md",
@@ -5567,6 +5747,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293824/4293824438.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_22-80__4293824438.md",
@@ -5593,6 +5774,7 @@
    "IS",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847982.htm",
   "text_path": "text/ВСН_22-95__4294847982.md",
@@ -5616,6 +5798,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851152.pdf",
   "htm_path": "files/Data2/1/4294851/4294851152.htm",
   "text_path": "text/ВСН_23-75__4294851152.md",
@@ -5672,6 +5855,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293780/4293780081.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_23-75-Госгражданстрой__4293780081.md",
@@ -5704,6 +5888,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738186.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_II-23-75-Минводхоз_СССР__4293738186.md",
@@ -5719,6 +5904,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293853/4293853828.pdf",
   "htm_path": "files/Data2/1/4293853/4293853828.htm",
   "text_path": "text/ВСН_23-95__4293853828.md",
@@ -5743,6 +5929,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293778/4293778540.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_24-75-Госгражданстрой__4293778540.md",
@@ -5767,6 +5954,7 @@
    "LCH",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846639.htm",
   "text_path": "text/ВСН_24-80__4294846639.md",
@@ -5786,6 +5974,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851151.pdf",
   "htm_path": "files/Data2/1/4294851/4294851151.htm",
   "text_path": "text/ВСН_24-88__4294851151.md",
@@ -5819,6 +6008,7 @@
    "ORG",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293829/4293829815.htm",
   "text_path": "text/ВСН_25-09.66-85__4293829815.md",
@@ -5857,6 +6047,7 @@
    "PB",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848798.htm",
   "text_path": "text/ВСН_25-09.67-85__4294848798.md",
@@ -5897,6 +6088,7 @@
    "EL",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293778/4293778481.htm",
   "text_path": "text/ВСН_25-09.68-85x__4293778481.md",
@@ -5930,6 +6122,7 @@
    "PB",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293846/4293846539.htm",
   "text_path": "text/ВСН_25-09.69-90__4293846539.md",
@@ -5954,6 +6147,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767704.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_25-76-Госгражданстрой__4293767704.md",
@@ -5979,6 +6173,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851150.pdf",
   "htm_path": "files/Data2/1/4294851/4294851150.htm",
   "text_path": "text/ВСН_25-86__4294851150.md",
@@ -6056,6 +6251,7 @@
    "AKZ",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847978.htm",
   "text_path": "text/ВСН_25-95__4294847978.md",
@@ -6078,6 +6274,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854758.pdf",
   "htm_path": "files/Data2/1/4294854/4294854758.htm",
   "text_path": "text/ВСН_26-76-Госгражданстрой__4294854758.md",
@@ -6106,6 +6303,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293831/4293831967.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_26-84-Минсельстрой_СССР__4293831967.md",
@@ -6130,6 +6328,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851149.pdf",
   "htm_path": "files/Data2/1/4294851/4294851149.htm",
   "text_path": "text/ВСН_26-90__4294851149.md",
@@ -6207,6 +6406,7 @@
    "IS",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848546.htm",
   "text_path": "text/ВСН_27-61__4294848546.md",
@@ -6235,6 +6435,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854426.pdf",
   "htm_path": "files/Data2/1/4293854/4293854426.htm",
   "text_path": "text/ВСН_27-76__4293854426.md",
@@ -6272,6 +6473,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293830/4293830285.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_27-76-Госграждансстрой__4293830285.md",
@@ -6298,6 +6500,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293769/4293769380.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_27-88-Минудобрений_СССР__4293769380.md",
@@ -6313,6 +6516,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293839/4293839902.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_27-93__4293839902.md",
@@ -6356,6 +6560,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294848/4294848116.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_27-95__4294848116.md",
@@ -6383,6 +6588,7 @@
    "MOST",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846579.pdf",
   "htm_path": "files/Data2/1/4294846/4294846579.htm",
   "text_path": "text/ВСН_28-65__4294846579.md",
@@ -6404,6 +6610,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293850/4293850410.pdf",
   "htm_path": "files/Data2/1/4293850/4293850410.htm",
   "text_path": "text/ВСН_028-70__4293850410.md",
@@ -6480,6 +6687,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786952.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_28-76-Госгражданстрой__4293786952.md",
@@ -6518,6 +6726,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845163.pdf",
   "htm_path": "files/Data2/1/4294845/4294845163.htm",
   "text_path": "text/ВСН_28-95__4294845163.md",
@@ -6548,6 +6757,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294814/4294814194.pdf",
   "htm_path": "files/Data2/1/4294814/4294814194.htm",
   "text_path": "text/ВСН_29-76__4294814194.md",
@@ -6620,6 +6830,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738199.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_29-76__4293738199.md",
@@ -6643,6 +6854,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851406.pdf",
   "htm_path": "files/Data2/1/4294851/4294851406.htm",
   "text_path": "text/ВСН_29-85__4294851406.md",
@@ -6676,6 +6888,7 @@
    "IS",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847981.htm",
   "text_path": "text/ВСН_29-95__4294847981.md",
@@ -6702,6 +6915,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854688.pdf",
   "htm_path": "files/Data2/1/4294854/4294854688.htm",
   "text_path": "text/ВСН_30-77__4294854688.md",
@@ -6731,6 +6945,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846638.pdf",
   "htm_path": "files/Data2/1/4294846/4294846638.htm",
   "text_path": "text/ВСН_30-81__4294846638.md",
@@ -6762,6 +6977,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849736.pdf",
   "htm_path": "files/Data2/1/4294849/4294849736.htm",
   "text_path": "text/ВСН_30-84__4294849736.md",
@@ -6794,6 +7010,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848331.htm",
   "text_path": "text/ВСН_30-96__4294848331.md",
@@ -6815,6 +7032,7 @@
    "DOR",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854833.pdf",
   "htm_path": "files/Data2/1/4293854/4293854833.htm",
   "text_path": "text/ВСН_31-68__4293854833.md",
@@ -6837,6 +7055,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786554.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_31-77-Госгражданстрой__4293786554.md",
@@ -6861,6 +7080,7 @@
    "ORG",
    "OT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846917.htm",
   "text_path": "text/ВСН_31-81__4294846917.md",
@@ -6879,6 +7099,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848015.htm",
   "text_path": "text/ВСН_31-82__4294848015.md",
@@ -6904,6 +7125,7 @@
    "GTS",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851218.pdf",
   "htm_path": "files/Data2/1/4294851/4294851218.htm",
   "text_path": "text/ВСН_31-83__4294851218.md",
@@ -6946,6 +7168,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845161.pdf",
   "htm_path": "files/Data2/1/4294845/4294845161.htm",
   "text_path": "text/ВСН_31-95__4294845161.md",
@@ -6971,6 +7194,7 @@
    "ZD",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293841/4293841502.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_32-77__4293841502.md",
@@ -7010,6 +7234,7 @@
    "MOST",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293780/4293780103.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_32-78-Минавтодор_РСФСР__4293780103.md",
@@ -7039,6 +7264,7 @@
    "MOST",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851182.pdf",
   "htm_path": "files/Data2/1/4294851/4294851182.htm",
   "text_path": "text/ВСН_32-81__4294851182.md",
@@ -7088,6 +7314,7 @@
    "MOST",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851181.htm",
   "text_path": "text/ВСН_32-89__4294851181.md",
@@ -7125,6 +7352,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845159.pdf",
   "htm_path": "files/Data2/1/4294845/4294845159.htm",
   "text_path": "text/ВСН_32-95__4294845159.md",
@@ -7150,6 +7378,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845998.htm",
   "text_path": "text/ВСН_33-2.1.07-87__4294845998.md",
@@ -7175,6 +7404,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846027.htm",
   "text_path": "text/ВСН_33-2.2.07-86__4294846027.md",
@@ -7203,6 +7433,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846025.htm",
   "text_path": "text/ВСН_33-2.2.06-86__4294846025.md",
@@ -7236,6 +7467,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846024.htm",
   "text_path": "text/ВСН_33-2.2.12-87__4294846024.md",
@@ -7313,6 +7545,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845997.htm",
   "text_path": "text/ВСН_33-2.2.03-86__4294845997.md",
@@ -7367,6 +7600,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846026.htm",
   "text_path": "text/ВСН_33-2.3.02-87__4294846026.md",
@@ -7394,6 +7628,7 @@
    "ZD",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293786/4293786774.htm",
   "text_path": "text/ВСН_33-77-Госгражданстрой__4293786774.md",
@@ -7416,6 +7651,7 @@
    "ZR",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767169.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_33-77-МО_СССР__4293767169.md",
@@ -7446,6 +7682,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293851/4293851027.pdf",
   "htm_path": "files/Data2/1/4293851/4293851027.htm",
   "text_path": "text/ВСН_33-82x__4293851027.md",
@@ -7479,6 +7716,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293769/4293769704.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_33-82-Миннефтепром__4293769704.md",
@@ -7506,6 +7744,7 @@
    "DOR",
    "OOS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851148.pdf",
   "htm_path": "files/Data2/1/4294851/4294851148.htm",
   "text_path": "text/ВСН_33-87__4294851148.md",
@@ -7576,6 +7815,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845158.pdf",
   "htm_path": "files/Data2/1/4294845/4294845158.htm",
   "text_path": "text/ВСН_33-95__4294845158.md",
@@ -7618,6 +7858,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800046.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-1-72__4293800046.md",
@@ -7647,6 +7888,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293827/4293827604.pdf",
   "htm_path": "files/Data2/1/4293827/4293827604.htm",
   "text_path": "text/ВСН_34-02-07_МО_РФ__4293827604.md",
@@ -7693,6 +7935,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851051.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34.23.056-90__4294851051.md",
@@ -7731,6 +7974,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800083.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XIX-60__4293800083.md",
@@ -7755,6 +7999,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800082.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XVII-60__4293800082.md",
@@ -7784,6 +8029,7 @@
    "GTS",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800078.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XV-60__4293800078.md",
@@ -7807,6 +8053,7 @@
    "GTS",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800077.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XIV-60__4293800077.md",
@@ -7826,6 +8073,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800076.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-VI-60__4293800076.md",
@@ -7844,6 +8092,7 @@
    "GTS",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800075.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-VIII-60__4293800075.md",
@@ -7869,6 +8118,7 @@
    "GTS",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800072.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-IX-60__4293800072.md",
@@ -7890,6 +8140,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800071.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-X-60__4293800071.md",
@@ -7910,6 +8161,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800070.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XI-60__4293800070.md",
@@ -7935,6 +8187,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800068.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XII-60__4293800068.md",
@@ -7957,6 +8210,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800067.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XIII-60__4293800067.md",
@@ -7978,6 +8232,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800059.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-VII-60__4293800059.md",
@@ -7999,6 +8254,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800057.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XVI-60__4293800057.md",
@@ -8019,6 +8275,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800054.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-I-60__4293800054.md",
@@ -8042,6 +8299,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800053.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-II-60__4293800053.md",
@@ -8065,6 +8323,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800051.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-III-60__4293800051.md",
@@ -8098,6 +8357,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800050.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-IV-60__4293800050.md",
@@ -8132,6 +8392,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800048.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-V-60__4293800048.md",
@@ -8155,6 +8416,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293766/4293766608.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34.70.072-91__4293766608.md",
@@ -8187,6 +8449,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293774/4293774876.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-71-1-83__4293774876.md",
@@ -8216,6 +8479,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800045.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-III-72__4293800045.md",
@@ -8253,6 +8517,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293733/4293733014.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-72-019-89__4293733014.md",
@@ -8291,6 +8556,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851340.pdf",
   "htm_path": "files/Data2/1/4294851/4294851340.htm",
   "text_path": "text/ВСН_34.72.111-92__4294851340.md",
@@ -8350,6 +8616,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786694.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-77-Госгражданстрой__4293786694.md",
@@ -8382,6 +8649,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851147.pdf",
   "htm_path": "files/Data2/1/4294851/4294851147.htm",
   "text_path": "text/ВСН_34-78__4294851147.md",
@@ -8427,6 +8695,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800034.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XXII-78__4293800034.md",
@@ -8456,6 +8725,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800033.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-XVII-78__4293800033.md",
@@ -8489,6 +8759,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800032.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-X-78__4293800032.md",
@@ -8523,6 +8794,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834294.pdf",
   "htm_path": "files/Data2/1/4293834/4293834294.htm",
   "text_path": "text/ВСН_34-82__4293834294.md",
@@ -8552,6 +8824,7 @@
    "BZB",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800031.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-VIII-82__4293800031.md",
@@ -8577,6 +8850,7 @@
    "GTS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293832/4293832532.pdf",
   "htm_path": "files/Data2/1/4293832/4293832532.htm",
   "text_path": "text/ВСН_34-83__4293832532.md",
@@ -8654,6 +8928,7 @@
    "GTS",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845576.htm",
   "text_path": "text/ВСН_34-91-МТ-ст__4294845576.md",
@@ -8695,6 +8970,7 @@
    "GTS",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845062.htm",
   "text_path": "text/ВСН_34-91-МТ-ст__4294845062.md",
@@ -8739,6 +9015,7 @@
    "GTS",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845025.htm",
   "text_path": "text/ВСН_34-91-МТ-ст__4294845025.md",
@@ -8814,6 +9091,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293768/4293768258.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_34-91-Миннефтегазпром_СССР__4293768258.md",
@@ -8839,6 +9117,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293800/4293800091.pdf",
   "htm_path": "files/Data2/1/4293800/4293800091.htm",
   "text_path": "text/ВСН_34-94_МО_РФ__4293800091.md",
@@ -8888,6 +9167,7 @@
    "ZD",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854757.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_35-77__4294854757.md",
@@ -8908,6 +9188,7 @@
    "IS",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845973.htm",
   "text_path": "text/ВСН_35-86__4294845973.md",
@@ -8984,6 +9265,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293827/4293827474.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_35-94_МО_РФ__4293827474.md",
@@ -9061,6 +9343,7 @@
    "ZR",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849584.pdf",
   "htm_path": "files/Data2/1/4294849/4294849584.htm",
   "text_path": "text/ВСН_35-95__4294849584.md",
@@ -9083,6 +9366,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293780/4293780078.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_36-77-Госгражданстрой__4293780078.md",
@@ -9113,6 +9397,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293785/4293785133.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_36-79-Минавтодор_РСФСР__4293785133.md",
@@ -9166,6 +9451,7 @@
    "MOST",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850954.pdf",
   "htm_path": "files/Data2/1/4294850/4294850954.htm",
   "text_path": "text/ВСН_36-84__4294850954.md",
@@ -9198,6 +9484,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850956.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_36-86__4294850956.md",
@@ -9246,6 +9533,7 @@
    "IS",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845975.htm",
   "text_path": "text/ВСН_36-86__4294845975.md",
@@ -9279,6 +9567,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851146.pdf",
   "htm_path": "files/Data2/1/4294851/4294851146.htm",
   "text_path": "text/ВСН_36-90__4294851146.md",
@@ -9341,6 +9630,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845157.htm",
   "text_path": "text/ВСН_36-95__4294845157.md",
@@ -9369,6 +9659,7 @@
    "MOST",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294814/4294814641.pdf",
   "htm_path": "files/Data2/1/4294814/4294814641.htm",
   "text_path": "text/ВСН_37-67__4294814641.md",
@@ -9423,6 +9714,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834510.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_37-80__4293834510.md",
@@ -9445,6 +9737,7 @@
    "DOR",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851145.pdf",
   "htm_path": "files/Data2/1/4294851/4294851145.htm",
   "text_path": "text/ВСН_37-84__4294851145.md",
@@ -9468,6 +9761,7 @@
    "ISP",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294817/4294817362.pdf",
   "htm_path": "files/Data2/1/4294817/4294817362.htm",
   "text_path": "text/ВСН_37-86-Минэнерго_СССР__4294817362.md",
@@ -9489,6 +9783,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845156.pdf",
   "htm_path": "files/Data2/1/4294845/4294845156.htm",
   "text_path": "text/ВСН_37-96__4294845156.md",
@@ -9514,6 +9809,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835170.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_38-82-Госгражданстрой__4293835170.md",
@@ -9558,6 +9854,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294813/4294813087.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_38-86__4294813087.md",
@@ -9586,6 +9883,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851144.pdf",
   "htm_path": "files/Data2/1/4294851/4294851144.htm",
   "text_path": "text/ВСН_38-90__4294851144.md",
@@ -9615,6 +9913,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845155.pdf",
   "htm_path": "files/Data2/1/4294845/4294845155.htm",
   "text_path": "text/ВСН_38-96__4294845155.md",
@@ -9657,6 +9956,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846987.pdf",
   "htm_path": "files/Data2/1/4294846/4294846987.htm",
   "text_path": "text/ВСН_39.1.06-84__4294846987.md",
@@ -9679,6 +9979,7 @@
    "LCH",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845962.htm",
   "text_path": "text/ВСН_39-1.8-008-2002__4294845962.md",
@@ -9704,6 +10005,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294848/4294848650.pdf",
   "htm_path": "files/Data2/1/4294848/4294848650.htm",
   "text_path": "text/ВСН_39-1.9-003-98__4294848650.md",
@@ -9737,6 +10039,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848653.htm",
   "text_path": "text/ВСН_39-1.10-001-99__4294848653.md",
@@ -9765,6 +10068,7 @@
    "LCH",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848651.htm",
   "text_path": "text/ВСН_39-1.10-002-2000__4294848651.md",
@@ -9791,6 +10095,7 @@
    "LCH",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848643.htm",
   "text_path": "text/ВСН_39-1.10-003-2000__4294848643.md",
@@ -9825,6 +10130,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851143.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_39-79__4294851143.md",
@@ -9848,6 +10154,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854831.pdf",
   "htm_path": "files/Data2/1/4294854/4294854831.htm",
   "text_path": "text/ВСН_39-83_р_-Госгражданстрой__4294854831.md",
@@ -9871,6 +10178,7 @@
    "AKZ",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846040.htm",
   "text_path": "text/ВСН_39-84__4294846040.md",
@@ -9928,6 +10236,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835786.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_39-86__4293835786.md",
@@ -9953,6 +10262,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845972.pdf",
   "htm_path": "files/Data2/1/4294845/4294845972.htm",
   "text_path": "text/ВСН_39-87__4294845972.md",
@@ -10029,6 +10339,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293828/4293828845.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_39-87__4293828845.md",
@@ -10059,6 +10370,7 @@
    "ORG",
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854830.pdf",
   "htm_path": "files/Data2/1/4294854/4294854830.htm",
   "text_path": "text/ВСН_40-84_р_-Госгражданстрой__4294854830.md",
@@ -10079,6 +10391,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845974.htm",
   "text_path": "text/ВСН_40-88__4294845974.md",
@@ -10115,6 +10428,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845114.pdf",
   "htm_path": "files/Data2/1/4294845/4294845114.htm",
   "text_path": "text/ВСН_40-96__4294845114.md",
@@ -10143,6 +10457,7 @@
    "ORG",
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854829.pdf",
   "htm_path": "files/Data2/1/4294854/4294854829.htm",
   "text_path": "text/ВСН_41-85_р__4294854829.md",
@@ -10166,6 +10481,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851142.pdf",
   "htm_path": "files/Data2/1/4294851/4294851142.htm",
   "text_path": "text/ВСН_41-88__4294851142.md",
@@ -10186,6 +10502,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845936.pdf",
   "htm_path": "files/Data2/1/4294845/4294845936.htm",
   "text_path": "text/ВСН_41.88__4294845936.md",
@@ -10231,6 +10548,7 @@
    "ZD",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849678.pdf",
   "htm_path": "files/Data2/1/4294849/4294849678.htm",
   "text_path": "text/ВСН_41-96__4294849678.md",
@@ -10257,6 +10575,7 @@
    "ISP",
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854828.pdf",
   "htm_path": "files/Data2/1/4294854/4294854828.htm",
   "text_path": "text/ВСН_42-85_р__4294854828.md",
@@ -10287,6 +10606,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845265.htm",
   "text_path": "text/ВСН_42-85__4294845265.md",
@@ -10363,6 +10683,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851141.pdf",
   "htm_path": "files/Data2/1/4294851/4294851141.htm",
   "text_path": "text/ВСН_42-87__4294851141.md",
@@ -10393,6 +10714,7 @@
    "ORG",
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851140.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_42-91__4294851140.md",
@@ -10446,6 +10768,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845113.htm",
   "text_path": "text/ВСН_42-96__4294845113.md",
@@ -10474,6 +10797,7 @@
    "ZR",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293833/4293833165.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_43-71x__4293833165.md",
@@ -10506,6 +10830,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294854/4294854794.htm",
   "text_path": "text/ВСН_43-85xx__4294854794.md",
@@ -10528,6 +10853,7 @@
    "ZD",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849681.pdf",
   "htm_path": "files/Data2/1/4294849/4294849681.htm",
   "text_path": "text/ВСН_43-96__4294849681.md",
@@ -10554,6 +10880,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293733/4293733013.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_44-71__4293733013.md",
@@ -10575,6 +10902,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738201.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_44-86-Госгражданстрой__4293738201.md",
@@ -10594,6 +10922,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850045.pdf",
   "htm_path": "files/Data2/1/4294850/4294850045.htm",
   "text_path": "text/ВСН_45-68__4294850045.md",
@@ -10622,6 +10951,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851223.pdf",
   "htm_path": "files/Data2/1/4294851/4294851223.htm",
   "text_path": "text/ВСН_045-72__4294851223.md",
@@ -10692,6 +11022,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767165.pdf",
   "htm_path": "files/Data2/1/4293767/4293767165.htm",
   "text_path": "text/ВСН_45-84-Минобороны__4293767165.md",
@@ -10716,6 +11047,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293851/4293851024.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_45-86-Госгражданстрой__4293851024.md",
@@ -10760,6 +11092,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851285.htm",
   "text_path": "text/ВСН_45.122-77__4294851285.md",
@@ -10781,6 +11114,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293723/4293723217.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_46-60__4293723217.md",
@@ -10812,6 +11146,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293846/4293846538.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_46-72__4293846538.md",
@@ -10851,6 +11186,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293742/4293742909.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_46-75__4293742909.md",
@@ -10870,6 +11206,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851139.htm",
   "text_path": "text/ВСН_46-83__4294851139.md",
@@ -10943,6 +11280,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293849/4293849304.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_46-86__4293849304.md",
@@ -10971,6 +11309,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845154.pdf",
   "htm_path": "files/Data2/1/4294845/4294845154.htm",
   "text_path": "text/ВСН_46-96__4294845154.md",
@@ -11003,6 +11342,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854608.pdf",
   "htm_path": "files/Data2/1/4293854/4293854608.htm",
   "text_path": "text/ВСН_47-73__4293854608.md",
@@ -11034,6 +11374,7 @@
   "directions": [
    "PB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293768/4293768392.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_47-85-Минэнерго_СССР__4293768392.md",
@@ -11059,6 +11400,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294854/4294854827.htm",
   "text_path": "text/ВСН_47-86_р__4294854827.md",
@@ -11081,6 +11423,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847977.pdf",
   "htm_path": "files/Data2/1/4294847/4294847977.htm",
   "text_path": "text/ВСН_47-96__4294847977.md",
@@ -11108,6 +11451,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850945.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_48-65__4294850945.md",
@@ -11140,6 +11484,7 @@
    "ZD",
    "OT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854826.pdf",
   "htm_path": "files/Data2/1/4294854/4294854826.htm",
   "text_path": "text/ВСН_48-86_р__4294854826.md",
@@ -11178,6 +11523,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849475.pdf",
   "htm_path": "files/Data2/1/4294849/4294849475.htm",
   "text_path": "text/ВСН_48-86__4294849475.md",
@@ -11214,6 +11560,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851050.htm",
   "text_path": "text/ВСН_48-93__4294851050.md",
@@ -11280,6 +11627,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847976.pdf",
   "htm_path": "files/Data2/1/4294847/4294847976.htm",
   "text_path": "text/ВСН_48-96__4294847976.md",
@@ -11303,6 +11651,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846966.htm",
   "text_path": "text/ВСН_49-83__4294846966.md",
@@ -11350,6 +11699,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851049.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_49-86_Минэнерго_СССР__4294851049.md",
@@ -11387,6 +11737,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846754.htm",
   "text_path": "text/ВСН_49-86__4294846754.md",
@@ -11434,6 +11785,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293814/4293814391.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_49-86-Госгражданстрой__4293814391.md",
@@ -11460,6 +11812,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845166.htm",
   "text_path": "text/ВСН_49-96__4294845166.md",
@@ -11483,6 +11836,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846967.htm",
   "text_path": "text/ВСН_50-83__4294846967.md",
@@ -11526,6 +11880,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293839/4293839250.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_50-86-Госгражданстрой__4293839250.md",
@@ -11553,6 +11908,7 @@
   "directions": [
    "MOST"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851217.pdf",
   "htm_path": "files/Data2/1/4294851/4294851217.htm",
   "text_path": "text/ВСН_50-87__4294851217.md",
@@ -11598,6 +11954,7 @@
    "GTS",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293816/4293816102.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_50-87__4293816102.md",
@@ -11628,6 +11985,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845167.htm",
   "text_path": "text/ВСН_50-96__4294845167.md",
@@ -11653,6 +12011,7 @@
    "EL",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293836/4293836638.pdf",
   "htm_path": "files/Data2/1/4293836/4293836638.htm",
   "text_path": "text/ВСН_51-1.15-004-97__4293836638.md",
@@ -11710,6 +12069,7 @@
    "ORG",
    "OT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847735.htm",
   "text_path": "text/ВСН_51-1-80__4294847735.md",
@@ -11727,6 +12087,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293823/4293823731.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51.1-81__4293823731.md",
@@ -11747,6 +12108,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294848/4294848648.pdf",
   "htm_path": "files/Data2/1/4294848/4294848648.htm",
   "text_path": "text/ВСН_51-1-97__4294848648.md",
@@ -11822,6 +12184,7 @@
    "GTS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293820/4293820870.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51.2-84__4293820870.md",
@@ -11850,6 +12213,7 @@
    "LCH",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293832/4293832406.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51-03-01-76__4293832406.md",
@@ -11868,6 +12232,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293788/4293788696.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51-03-01-76__4293788696.md",
@@ -11896,6 +12261,7 @@
    "TT",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293788/4293788695.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51-03-01-76__4293788695.md",
@@ -11922,6 +12288,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293824/4293824744.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51-03-78__4293824744.md",
@@ -11938,6 +12305,7 @@
    "LCH",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850743.pdf",
   "htm_path": "files/Data2/1/4294850/4294850743.htm",
   "text_path": "text/ВСН_51-3-85__4294850743.md",
@@ -11998,6 +12366,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293827/4293827260.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51.3-85__4293827260.md",
@@ -12025,6 +12394,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293794/4293794817.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51.4-85__4293794817.md",
@@ -12040,6 +12410,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293801/4293801860.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51-5-85__4293801860.md",
@@ -12079,6 +12450,7 @@
    "LCH",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293831/4293831892.pdf",
   "htm_path": "files/Data2/1/4293831/4293831892.htm",
   "text_path": "text/ВСН_51-9-86__4293831892.md",
@@ -12125,6 +12497,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293767/4293767164.htm",
   "text_path": "text/ВСН_51-83-Минобороны__4293767164.md",
@@ -12143,6 +12516,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293824/4293824440.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51-84__4293824440.md",
@@ -12158,6 +12532,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293815/4293815734.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_51-86-Госгражданстрой__4293815734.md",
@@ -12191,6 +12566,7 @@
   "directions": [
    "MOST"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851178.pdf",
   "htm_path": "files/Data2/1/4294851/4294851178.htm",
   "text_path": "text/ВСН_51-88__4294851178.md",
@@ -12239,6 +12615,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849667.pdf",
   "htm_path": "files/Data2/1/4294849/4294849667.htm",
   "text_path": "text/ВСН_51-96__4294849667.md",
@@ -12274,6 +12651,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293767/4293767163.htm",
   "text_path": "text/ВСН_52-83-Минобороны__4293767163.md",
@@ -12293,6 +12671,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854696.pdf",
   "htm_path": "files/Data2/1/4294854/4294854696.htm",
   "text_path": "text/ВСН_52-86__4294854696.md",
@@ -12323,6 +12702,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851137.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_52-89__4294851137.md",
@@ -12352,6 +12732,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846603.htm",
   "text_path": "text/ВСН_52-89__4294846603.md",
@@ -12401,6 +12782,7 @@
    "DOR",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294849/4294849668.htm",
   "text_path": "text/ВСН_52-96__4294849668.md",
@@ -12434,6 +12816,7 @@
    "AKZ",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293831/4293831225.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_I-53-74__4293831225.md",
@@ -12454,6 +12837,7 @@
    "ZD",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854825.pdf",
   "htm_path": "files/Data2/1/4294854/4294854825.htm",
   "text_path": "text/ВСН_53-86_р__4294854825.md",
@@ -12500,6 +12884,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847980.pdf",
   "htm_path": "files/Data2/1/4294847/4294847980.htm",
   "text_path": "text/ВСН_53-96__4294847980.md",
@@ -12523,6 +12908,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767684.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_54-84-Минобороны__4293767684.md",
@@ -12542,6 +12928,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293841/4293841854.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_54-87-Госгражданстрой__4293841854.md",
@@ -12561,6 +12948,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845112.pdf",
   "htm_path": "files/Data2/1/4294845/4294845112.htm",
   "text_path": "text/ВСН_54-96__4294845112.md",
@@ -12585,6 +12973,7 @@
    "DOR",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293853/4293853454.pdf",
   "htm_path": "files/Data2/1/4293853/4293853454.htm",
   "text_path": "text/ВСН_55-69__4293853454.md",
@@ -12625,6 +13014,7 @@
    "ORG",
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294854/4294854824.htm",
   "text_path": "text/ВСН_55-87_р__4294854824.md",
@@ -12652,6 +13042,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851027.htm",
   "text_path": "text/ВСН_56-78__4294851027.md",
@@ -12710,6 +13101,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767162.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_56-79-Минобороны__4293767162.md",
@@ -12786,6 +13178,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854756.pdf",
   "htm_path": "files/Data2/1/4294854/4294854756.htm",
   "text_path": "text/ВСН_56-87__4294854756.md",
@@ -12822,6 +13215,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853838.pdf",
   "htm_path": "files/Data2/1/4294853/4294853838.htm",
   "text_path": "text/ВСН_56-87__4294853838.md",
@@ -12879,6 +13273,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846179.pdf",
   "htm_path": "files/Data2/1/4294846/4294846179.htm",
   "text_path": "text/ВСН_56-97__4294846179.md",
@@ -12956,6 +13351,7 @@
    "ZD",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854823.pdf",
   "htm_path": "files/Data2/1/4294854/4294854823.htm",
   "text_path": "text/ВСН_57-88_р__4294854823.md",
@@ -12991,6 +13387,7 @@
    "ZD",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854822.pdf",
   "htm_path": "files/Data2/1/4294854/4294854822.htm",
   "text_path": "text/ВСН_58-88_р__4294854822.md",
@@ -13031,6 +13428,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854755.pdf",
   "htm_path": "files/Data2/1/4294854/4294854755.htm",
   "text_path": "text/ВСН_59-88__4294854755.md",
@@ -13077,6 +13475,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845152.htm",
   "text_path": "text/ВСН_59-97__4294845152.md",
@@ -13099,6 +13498,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854754.pdf",
   "htm_path": "files/Data2/1/4294854/4294854754.htm",
   "text_path": "text/ВСН_60-89__4294854754.md",
@@ -13131,6 +13531,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294849/4294849669.htm",
   "text_path": "text/ВСН_60-97__4294849669.md",
@@ -13160,6 +13561,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854821.pdf",
   "htm_path": "files/Data2/1/4294854/4294854821.htm",
   "text_path": "text/ВСН_61-89_р__4294854821.md",
@@ -13191,6 +13593,7 @@
    "PROCH",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851026.pdf",
   "htm_path": "files/Data2/1/4294851/4294851026.htm",
   "text_path": "text/ВСН_61-89__4294851026.md",
@@ -13268,6 +13671,7 @@
    "DOR",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848114.htm",
   "text_path": "text/ВСН_61-97__4294848114.md",
@@ -13299,6 +13703,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294854/4294854753.pdf",
   "htm_path": "files/Data2/1/4294854/4294854753.htm",
   "text_path": "text/ВСН_62-91x__4294854753.md",
@@ -13347,6 +13752,7 @@
    "DOR",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294848/4294848115.pdf",
   "htm_path": "files/Data2/1/4294848/4294848115.htm",
   "text_path": "text/ВСН_62-97__4294848115.md",
@@ -13371,6 +13777,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293719/4293719711.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_63-67__4293719711.md",
@@ -13397,6 +13804,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853837.pdf",
   "htm_path": "files/Data2/1/4294853/4294853837.htm",
   "text_path": "text/ВСН_63-76__4294853837.md",
@@ -13422,6 +13830,7 @@
    "IS",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847979.pdf",
   "htm_path": "files/Data2/1/4294847/4294847979.htm",
   "text_path": "text/ВСН_63-97__4294847979.md",
@@ -13446,6 +13855,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293829/4293829269.pdf",
   "htm_path": "files/Data2/1/4293829/4293829269.htm",
   "text_path": "text/ВСН_64-064-88__4293829269.md",
@@ -13474,6 +13884,7 @@
    "EL",
    "PB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293823/4293823508.htm",
   "text_path": "text/ВСН_64-86__4293823508.md",
@@ -13494,6 +13905,7 @@
    "AKZ",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847985.pdf",
   "htm_path": "files/Data2/1/4294847/4294847985.htm",
   "text_path": "text/ВСН_64-97__4294847985.md",
@@ -13538,6 +13950,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293746/4293746227.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_65.12-83-Минпромстроя_СССР__4293746227.md",
@@ -13569,6 +13982,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294845/4294845169.pdf",
   "htm_path": "files/Data2/1/4294845/4294845169.htm",
   "text_path": "text/ВСН_65-97__4294845169.md",
@@ -13597,6 +14011,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853836.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_66-89-76__4294853836.md",
@@ -13655,6 +14070,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293853/4293853833.pdf",
   "htm_path": "files/Data2/1/4293853/4293853833.htm",
   "text_path": "text/ВСН_66-97__4293853833.md",
@@ -13677,6 +14093,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293769/4293769588.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_67-42-74__4293769588.md",
@@ -13724,6 +14141,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779542.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_67-129-77__4293779542.md",
@@ -13758,6 +14176,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293769/4293769589.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_67-00229-79-Минтяжстрой__4293769589.md",
@@ -13775,6 +14194,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845115.htm",
   "text_path": "text/ВСН_68-97__4294845115.md",
@@ -13799,6 +14219,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847975.pdf",
   "htm_path": "files/Data2/1/4294847/4294847975.htm",
   "text_path": "text/ВСН_69-97__4294847975.md",
@@ -13830,6 +14251,7 @@
    "TT",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847216.htm",
   "text_path": "text/ВСН_70-79__4294847216.md",
@@ -13859,6 +14281,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847217.htm",
   "text_path": "text/ВСН_71-84__4294847217.md",
@@ -13894,6 +14317,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767157.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_74-79-Минобороны__4293767157.md",
@@ -13916,6 +14340,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767156.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_75-79-Минобороны__4293767156.md",
@@ -13935,6 +14360,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738203.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_76-78-Минпромстрой_СССР__4293738203.md",
@@ -13955,6 +14381,7 @@
    "LCH",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293809/4293809082.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_77__4293809082.md",
@@ -13971,6 +14398,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851136.htm",
   "text_path": "text/ВСН_77-89__4294851136.md",
@@ -14017,6 +14445,7 @@
    "ZR",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847215.htm",
   "text_path": "text/ВСН_79-81__4294847215.md",
@@ -14056,6 +14485,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293828/4293828570.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_80-80-Минобороны__4293828570.md",
@@ -14084,6 +14514,7 @@
    "MOST",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293853/4293853969.pdf",
   "htm_path": "files/Data2/1/4293853/4293853969.htm",
   "text_path": "text/ВСН_81-80__4293853969.md",
@@ -14129,6 +14560,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767486.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_83-92__4293767486.md",
@@ -14162,6 +14594,7 @@
    "AKZ",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767154.pdf",
   "htm_path": "files/Data2/1/4293767/4293767154.htm",
   "text_path": "text/ВСН_84-80-Минобороны__4293767154.md",
@@ -14193,6 +14626,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851135.htm",
   "text_path": "text/ВСН_84-89__4294851135.md",
@@ -14269,6 +14703,7 @@
   "directions": [
    "MOST"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851176.pdf",
   "htm_path": "files/Data2/1/4294851/4294851176.htm",
   "text_path": "text/ВСН_85-68__4294851176.md",
@@ -14301,6 +14736,7 @@
   "directions": [
    "MOST"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851175.pdf",
   "htm_path": "files/Data2/1/4294851/4294851175.htm",
   "text_path": "text/ВСН_86-83__4294851175.md",
@@ -14338,6 +14774,7 @@
    "AKZ",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293743/4293743345.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_87-83__4293743345.md",
@@ -14358,6 +14795,7 @@
   "directions": [
    "MOST"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293733/4293733011.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_92-63__4293733011.md",
@@ -14387,6 +14825,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293846/4293846576.htm",
   "text_path": "text/ВСН_АВ-ПАС-94__4293846576.md",
@@ -14421,6 +14860,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293720/4293720131.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_94-63__4293720131.md",
@@ -14477,6 +14917,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851025.pdf",
   "htm_path": "files/Data2/1/4294851/4294851025.htm",
   "text_path": "text/ВСН_94-77__4294851025.md",
@@ -14546,6 +14987,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293853/4293853476.pdf",
   "htm_path": "files/Data2/1/4293853/4293853476.htm",
   "text_path": "text/ВСН_97-63__4293853476.md",
@@ -14622,6 +15064,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853835.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_97-83__4294853835.md",
@@ -14655,6 +15098,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851134.pdf",
   "htm_path": "files/Data2/1/4294851/4294851134.htm",
   "text_path": "text/ВСН_103-74__4294851134.md",
@@ -14682,6 +15126,7 @@
    "AKZ",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850927.pdf",
   "htm_path": "files/Data2/1/4294850/4294850927.htm",
   "text_path": "text/ВСН_104-93__4294850927.md",
@@ -14723,6 +15168,7 @@
    "MOST",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293780/4293780962.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_109-64__4293780962.md",
@@ -14746,6 +15192,7 @@
    "MOST",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293784/4293784083.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_110-64__4293784083.md",
@@ -14803,6 +15250,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293834/4293834847.htm",
   "text_path": "text/ВСН_113-87__4293834847.md",
@@ -14851,6 +15299,7 @@
   "directions": [
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846000.htm",
   "text_path": "text/ВСН_114-82__4294846000.md",
@@ -14881,6 +15330,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847170.pdf",
   "htm_path": "files/Data2/1/4294847/4294847170.htm",
   "text_path": "text/ВСН_115-75__4294847170.md",
@@ -14939,6 +15389,7 @@
    "EL",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851024.htm",
   "text_path": "text/ВСН_116-65__4294851024.md",
@@ -15015,6 +15466,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846001.htm",
   "text_path": "text/ВСН_116-81__4294846001.md",
@@ -15036,6 +15488,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851288.htm",
   "text_path": "text/ВСН_116-93__4294851288.md",
@@ -15085,6 +15538,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294845/4294845999.htm",
   "text_path": "text/ВСН_117-83__4294845999.md",
@@ -15112,6 +15566,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293743/4293743226.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_118-90__4293743226.md",
@@ -15142,6 +15597,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848558.htm",
   "text_path": "text/ВСН_119-75__4294848558.md",
@@ -15163,6 +15619,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767482.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_120-65-Минтрансстрой_СССР__4293767482.md",
@@ -15189,6 +15646,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293768/4293768267.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_120-84-Минобороны__4293768267.md",
@@ -15211,6 +15669,7 @@
    "ORG",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293787/4293787568.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_121-83__4293787568.md",
@@ -15230,6 +15689,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851133.pdf",
   "htm_path": "files/Data2/1/4294851/4294851133.htm",
   "text_path": "text/ВСН_123-77__4294851133.md",
@@ -15266,6 +15726,7 @@
    "EL",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848595.htm",
   "text_path": "text/ВСН_123-90__4294848595.md",
@@ -15295,6 +15756,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293814/4293814215.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_126-78__4293814215.md",
@@ -15332,6 +15794,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851047.pdf",
   "htm_path": "files/Data2/1/4294851/4294851047.htm",
   "text_path": "text/ВСН_126-90__4294851047.md",
@@ -15388,6 +15851,7 @@
    "ZR",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851046.htm",
   "text_path": "text/ВСН_127-91__4294851046.md",
@@ -15465,6 +15929,7 @@
    "EL",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851023.pdf",
   "htm_path": "files/Data2/1/4294851/4294851023.htm",
   "text_path": "text/ВСН_129-92__4294851023.md",
@@ -15541,6 +16006,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851045.htm",
   "text_path": "text/ВСН_130-92__4294851045.md",
@@ -15603,6 +16069,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851044.htm",
   "text_path": "text/ВСН_132-92__4294851044.md",
@@ -15657,6 +16124,7 @@
    "MOST",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851189.pdf",
   "htm_path": "files/Data2/1/4294851/4294851189.htm",
   "text_path": "text/ВСН_136-78-Минтрансстрой__4294851189.md",
@@ -15733,6 +16201,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851132.pdf",
   "htm_path": "files/Data2/1/4294851/4294851132.htm",
   "text_path": "text/ВСН_137-89__4294851132.md",
@@ -15784,6 +16253,7 @@
    "DOR",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851130.pdf",
   "htm_path": "files/Data2/1/4294851/4294851130.htm",
   "text_path": "text/ВСН_139-80__4294851130.md",
@@ -15816,6 +16286,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847043.htm",
   "text_path": "text/ВСН_139-83__4294847043.md",
@@ -15889,6 +16360,7 @@
   "directions": [
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294853/4294853833.htm",
   "text_path": "text/ВСН_141-80__4294853833.md",
@@ -15914,6 +16386,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851017.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_141-90__4294851017.md",
@@ -15947,6 +16420,7 @@
    "MOST",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851188.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_144-76__4294851188.md",
@@ -15971,6 +16445,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294850/4294850926.htm",
   "text_path": "text/ВСН_146-68__4294850926.md",
@@ -16022,6 +16497,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293746/4293746226.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_150-68__4293746226.md",
@@ -16049,6 +16525,7 @@
    "AKZ",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834731.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_150-82__4293834731.md",
@@ -16075,6 +16552,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851129.htm",
   "text_path": "text/ВСН_150-93__4294851129.md",
@@ -16107,6 +16585,7 @@
    "MOST",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767393.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_155-69-Минтрансстрой_СССР__4293767393.md",
@@ -16127,6 +16606,7 @@
   "directions": [
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293849/4293849297.pdf",
   "htm_path": "files/Data2/1/4293849/4293849297.htm",
   "text_path": "text/ВСН_156-83__4293849297.md",
@@ -16204,6 +16684,7 @@
    "MOST",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851187.pdf",
   "htm_path": "files/Data2/1/4294851/4294851187.htm",
   "text_path": "text/ВСН_156-88__4294851187.md",
@@ -16234,6 +16715,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786820.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_157-83__4293786820.md",
@@ -16259,6 +16741,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850901.pdf",
   "htm_path": "files/Data2/1/4294850/4294850901.htm",
   "text_path": "text/ВСН_158-69__4294850901.md",
@@ -16289,6 +16772,7 @@
    "AKZ",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293742/4293742804.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_158-83__4293742804.md",
@@ -16315,6 +16799,7 @@
    "ORG",
    "OT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293840/4293840144.pdf",
   "htm_path": "files/Data2/1/4293840/4293840144.htm",
   "text_path": "text/ВСН_159-83__4293840144.md",
@@ -16337,6 +16822,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851042.pdf",
   "htm_path": "files/Data2/1/4294851/4294851042.htm",
   "text_path": "text/ВСН_160-69__4294851042.md",
@@ -16413,6 +16899,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293808/4293808612.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_160-83__4293808612.md",
@@ -16442,6 +16929,7 @@
    "ORG",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847189.htm",
   "text_path": "text/ВСН_161-82__4294847189.md",
@@ -16481,6 +16969,7 @@
    "LCH",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294853/4294853832.htm",
   "text_path": "text/ВСН_163-83__4294853832.md",
@@ -16557,6 +17046,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293853/4293853552.pdf",
   "htm_path": "files/Data2/1/4293853/4293853552.htm",
   "text_path": "text/ВСН_164-69__4293853552.md",
@@ -16589,6 +17079,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847094.htm",
   "text_path": "text/ВСН_164-82__4294847094.md",
@@ -16633,6 +17124,7 @@
    "TT",
    "SV"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848555.htm",
   "text_path": "text/ВСН_165-80__4294848555.md",
@@ -16656,6 +17148,7 @@
    "MOST",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851186.pdf",
   "htm_path": "files/Data2/1/4294851/4294851186.htm",
   "text_path": "text/ВСН_165-85__4294851186.md",
@@ -16680,6 +17173,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851185.pdf",
   "htm_path": "files/Data2/1/4294851/4294851185.htm",
   "text_path": "text/ВСН_167-70__4294851185.md",
@@ -16702,6 +17196,7 @@
    "SV",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834727.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_167-84__4293834727.md",
@@ -16724,6 +17219,7 @@
    "AKZ",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293781/4293781190.pdf",
   "htm_path": "files/Data2/1/4293781/4293781190.htm",
   "text_path": "text/ВСН_168-76-ММСС_СССР__4293781190.md",
@@ -16760,6 +17256,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834734.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_168-84__4293834734.md",
@@ -16782,6 +17279,7 @@
    "MOST",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850023.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_169-80__4294850023.md",
@@ -16814,6 +17312,7 @@
    "ORG",
    "OT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294849/4294849917.pdf",
   "htm_path": "files/Data2/1/4294849/4294849917.htm",
   "text_path": "text/ВСН_169-84__4294849917.md",
@@ -16839,6 +17338,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848395.htm",
   "text_path": "text/ВСН_170-80__4294848395.md",
@@ -16895,6 +17395,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834293.pdf",
   "htm_path": "files/Data2/1/4293834/4293834293.htm",
   "text_path": "text/ВСН_171-84__4293834293.md",
@@ -16918,6 +17419,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848553.htm",
   "text_path": "text/ВСН_173-84__4294848553.md",
@@ -16944,6 +17446,7 @@
    "ZD",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848537.htm",
   "text_path": "text/ВСН_174-81__4294848537.md",
@@ -16972,6 +17475,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848419.htm",
   "text_path": "text/ВСН_175-82__4294848419.md",
@@ -17041,6 +17545,7 @@
   "directions": [
    "MOST"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851184.pdf",
   "htm_path": "files/Data2/1/4294851/4294851184.htm",
   "text_path": "text/ВСН_176-78__4294851184.md",
@@ -17119,6 +17624,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834728.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_176-84__4293834728.md",
@@ -17140,6 +17646,7 @@
    "MOST",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293855/4293855307.pdf",
   "htm_path": "files/Data2/1/4293855/4293855307.htm",
   "text_path": "text/ВСН_177-72__4293855307.md",
@@ -17170,6 +17677,7 @@
    "AKZ",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834726.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_178-84__4293834726.md",
@@ -17192,6 +17700,7 @@
    "ZR",
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851016.pdf",
   "htm_path": "files/Data2/1/4294851/4294851016.htm",
   "text_path": "text/ВСН_178-91__4294851016.md",
@@ -17270,6 +17779,7 @@
    "LCH",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846585.htm",
   "text_path": "text/ВСН_179-85__4294846585.md",
@@ -17301,6 +17811,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846499.htm",
   "text_path": "text/ВСН_180-84__4294846499.md",
@@ -17336,6 +17847,7 @@
    "LCH",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834730.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_180-85__4293834730.md",
@@ -17362,6 +17874,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851015.pdf",
   "htm_path": "files/Data2/1/4294851/4294851015.htm",
   "text_path": "text/ВСН_181-74__4294851015.md",
@@ -17394,6 +17907,7 @@
    "ORG",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293832/4293832276.htm",
   "text_path": "text/ВСН_181-85__4293832276.md",
@@ -17412,6 +17926,7 @@
    "ORG",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293832/4293832275.pdf",
   "htm_path": "files/Data2/1/4293832/4293832275.htm",
   "text_path": "text/ВСН_181-85__4293832275.md",
@@ -17489,6 +18004,7 @@
    "ORG",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293832/4293832273.pdf",
   "htm_path": "files/Data2/1/4293832/4293832273.htm",
   "text_path": "text/ВСН_181-85__4293832273.md",
@@ -17551,6 +18067,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847044.pdf",
   "htm_path": "files/Data2/1/4294847/4294847044.htm",
   "text_path": "text/ВСН_182-81__4294847044.md",
@@ -17582,6 +18099,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848414.htm",
   "text_path": "text/ВСН_182-82__4294848414.md",
@@ -17605,6 +18123,7 @@
    "DOR",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851128.pdf",
   "htm_path": "files/Data2/1/4294851/4294851128.htm",
   "text_path": "text/ВСН_182-91__4294851128.md",
@@ -17681,6 +18200,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293779/4293779996.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_183-74-Минтрансстрой__4293779996.md",
@@ -17705,6 +18225,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293854/4293854616.pdf",
   "htm_path": "files/Data2/1/4293854/4293854616.htm",
   "text_path": "text/ВСН_184-75__4293854616.md",
@@ -17730,6 +18251,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834736.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_184-85__4293834736.md",
@@ -17752,6 +18274,7 @@
    "DOR",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851127.pdf",
   "htm_path": "files/Data2/1/4294851/4294851127.htm",
   "text_path": "text/ВСН_185-75__4294851127.md",
@@ -17775,6 +18298,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847609.htm",
   "text_path": "text/ВСН_185-85__4294847609.md",
@@ -17814,6 +18338,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293786/4293786817.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_186-74__4293786817.md",
@@ -17830,6 +18355,7 @@
    "ZR",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851014.pdf",
   "htm_path": "files/Data2/1/4294851/4294851014.htm",
   "text_path": "text/ВСН_186-75__4294851014.md",
@@ -17907,6 +18433,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834735.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_186-85__4293834735.md",
@@ -17933,6 +18460,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848768.htm",
   "text_path": "text/ВСН_187-82__4294848768.md",
@@ -17958,6 +18486,7 @@
    "MOST",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846736.pdf",
   "htm_path": "files/Data2/1/4294846/4294846736.htm",
   "text_path": "text/ВСН_188-78__4294846736.md",
@@ -17987,6 +18516,7 @@
    "ZR",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851040.pdf",
   "htm_path": "files/Data2/1/4294851/4294851040.htm",
   "text_path": "text/ВСН_189-78__4294851040.md",
@@ -18063,6 +18593,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851039.pdf",
   "htm_path": "files/Data2/1/4294851/4294851039.htm",
   "text_path": "text/ВСН_190-78__4294851039.md",
@@ -18089,6 +18620,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848551.htm",
   "text_path": "text/ВСН_190-83__4294848551.md",
@@ -18112,6 +18644,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846783.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_190-85__4294846783.md",
@@ -18142,6 +18675,7 @@
    "SV",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846735.pdf",
   "htm_path": "files/Data2/1/4294846/4294846735.htm",
   "text_path": "text/ВСН_191-79__4294846735.md",
@@ -18167,6 +18701,7 @@
    "DOR",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293839/4293839567.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_192-79__4293839567.md",
@@ -18190,6 +18725,7 @@
   "directions": [
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848568.htm",
   "text_path": "text/ВСН_192-83__4294848568.md",
@@ -18221,6 +18757,7 @@
    "ORG",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853831.pdf",
   "htm_path": "files/Data2/1/4294853/4294853831.htm",
   "text_path": "text/ВСН_193-81__4294853831.md",
@@ -18268,6 +18805,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851038.pdf",
   "htm_path": "files/Data2/1/4294851/4294851038.htm",
   "text_path": "text/ВСН_193-81__4294851038.md",
@@ -18304,6 +18842,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851126.pdf",
   "htm_path": "files/Data2/1/4294851/4294851126.htm",
   "text_path": "text/ВСН_195-83__4294851126.md",
@@ -18351,6 +18890,7 @@
    "EL",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846781.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_195-86__4294846781.md",
@@ -18370,6 +18910,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293754/4293754783.htm",
   "text_path": "text/ВСН_196-83__4293754783.md",
@@ -18401,6 +18942,7 @@
    "LCH",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846782.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_196-86__4294846782.md",
@@ -18425,6 +18967,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294853/4294853830.htm",
   "text_path": "text/ВСН_197-83__4294853830.md",
@@ -18449,6 +18992,7 @@
    "ORG",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834507.pdf",
   "htm_path": "files/Data2/1/4293834/4293834507.htm",
   "text_path": "text/ВСН_197-86__4293834507.md",
@@ -18471,6 +19015,7 @@
    "DOR",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851125.pdf",
   "htm_path": "files/Data2/1/4294851/4294851125.htm",
   "text_path": "text/ВСН_197-91__4294851125.md",
@@ -18507,6 +19052,7 @@
    "ZD",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848396.htm",
   "text_path": "text/ВСН_198-83__4294848396.md",
@@ -18531,6 +19077,7 @@
    "ORG",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834501.pdf",
   "htm_path": "files/Data2/1/4293834/4293834501.htm",
   "text_path": "text/ВСН_198-86__4293834501.md",
@@ -18559,6 +19106,7 @@
    "BZB",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851124.htm",
   "text_path": "text/ВСН_198-88__4294851124.md",
@@ -18578,6 +19126,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848570.htm",
   "text_path": "text/ВСН_199-83__4294848570.md",
@@ -18609,6 +19158,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851183.htm",
   "text_path": "text/ВСН_199-84__4294851183.md",
@@ -18655,6 +19205,7 @@
    "ZR",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848398.htm",
   "text_path": "text/ВСН_200-83__4294848398.md",
@@ -18708,6 +19259,7 @@
    "ZR",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293806/4293806324.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_200-85__4293806324.md",
@@ -18733,6 +19285,7 @@
    "AKZ",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834504.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_201-86__4293834504.md",
@@ -18754,6 +19307,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848540.htm",
   "text_path": "text/ВСН_201-88__4294848540.md",
@@ -18780,6 +19334,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834758.pdf",
   "htm_path": "files/Data2/1/4293834/4293834758.htm",
   "text_path": "text/ВСН_202-75__4293834758.md",
@@ -18857,6 +19412,7 @@
    "ORG",
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293855/4293855478.pdf",
   "htm_path": "files/Data2/1/4293855/4293855478.htm",
   "text_path": "text/ВСН_202-85-АД__4293855478.md",
@@ -18931,6 +19487,7 @@
    "SV",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834500.pdf",
   "htm_path": "files/Data2/1/4293834/4293834500.htm",
   "text_path": "text/ВСН_202-86__4293834500.md",
@@ -18951,6 +19508,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848538.htm",
   "text_path": "text/ВСН_202-90__4294848538.md",
@@ -18987,6 +19545,7 @@
    "OT",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847045.htm",
   "text_path": "text/ВСН_203-84__4294847045.md",
@@ -19026,6 +19585,7 @@
    "LCH",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834499.pdf",
   "htm_path": "files/Data2/1/4293834/4293834499.htm",
   "text_path": "text/ВСН_204-86__4293834499.md",
@@ -19054,6 +19614,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851122.pdf",
   "htm_path": "files/Data2/1/4294851/4294851122.htm",
   "text_path": "text/ВСН_204-88__4294851122.md",
@@ -19076,6 +19637,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847709.pdf",
   "htm_path": "files/Data2/1/4294847/4294847709.htm",
   "text_path": "text/ВСН_205-84__4294847709.md",
@@ -19125,6 +19687,7 @@
    "ZR",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851012.htm",
   "text_path": "text/ВСН_205-87__4294851012.md",
@@ -19147,6 +19710,7 @@
   "directions": [
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851220.pdf",
   "htm_path": "files/Data2/1/4294851/4294851220.htm",
   "text_path": "text/ВСН_206-87__4294851220.md",
@@ -19187,6 +19751,7 @@
    "ORG",
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294851/4294851011.pdf",
   "htm_path": "files/Data2/1/4294851/4294851011.htm",
   "text_path": "text/ВСН_208-89__4294851011.md",
@@ -19264,6 +19829,7 @@
    "ZD",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847122.htm",
   "text_path": "text/ВСН_210-80__4294847122.md",
@@ -19342,6 +19908,7 @@
    "ISP",
    "LCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834502.pdf",
   "htm_path": "files/Data2/1/4293834/4293834502.htm",
   "text_path": "text/ВСН_210-87__4293834502.md",
@@ -19369,6 +19936,7 @@
    "DOR",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293836/4293836105.pdf",
   "htm_path": "files/Data2/1/4293836/4293836105.htm",
   "text_path": "text/ВСН_210-91__4293836105.md",
@@ -19423,6 +19991,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848397.htm",
   "text_path": "text/ВСН_211-88__4294848397.md",
@@ -19444,6 +20013,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848337.htm",
   "text_path": "text/ВСН_212-85__4294848337.md",
@@ -19521,6 +20091,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850902.pdf",
   "htm_path": "files/Data2/1/4294850/4294850902.htm",
   "text_path": "text/ВСН_212-91__4294850902.md",
@@ -19551,6 +20122,7 @@
    "ZR",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294850/4294850929.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_213-92__4294850929.md",
@@ -19587,6 +20159,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847123.htm",
   "text_path": "text/ВСН_214-82__4294847123.md",
@@ -19630,6 +20203,7 @@
    "ZR",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835535.pdf",
   "htm_path": "files/Data2/1/4293835/4293835535.htm",
   "text_path": "text/ВСН_214-93__4293835535.md",
@@ -19669,6 +20243,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848539.htm",
   "text_path": "text/ВСН_216-85__4294848539.md",
@@ -19695,6 +20270,7 @@
    "ORG",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847028.htm",
   "text_path": "text/ВСН_217-87__4294847028.md",
@@ -19721,6 +20297,7 @@
    "TT",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847026.htm",
   "text_path": "text/ВСН_218-85__4294847026.md",
@@ -19769,6 +20346,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847027.htm",
   "text_path": "text/ВСН_219-79__4294847027.md",
@@ -19794,6 +20372,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848413.htm",
   "text_path": "text/ВСН_220-86-ГМС__4294848413.md",
@@ -19818,6 +20397,7 @@
    "LCH",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293834/4293834503.pdf",
   "htm_path": "files/Data2/1/4293834/4293834503.htm",
   "text_path": "text/ВСН_221-87-Миннефтегазстрой__4293834503.md",
@@ -19843,6 +20423,7 @@
    "ORG",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847277.htm",
   "text_path": "text/ВСН_237-80__4294847277.md",
@@ -19872,6 +20453,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848541.htm",
   "text_path": "text/ВСН_237-88__4294848541.md",
@@ -19897,6 +20479,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848556.htm",
   "text_path": "text/ВСН_238-88__4294848556.md",
@@ -19921,6 +20504,7 @@
    "ZR",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848550.htm",
   "text_path": "text/ВСН_239-88__4294848550.md",
@@ -19944,6 +20528,7 @@
    "AKZ",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848554.htm",
   "text_path": "text/ВСН_240-88__4294848554.md",
@@ -19979,6 +20564,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848548.htm",
   "text_path": "text/ВСН_241-89__4294848548.md",
@@ -20002,6 +20588,7 @@
   "directions": [
    "ZD"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848557.htm",
   "text_path": "text/ВСН_242-89__4294848557.md",
@@ -20033,6 +20620,7 @@
    "BZB",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293729/4293729735.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_261-77-ММСС_СССР__4293729735.md",
@@ -20062,6 +20650,7 @@
    "BZB",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847029.htm",
   "text_path": "text/ВСН_261-86__4294847029.md",
@@ -20106,6 +20695,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293767/4293767272.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_265-84-Минмонтажспецстрой_СССР__4293767272.md",
@@ -20135,6 +20725,7 @@
    "OT",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847000.htm",
   "text_path": "text/ВСН_274-88__4294847000.md",
@@ -20187,6 +20778,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294853/4294853829.htm",
   "text_path": "text/ВСН_279-71__4294853829.md",
@@ -20207,6 +20799,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847001.htm",
   "text_path": "text/ВСН_279-85__4294847001.md",
@@ -20256,6 +20849,7 @@
    "ZR",
    "OT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293775/4293775611.pdf",
   "htm_path": "files/Data2/1/4293775/4293775611.htm",
   "text_path": "text/ВСН_281-71-ММСС_СССР__4293775611.md",
@@ -20332,6 +20926,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293812/4293812543.htm",
   "text_path": "text/ВСН_281-75__4293812543.md",
@@ -20356,6 +20951,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847002.pdf",
   "htm_path": "files/Data2/1/4294847/4294847002.htm",
   "text_path": "text/ВСН_286-72__4294847002.md",
@@ -20393,6 +20989,7 @@
    "BZB",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293736/4293736832.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_286-90__4293736832.md",
@@ -20415,6 +21012,7 @@
    "ZR",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847003.htm",
   "text_path": "text/ВСН_291-72x__4294847003.md",
@@ -20455,6 +21053,7 @@
    "EL",
    "PB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846427.htm",
   "text_path": "text/ВСН_294-72__4294846427.md",
@@ -20500,6 +21099,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846992.htm",
   "text_path": "text/ВСН_301-86__4294846992.md",
@@ -20540,6 +21140,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846991.htm",
   "text_path": "text/ВСН_309-84__4294846991.md",
@@ -20569,6 +21170,7 @@
    "TT",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847281.htm",
   "text_path": "text/ВСН_311-89__4294847281.md",
@@ -20628,6 +21230,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293787/4293787890.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_314-73-ММСС_СССР__4293787890.md",
@@ -20655,6 +21258,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847195.htm",
   "text_path": "text/ВСН_315-80__4294847195.md",
@@ -20688,6 +21292,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846993.pdf",
   "htm_path": "files/Data2/1/4294846/4294846993.htm",
   "text_path": "text/ВСН_316-73-ММСС_СССР__4294846993.md",
@@ -20732,6 +21337,7 @@
    "ORG",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293837/4293837885.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_319-77__4293837885.md",
@@ -20752,6 +21358,7 @@
    "OT",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846983.htm",
   "text_path": "text/ВСН_329-78__4294846983.md",
@@ -20829,6 +21436,7 @@
    "EL",
    "PB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853828.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_332-74__4294853828.md",
@@ -20885,6 +21493,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851287.htm",
   "text_path": "text/ВСН_332-93__4294851287.md",
@@ -20921,6 +21530,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851286.htm",
   "text_path": "text/ВСН_333-93__4294851286.md",
@@ -20951,6 +21561,7 @@
    "BZB",
    "GTS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846984.htm",
   "text_path": "text/ВСН_336-74__4294846984.md",
@@ -21011,6 +21622,7 @@
    "TT",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846985.htm",
   "text_path": "text/ВСН_337-74__4294846985.md",
@@ -21047,6 +21659,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846962.htm",
   "text_path": "text/ВСН_341-84__4294846962.md",
@@ -21074,6 +21687,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847077.htm",
   "text_path": "text/ВСН_342-75__4294847077.md",
@@ -21128,6 +21742,7 @@
    "AKZ",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847193.htm",
   "text_path": "text/ВСН_344-75__4294847193.md",
@@ -21178,6 +21793,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846961.htm",
   "text_path": "text/ВСН_345-86__4294846961.md",
@@ -21211,6 +21827,7 @@
    "OT",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853827.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_347-75__4294853827.md",
@@ -21245,6 +21862,7 @@
    "SV",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846963.htm",
   "text_path": "text/ВСН_349-87__4294846963.md",
@@ -21272,6 +21890,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847280.htm",
   "text_path": "text/ВСН_350-75__4294847280.md",
@@ -21291,6 +21910,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293808/4293808668.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_351-75__4293808668.md",
@@ -21317,6 +21937,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847194.htm",
   "text_path": "text/ВСН_351-88__4294847194.md",
@@ -21375,6 +21996,7 @@
    "ISP",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846960.htm",
   "text_path": "text/ВСН_352-75__4294846960.md",
@@ -21390,6 +22012,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853826.pdf",
   "htm_path": "files/Data2/1/4294853/4294853826.htm",
   "text_path": "text/ВСН_353-86__4294853826.md",
@@ -21416,6 +22039,7 @@
   "directions": [
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294848/4294848168.htm",
   "text_path": "text/ВСН_356-86__4294848168.md",
@@ -21444,6 +22068,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294814/4294814843.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_358-76__4294814843.md",
@@ -21470,6 +22095,7 @@
    "TT",
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847282.pdf",
   "htm_path": "files/Data2/1/4294847/4294847282.htm",
   "text_path": "text/ВСН_361-85__4294847282.md",
@@ -21503,6 +22129,7 @@
    "TT",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847710.pdf",
   "htm_path": "files/Data2/1/4294847/4294847710.htm",
   "text_path": "text/ВСН_362-87__4294847710.md",
@@ -21579,6 +22206,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846798.htm",
   "text_path": "text/ВСН_363-76-ММСС_СССР__4294846798.md",
@@ -21610,6 +22238,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846760.htm",
   "text_path": "text/ВСН_367-76__4294846760.md",
@@ -21664,6 +22293,7 @@
    "SV",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847177.htm",
   "text_path": "text/ВСН_369-76__4294847177.md",
@@ -21740,6 +22370,7 @@
   "directions": [
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4293834/4293834849.htm",
   "text_path": "text/ВСН_370-93__4293834849.md",
@@ -21813,6 +22444,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846816.htm",
   "text_path": "text/ВСН_371-76__4294846816.md",
@@ -21836,6 +22468,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846800.htm",
   "text_path": "text/ВСН_373-85__4294846800.md",
@@ -21875,6 +22508,7 @@
   "directions": [
    "SV"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846850.htm",
   "text_path": "text/ВСН_375-77__4294846850.md",
@@ -21897,6 +22531,7 @@
    "EL",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293738/4293738205.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_381-77__4293738205.md",
@@ -21925,6 +22560,7 @@
    "EL",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293771/4293771648.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_381-85__4293771648.md",
@@ -21962,6 +22598,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846455.pdf",
   "htm_path": "files/Data2/1/4294846/4294846455.htm",
   "text_path": "text/ВСН_384-85__4294846455.md",
@@ -21994,6 +22631,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846635.htm",
   "text_path": "text/ВСН_385-88__4294846635.md",
@@ -22034,6 +22672,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846584.htm",
   "text_path": "text/ВСН_388-87__4294846584.md",
@@ -22068,6 +22707,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846814.htm",
   "text_path": "text/ВСН_389-78__4294846814.md",
@@ -22104,6 +22744,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846851.htm",
   "text_path": "text/ВСН_391-78__4294846851.md",
@@ -22126,6 +22767,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293835/4293835126.pdf",
   "htm_path": "files/Data2/1/4293835/4293835126.htm",
   "text_path": "text/ВСН_394-78__4293835126.md",
@@ -22155,6 +22797,7 @@
    "TT",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293808/4293808666.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_395-78__4293808666.md",
@@ -22184,6 +22827,7 @@
    "TT",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846817.pdf",
   "htm_path": "files/Data2/1/4294846/4294846817.htm",
   "text_path": "text/ВСН_395-85__4294846817.md",
@@ -22231,6 +22875,7 @@
    "TT",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847086.pdf",
   "htm_path": "files/Data2/1/4294847/4294847086.htm",
   "text_path": "text/ВСН_396-85__4294847086.md",
@@ -22267,6 +22912,7 @@
    "TT",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293809/4293809548.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_398-79__4293809548.md",
@@ -22295,6 +22941,7 @@
    "TT",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847180.pdf",
   "htm_path": "files/Data2/1/4294847/4294847180.htm",
   "text_path": "text/ВСН_398-87__4294847180.md",
@@ -22339,6 +22986,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293846/4293846446.pdf",
   "htm_path": "files/Data2/1/4293846/4293846446.htm",
   "text_path": "text/ВСН_401-01-1-77__4293846446.md",
@@ -22363,6 +23011,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847178.htm",
   "text_path": "text/ВСН_405-79__4294847178.md",
@@ -22385,6 +23034,7 @@
    "TT",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847092.htm",
   "text_path": "text/ВСН_406-87__4294847092.md",
@@ -22456,6 +23106,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847214.htm",
   "text_path": "text/ВСН_407-79__4294847214.md",
@@ -22484,6 +23135,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847090.htm",
   "text_path": "text/ВСН_408-79__4294847090.md",
@@ -22511,6 +23163,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846636.htm",
   "text_path": "text/ВСН_410-80__4294846636.md",
@@ -22561,6 +23214,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846799.htm",
   "text_path": "text/ВСН_411-88__4294846799.md",
@@ -22604,6 +23258,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846806.htm",
   "text_path": "text/ВСН_412-80__4294846806.md",
@@ -22644,6 +23299,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847093.htm",
   "text_path": "text/ВСН_413-80__4294847093.md",
@@ -22721,6 +23377,7 @@
    "ORG",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846453.htm",
   "text_path": "text/ВСН_415-81__4294846453.md",
@@ -22798,6 +23455,7 @@
    "ORG",
    "SV"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846247.htm",
   "text_path": "text/ВСН_416-81__4294846247.md",
@@ -22874,6 +23532,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846888.htm",
   "text_path": "text/ВСН_417-81__4294846888.md",
@@ -22897,6 +23556,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846484.htm",
   "text_path": "text/ВСН_421-81__4294846484.md",
@@ -22928,6 +23588,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846887.htm",
   "text_path": "text/ВСН_422-86__4294846887.md",
@@ -22953,6 +23614,7 @@
    "AKZ",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846886.htm",
   "text_path": "text/ВСН_426-86__4294846886.md",
@@ -22987,6 +23649,7 @@
    "SV",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847095.htm",
   "text_path": "text/ВСН_427-81__4294847095.md",
@@ -23011,6 +23674,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847192.pdf",
   "htm_path": "files/Data2/1/4294847/4294847192.htm",
   "text_path": "text/ВСН_429-81-ММСС_СССР__4294847192.md",
@@ -23038,6 +23702,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853825.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_430-82__4294853825.md",
@@ -23078,6 +23743,7 @@
    "SV",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846853.htm",
   "text_path": "text/ВСН_433-82__4294846853.md",
@@ -23122,6 +23788,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846496.htm",
   "text_path": "text/ВСН_434-88__4294846496.md",
@@ -23153,6 +23820,7 @@
    "ORG",
    "SV"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847087.htm",
   "text_path": "text/ВСН_435-82__4294847087.md",
@@ -23198,6 +23866,7 @@
    "AKZ",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847091.htm",
   "text_path": "text/ВСН_436-82__4294847091.md",
@@ -23231,6 +23900,7 @@
    "ORG",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846360.htm",
   "text_path": "text/ВСН_437-83__4294846360.md",
@@ -23267,6 +23937,7 @@
    "ORG",
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846452.htm",
   "text_path": "text/ВСН_438-83__4294846452.md",
@@ -23343,6 +24014,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847085.htm",
   "text_path": "text/ВСН_439-83__4294847085.md",
@@ -23409,6 +24081,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847096.htm",
   "text_path": "text/ВСН_440-83__4294847096.md",
@@ -23466,6 +24139,7 @@
    "TT",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847116.htm",
   "text_path": "text/ВСН_442-83__4294847116.md",
@@ -23492,6 +24166,7 @@
    "AKZ",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847118.htm",
   "text_path": "text/ВСН_446-84__4294847118.md",
@@ -23520,6 +24195,7 @@
    "AKZ",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847117.htm",
   "text_path": "text/ВСН_447-84__4294847117.md",
@@ -23551,6 +24227,7 @@
    "ORG",
    "SV"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846424.htm",
   "text_path": "text/ВСН_452-84__4294846424.md",
@@ -23628,6 +24305,7 @@
    "AKZ",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846341.htm",
   "text_path": "text/ВСН_454-84__4294846341.md",
@@ -23662,6 +24340,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846495.htm",
   "text_path": "text/ВСН_455-84__4294846495.md",
@@ -23701,6 +24380,7 @@
    "ORG",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846818.htm",
   "text_path": "text/ВСН_456-85__4294846818.md",
@@ -23759,6 +24439,7 @@
    "ORG",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846904.htm",
   "text_path": "text/ВСН_457-85__4294846904.md",
@@ -23822,6 +24503,7 @@
    "ORG",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294846/4294846849.pdf",
   "htm_path": "files/Data2/1/4294846/4294846849.htm",
   "text_path": "text/ВСН_458-85__4294846849.md",
@@ -23850,6 +24532,7 @@
    "ORG",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293733/4293733010.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_459-85__4293733010.md",
@@ -23872,6 +24555,7 @@
   "directions": [
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847190.htm",
   "text_path": "text/ВСН_461-85__4294847190.md",
@@ -23903,6 +24587,7 @@
   "directions": [
    "AKZ"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294849/4294849469.htm",
   "text_path": "text/ВСН_462-85__4294849469.md",
@@ -23938,6 +24623,7 @@
    "MK",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846903.htm",
   "text_path": "text/ВСН_463-85__4294846903.md",
@@ -23964,6 +24650,7 @@
    "ORG",
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846461.htm",
   "text_path": "text/ВСН_464-85__4294846461.md",
@@ -24041,6 +24728,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846361.htm",
   "text_path": "text/ВСН_466-85__4294846361.md",
@@ -24095,6 +24783,7 @@
    "MK",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846434.htm",
   "text_path": "text/ВСН_467-85__4294846434.md",
@@ -24127,6 +24816,7 @@
    "ORG",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846905.htm",
   "text_path": "text/ВСН_469-85__4294846905.md",
@@ -24203,6 +24893,7 @@
   "directions": [
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846906.htm",
   "text_path": "text/ВСН_470-89__4294846906.md",
@@ -24230,6 +24921,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294853/4294853824.htm",
   "text_path": "text/ВСН_471-86__4294853824.md",
@@ -24246,6 +24938,7 @@
    "ORG",
    "TT"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846871.htm",
   "text_path": "text/ВСН_473-86__4294846871.md",
@@ -24321,6 +25014,7 @@
    "TT",
    "ISP"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294853/4294853823.pdf",
   "htm_path": "files/Data2/1/4294853/4294853823.htm",
   "text_path": "text/ВСН_478-86__4294853823.md",
@@ -24377,6 +25071,7 @@
    "TT",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846875.htm",
   "text_path": "text/ВСН_479-86__4294846875.md",
@@ -24404,6 +25099,7 @@
    "ORG",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846872.htm",
   "text_path": "text/ВСН_480-86__4294846872.md",
@@ -24447,6 +25143,7 @@
    "ORG",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846873.htm",
   "text_path": "text/ВСН_481-86__4294846873.md",
@@ -24498,6 +25195,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294847/4294847932.htm",
   "text_path": "text/ВСН_482-86__4294847932.md",
@@ -24535,6 +25233,7 @@
    "IS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846885.htm",
   "text_path": "text/ВСН_483-86__4294846885.md",
@@ -24560,6 +25259,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846880.htm",
   "text_path": "text/ВСН_485-86__4294846880.md",
@@ -24588,6 +25288,7 @@
    "OOS",
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846889.htm",
   "text_path": "text/ВСН_486-86__4294846889.md",
@@ -24632,6 +25333,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846890.htm",
   "text_path": "text/ВСН_487-86__4294846890.md",
@@ -24653,6 +25355,7 @@
   "directions": [
    "BZB"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846883.htm",
   "text_path": "text/ВСН_488-86__4294846883.md",
@@ -24721,6 +25424,7 @@
    "IS",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846882.htm",
   "text_path": "text/ВСН_489-86__4294846882.md",
@@ -24770,6 +25474,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846691.htm",
   "text_path": "text/ВСН_490-87__4294846691.md",
@@ -24802,6 +25507,7 @@
    "EL",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846881.htm",
   "text_path": "text/ВСН_492-87__4294846881.md",
@@ -24829,6 +25535,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846884.htm",
   "text_path": "text/ВСН_499-87__4294846884.md",
@@ -24868,6 +25575,7 @@
    "AKZ",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846359.htm",
   "text_path": "text/ВСН_500-87__4294846359.md",
@@ -24897,6 +25605,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846874.htm",
   "text_path": "text/ВСН_502-87__4294846874.md",
@@ -24939,6 +25648,7 @@
   "directions": [
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846707.htm",
   "text_path": "text/ВСН_503-87__4294846707.md",
@@ -24975,6 +25685,7 @@
    "EL",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846857.htm",
   "text_path": "text/ВСН_505-87__4294846857.md",
@@ -24997,6 +25708,7 @@
   "directions": [
    "ZR"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846708.htm",
   "text_path": "text/ВСН_506-88__4294846708.md",
@@ -25045,6 +25757,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4294847/4294847792.pdf",
   "htm_path": "files/Data2/1/4294847/4294847792.htm",
   "text_path": "text/ВСН_512-88__4294847792.md",
@@ -25067,6 +25780,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846428.htm",
   "text_path": "text/ВСН_513-88__4294846428.md",
@@ -25099,6 +25813,7 @@
    "ORG",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846706.htm",
   "text_path": "text/ВСН_514-89__4294846706.md",
@@ -25128,6 +25843,7 @@
   "directions": [
    "IS"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846856.htm",
   "text_path": "text/ВСН_515-89__4294846856.md",
@@ -25166,6 +25882,7 @@
    "MK",
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846859.htm",
   "text_path": "text/ВСН_517-89__4294846859.md",
@@ -25207,6 +25924,7 @@
    "ORG",
    "MK"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846893.htm",
   "text_path": "text/ВСН_518-90__4294846893.md",
@@ -25225,6 +25943,7 @@
    "TT",
    "ORG"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294846/4294846419.htm",
   "text_path": "text/ВСН_521-91__4294846419.md",
@@ -25257,6 +25976,7 @@
   "directions": [
    "DOR"
   ],
+  "kind": "vsn",
   "pdf_path": "files/Data2/1/4293841/4293841494.pdf",
   "htm_path": "",
   "text_path": "text/ВСН_543-87__4293841494.md",
@@ -25282,6 +26002,7 @@
   "directions": [
    "PROCH"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851283.htm",
   "text_path": "text/ВСН_601-92__4294851283.md",
@@ -25298,6 +26019,7 @@
    "OT",
    "EL"
   ],
+  "kind": "vsn",
   "pdf_path": "",
   "htm_path": "files/Data2/1/4294851/4294851282.htm",
   "text_path": "text/ВСН_604-III-87__4294851282.md",
@@ -25357,6 +26079,771 @@
    "Приложение 1",
    "РАБОТА С ГАЗОАНАЛИЗАТОРАМИ ДЛЯ ОПРЕДЕЛЕНИЯ НАЛИЧИЯ ВЗРЫВООПАСНЫХ И ВРЕДНЫХ ГАЗОВ",
    "Перечень документов по охране труда, приведенных в ВСН"
+  ]
+ },
+ {
+  "id": "d1-5049",
+  "number": "ВНЭ 5-79",
+  "name": "Правила пожарной безопасности при эксплуатации предприятий химической промышленности",
+  "date": "01.01.1981",
+  "status": "действующий",
+  "directions": [
+   "PB",
+   "PROCH"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВНЭ_5-79.pdf",
+  "htm_path": "",
+  "text_path": "text/ВНЭ_5-79__d1-5049.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ВВЕДЕНИЕ",
+   "2. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "3. СОДЕРЖАНИЕ ТЕРРИТОРИИ ПРЕДПРИЯТИЯ, ЦЕХОВ,",
+   "4. ТЕХНОЛОГИЧЕСКИЕ ПРОЦЕССЫ И УСТАНОВКИ",
+   "5. СКЛАДЫ ГОРЮЧИХ ВЕЩЕСТВ И МАТЕРИАЛОВ",
+   "6. ОПЫТНЫЕ УСТАНОВКИ И ЛАБОРАТОРИИ",
+   "7. ЭЛЕКТРОУСТАНОВКИ И СРЕДСТВА ЗАЩИТЫ ОТ СТАТ",
+   "8.СРЕДСТВА АВТОМАТИЧЕСКОГО КОНТРОЛЯ И РЕГУЛИРОВ",
+   "10. СИСТЕМЫ ОТОПЛЕНИЯ, ВЕНТИЛЯЦИИ И КОНДИЦИ",
+   "12. ВСПОМОГАТЕЛЬНЫЕ ЦЕХИ",
+   "13. ПРОИЗВОДСТВЕННАЯ КАНАЛИЗАЦИЯ",
+   "14. РЕМОНТНЫЕ И ОГНЕВЫЕ РАБОТЫ",
+   "15. ПОРЯДОК СОВМЕСТНЫХ ДЕЙСТВИЙ ТЕХНИЧЕСКОГО",
+   "17. ПЕРВИЧНЫЕ СРЕДСТВА И СТАЦИОНАРНЫЕ УСТА",
+   "18. СИСТЕМЫ ЭЛЕКТРИЧЕСКОЙ ПОЖАРНОЙ И ПОЖАРН",
+   "19. ПРИЛОЖЕНИЯ",
+   "3. СОДЕРЖАНИЕ ТЕРРИТОРИИ ПРЕДПРИЯТИЯ, ЦЕХОВ, УЧ",
+   "4. ТЕХНОЛОГИЧЕСКИЕ ПРОЦЕССЫ И УСТАНОВК",
+   "7. ЭЛЕКТРОУСТАНОВКИ И СРЕДСТВА ЗАЩИТЫ ОТ СТАТИ",
+   "8.СРЕДСТВА АВТОМАТИЧЕСКОГО КОНТРОЛЯ И РЕГУЛИР",
+   "9. АВТОМАТИЧЕСКИЙ КОНТРОЛЬ ГАЗОВОЙ СРЕДЫ",
+   "10. СИСТЕМЫ ОТОПЛЕНИЯ, ВЕНТИЛЯЦИИ И",
+   "11. ВЫЧИСЛИТЕЛЬНЫЕ ЦЕНТРЫ И ЦЕНТРЫ АВТОМАТИЧ",
+   "15. ПОРЯДОК СОВМЕСТНЫХ ДЕЙСТВИЙ ТЕХНИЧЕСК",
+   "16. ТЕХНИКА БЕЗОПАСНОСТИ ПРИ ТУШЕНИИ ПОЖАР",
+   "17. ПЕРВИЧНЫЕ СРЕДСТВА И СТАЦИОНАРНЫЕ УСТАНОВ",
+   "18. СИСТЕМЫ ЭЛЕКТРИЧЕСКОЙ ПОЖАРНОЙ И ПОЖА"
+  ]
+ },
+ {
+  "id": "d1-60187",
+  "number": "ВСН 1-80",
+  "name": "Инструкция по проектированию и устройству покрытий полов в помещениях с агрессивными средами на предприятиях мясной и молочной промышленности",
+  "date": "20.10.1980",
+  "status": "действует",
+  "directions": [
+   "ZD",
+   "AKZ"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_1-80.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_1-80__d1-60187.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "Приложение 1",
+   "Приложение 2"
+  ]
+ },
+ {
+  "id": "md-11-84",
+  "number": "ВСН 11-84",
+  "name": "Инструкция о порядке утверждения предпроектной и проектно-сметной документации на строительство предприятий, зданий и сооружений (Минэнерго СССР)",
+  "date": "01.01.1984",
+  "status": "действует",
+  "directions": [
+   "ORG"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_11-84.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_11-84__md-11-84.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "Приложение 1 к инструкции ВСН 11-84",
+   "Приложение 2 к инструкции ВСН 11-84",
+   "Приложение 3 к инструкции ВСН 11-84",
+   "Приложение 4 к инструкции ВСН 11-84",
+   "Приложение 5 к инструкции ВСН 11-84"
+  ]
+ },
+ {
+  "id": "d1-50902",
+  "number": "ВСН 117-65",
+  "name": "Технические указания по изготовлению предварительно напряженных элементов железобетонных мостов со стержневой напрягаемой арматурой",
+  "date": "1965",
+  "status": "действующий",
+  "directions": [
+   "MOST",
+   "BZB"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_117-65.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_117-65__d1-50902.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "Глава I",
+   "Глава II",
+   "Глава III",
+   "Глава IV",
+   "Глава V",
+   "Приложение 1",
+   "Приложение 2",
+   "Приложение 3",
+   "Приложение 4",
+   "Приложение 5",
+   "Приложение 6",
+   "Приложение 7",
+   "Приложение 8",
+   "Глава I ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+   "Глава II АРМАТУРНЫЕ СТАЛИ. ИЗГОТОВЛЕНИЕ АРМАТУРЫ",
+   "Глава III ОБОРУДОВАНИЕ И ОСНАСТКА ДЛЯ ПРЕДВАРИТЕЛЬНОГО НАПРЯЖЕНИЯ",
+   "Глава IV ИЗГОТОВЛЕНИЕ ЭЛЕМЕНТОВ СО СТЕРЖНЕВОЙ НАПРЯГАЕМОЙ",
+   "Глава V ТЕХНИКА БЕЗОПАСНОСТИ ПРИ ПРОИЗВОДСТВЕ РАБОТ",
+   "Приложение 1 РЕКОМЕНДАЦИИ ПО ПРИМЕНЕНИЮ СТЕРЖНЕВЫХ НАПРЯГАЕМЫХ",
+   "Приложение 2 РЕКОМЕНДАЦИИ ПО ПОПЕРЕЧНОМУ ОБЪЕДИНЕНИЮ БАЛОК",
+   "Приложение 3 РЕКОМЕНДАЦИИ ПО ПРИМЕНЕНИЮ НЕСВАРИВАЕМОЙ",
+   "Приложение 4 РЕКОМЕНДАЦИИ ПО КОНСТРУКЦИИ И ТЕХНОЛОГИИ СВАРКИ",
+   "Приложение 5 ПРИМЕРЫ КОНСТРУКЦИИ УПОРОВ И ОСНАСТКИ ДЛЯ",
+   "Приложение 6 РАСЧЕТ ЭЛЕКТРИЧЕСКИХ ПАРАМЕТРОВ УСТАНОВОК ДЛЯ НАГРЕВА",
+   "Приложение 7 ПРИБОРЫ ДЛЯ КОНТРОЛЯ ПРЕДВАРИТЕЛЬНОГО НАПРЯЖЕНИЯ В",
+   "Приложение 8 ФОРМЫ ТЕХНИЧЕСКОЙ ДОКУМЕНТАЦИИ"
+  ]
+ },
+ {
+  "id": "md-14-78",
+  "number": "ВСН 14-78",
+  "name": "Инструкция по цементации трещин, возникающих в бетоне гидротехнических сооружений",
+  "date": "IV кв. 1978",
+  "status": "действует",
+  "directions": [
+   "GTS",
+   "BZB"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_14-78.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_14-78__md-14-78.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. НАБЛЮДЕНИЯ, ОПЫТНЫЕ И ПРОЕКТНЫЕ РАБОТЫ",
+   "3. ПРОИЗВОДСТВО ЦЕМЕНТАЦИОННЫХ РАБОТ",
+   "4. КОНТРОЛЬ КАЧЕСТВА ЦЕМЕНТАЦИИ ТРЕЩИН В БЕТОНЕ",
+   "Приложение 1",
+   "Приложение 2"
+  ]
+ },
+ {
+  "id": "d1-46678",
+  "number": "ВСН 159-81",
+  "name": "Инструкция по применению добавок в цементных растворах при возведении жилых и общественных зданий в зимних и летних условиях (Главмосстрой)",
+  "date": "1981",
+  "status": "действующий",
+  "directions": [
+   "BZB",
+   "ZD"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_159-81.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_159-81__d1-46678.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ТРЕБОВАНИЯ К МАТЕРИАЛАМ",
+   "3. МЕТОДЫ КОНТРОЛЯ КАЧЕСТВА РАСТВОРА",
+   "4. ТРЕБОВАНИЯ БЕЗОПАСНОСТИ ПРИ ИЗГОТОВЛЕНИИ РАСТВОРОВ С",
+   "Приложение 1",
+   "Приложение 2",
+   "Приложение 3"
+  ]
+ },
+ {
+  "id": "md-162-69",
+  "number": "ВСН 162-69",
+  "name": "Инструкция на тампонаж разведочных и стационарных скважин, пробуренных в процессе инженерно-геологических изысканий для строительства метрополитенов и горных тоннелей",
+  "date": "17.10.1969",
+  "status": "действует",
+  "directions": [
+   "ZR",
+   "PROCH"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_162-69.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_162-69__md-162-69.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "Приложение 1",
+   "Приложение 2"
+  ]
+ },
+ {
+  "id": "d1-48003",
+  "number": "ВСН 171-70",
+  "name": "Технические указания по применению мелкозернистых (песчаных) цементных бетонов в дорожном строительстве",
+  "date": "1971",
+  "status": "действующий",
+  "directions": [
+   "DOR",
+   "BZB"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_171-70.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_171-70__d1-48003.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ОБЛАСТЬ ПРИМЕНЕНИЯ",
+   "3. ТЕХНИЧЕСКИЕ ТРЕБОВАНИЯ К ПЕСЧАНОМУ БЕТОНУ, ЦЕМЕНТОПЕСЧАНОЙ",
+   "4. ОСОБЕННОСТИ ТЕХНОЛОГИИ УСТРОЙСТВА ДОРОЖНЫХ ПОКРЫТИЙ И",
+   "5. КОНТРОЛЬ КАЧЕСТВА ПЕСЧАНОГО БЕТОНА",
+   "6. ПРОЕКТИРОВАНИЕ СОСТАВА ПЕСЧАНОГО БЕТОНА",
+   "7. ОСОБЕННОСТИ РАСЧЕТА И ПРОЕКТИРОВАНИЯ ДОРОЖНЫХ ПОКРЫТИЙ И",
+   "ПРИЛОЖЕНИЕ 1 ПРИМЕР ПОДБОРА СОСТАВА ПЕСЧАНОГО ЦЕМЕНТНОГО",
+   "ПРИЛОЖЕНИЕ 2 СПИСОК НОРМАТИВНЫХ ДОКУМЕНТОВ, НА КОТОРЫЕ",
+   "Приложение 1 пример подбора состава песчаного цементного бетона для дорожного покрытия",
+   "Приложение 2"
+  ]
+ },
+ {
+  "id": "md-179-73",
+  "number": "ВСН 179-73",
+  "name": "Инструкция по ограждению мест работ и расстановке дорожных знаков при строительстве, реконструкции и ремонте автомобильных дорог",
+  "date": "05.04.1973",
+  "status": "отменен",
+  "directions": [
+   "DOR",
+   "OT",
+   "ORG"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_179-73.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_179-73__md-179-73.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ТЕХНИЧЕСКИЕ СРЕДСТВА ДЛЯ ОГРАЖДЕНИЯ МЕСТ РАБОТ",
+   "3. ОГРАЖДЕНИЕ МЕСТ РАБОТ И РАССТАНОВКА ДОРОЖНЫХ ЗНАКОВ"
+  ]
+ },
+ {
+  "id": "md-2661-01-91",
+  "number": "ВСН 2661-01-91/Минприбор",
+  "name": "Правила производства и приемки работ. Автоматические установки пожаротушения",
+  "date": "01.01.1991",
+  "status": "действует",
+  "directions": [
+   "PB",
+   "ISP"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_2661-01-91-Минприбор.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_2661-01-91-Минприбор__md-2661-01-91.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ОБЩИЕ ТРЕБОВАНИЯ К МОНТАЖУ",
+   "3. МОНТАЖ ТРУБОПРОВОДОВ",
+   "4. ИСПЫТАНИЕ ТРУБОПРОВОДОВ",
+   "5. МОНТАЖ ОРОСИТЕЛЕЙ И ВЫПУСКНЫХ НАСАДКОВ",
+   "6. МОНТАЖ ТРОСОВЫХ ПОБУДИТЕЛЬНЫХ УСТРОЙСТВ",
+   "7. МОНТАЖ ТРУБОПРОВОДНОЙ АРМАТУРЫ И ОБОРУДОВАНИЯ",
+   "8. МОНТАЖ, ИСПЫТАНИЕ НАСОСОВ И КОМПРЕССОРОВ",
+   "9. МОНТАЖ И ИСПЫТАНИЯ ЭЛЕКТРОПРОВОДОК",
+   "10. МОНТАЖ И ИСПЫТАНИЯ ЕМКОСТЕЙ",
+   "11. МОНТАЖ ЭЛЕКТРООБОРУДОВАНИЯ",
+   "12. НАЛАДКА АВТОМАТИЧЕСКИХ УСТАНОВОК ПОЖАРОТУШЕНИЯ",
+   "13. ПРИЕМКА В ЭКСПЛУАТАЦИЮ",
+   "14. ТРЕБОВАНИЯ БЕЗОПАСНОСТИ",
+   "15. МАРКИРОВКА И ПЛОМБИРОВАНИЕ",
+   "16. ГАРАНТИИ",
+   "Приложение 1",
+   "Приложение 2",
+   "Приложение 3"
+  ]
+ },
+ {
+  "id": "md-33-70",
+  "number": "ВСН 33-70/Минэнерго СССР",
+  "name": "Методические указания по натурным исследованиям фильтрации в трещиноватых скальных основаниях",
+  "date": "1970",
+  "status": "действует",
+  "directions": [
+   "GTS",
+   "ZR"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_33-70-Минэнерго_СССР.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_33-70-Минэнерго_СССР__md-33-70.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ОРГАНИЗАЦИЯ НАБЛЮДЕНИЙ ЗА ФИЛЬТРАЦИЕЙ",
+   "3. ПРОВЕДЕНИЕ НАБЛЮДЕНИЙ ФИЛЬТРАЦИОННОГО РЕЖИМА",
+   "4. ОБРАБОТКА И АНАЛИЗ РЕЗУЛЬТАТОВ НАТУРНЫХ НАБЛЮДЕНИЙ",
+   "5. СОСТАВЛЕНИЕ ЗАКЛЮЧЕНИЯ О СОСТОЯНИИ СООРУЖЕНИЙ"
+  ]
+ },
+ {
+  "id": "d1-47636",
+  "number": "ВСН 38-87",
+  "name": "Технология изготовления, транспортирование и монтаж сборных железобетонных элементов для решетчатых конструкций (Госагропром)",
+  "date": "1987",
+  "status": "действующий",
+  "directions": [
+   "BZB",
+   "GTS"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_38-87.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_38-87__d1-47636.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ТРЕБОВАНИЯ К РЕШЕТЧАТЫМ ЭЛЕМЕНТАМ",
+   "3. ТРЕБОВАНИЯ К МАТЕРИАЛАМ",
+   "4. СОСТАВЫ БЕТОНА И ПРИГОТОВЛЕНИЕ СМЕСИ",
+   "5. ТЕХНОЛОГИЯ ИЗГОТОВЛЕНИЯ",
+   "6. ТЕПЛОВАЯ ОБРАБОТКА",
+   "7. ДОВОДКА ИЗДЕЛИЙ",
+   "8. ПРАВИЛА ПРИЕМКИ",
+   "9. ХРАНЕНИЕ И ТРАНСПОРТИРОВАНИЕ",
+   "10. УКАЗАНИЯ ПС МОНТАЖУ",
+   "11. ТЕХНИКА БЕЗОПАСНОСТИ"
+  ]
+ },
+ {
+  "id": "d1-46601",
+  "number": "ВСН 39-1.22-007-2002",
+  "name": "Указания по проектированию вставок электроизолирующих для газопроводов",
+  "date": "2002",
+  "status": "действующий",
+  "directions": [
+   "LCH",
+   "AKZ"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_39-1.22-007-2002.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_39-1.22-007-2002__d1-46601.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. КОНСТРУКЦИЯ ЭЛЕКТРОИЗОЛИРУЮЩИХ ВСТАВОК",
+   "3. ОСНОВНЫЕ ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ ВЭИ",
+   "4. МОНТАЖ ВЭИ",
+   "5. ПРИЕМКА ВЭИ В ЭКСПЛУАТАЦИЮ",
+   "6. ЭКСПЛУАТАЦИЯ ВЭИ",
+   "7. ХРАНЕНИЕ И ТРАНСПОРТИРОВАНИЕ ВЭИ",
+   "8. ТРЕБОВАНИЯ БЕЗОПАСНОСТИ ПРИ МОНТАЖЕ И ЭКСПЛУАТАЦИИ ВЭИ",
+   "Приложение 1 Принятые сокращения",
+   "Приложение 2 Нормативные и руководящие документы",
+   "Приложение 3 АКТ приемки в эксплуатацию вставки электроизолирующей (ВЭИ)",
+   "Приложение 4 ОАО «Газпром». Наименование предприятия. Технологический паспорт электроизолирующей вставки (ВЭИ)",
+   "Приложение 5 Контрольно-измерительный пункт для установки при монтаже ВЭИ",
+   "Приложение 1",
+   "Приложение 2",
+   "Приложение 3",
+   "Приложение 4",
+   "Приложение 5"
+  ]
+ },
+ {
+  "id": "d1-48053",
+  "number": "ВСН 5-78",
+  "name": "Инструкция по проектированию и строительству устоев автодорожных мостов и путепроводов, обсыпанных грунтом",
+  "date": "1978",
+  "status": "действующий",
+  "directions": [
+   "MOST",
+   "ZR"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_5-78.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_5-78__d1-48053.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+   "2. РАСЧЕТЫ",
+   "3. КОНСТРУИРОВАНИЕ",
+   "4. ТЕХНОЛОГИЯ СТРОИТЕЛЬСТВА УСТОЕВ И ОТСЫПКИ ПРИМЫКАЮЩИХ ЧАСТЕЙ",
+   "5. УКРЕПЛЕНИЕ ОТКОСОВ КОНУСОВ"
+  ]
+ },
+ {
+  "id": "md-600-81",
+  "number": "ВСН 600-81",
+  "name": "Инструкция по монтажу сооружений и устройств связи, радиовещания и телевидения (Минсвязи СССР)",
+  "date": "01.07.1982",
+  "status": "отменен",
+  "directions": [
+   "EL",
+   "LCH"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_600-81.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_600-81__md-600-81.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "Раздел 1. Общие положения",
+   "Раздел 2. Монтаж технологического оборудования",
+   "Раздел 3. Строительство линейных сооружений кабельных и воздушных линий связи и радиотрансляционных сетей",
+   "Раздел 4. Монтаж антенно-фидерных устройств",
+   "Раздел 5. Пусконаладочные (настроечные) работы",
+   "Приложение 1",
+   "Приложение 2",
+   "Приложение 3",
+   "Приложение 4",
+   "Приложение 5",
+   "Приложение 6",
+   "Приложение 7",
+   "Приложение 8",
+   "Приложение 9",
+   "Приложение 10",
+   "Приложение 11"
+  ]
+ },
+ {
+  "id": "md-600-IV-87",
+  "number": "ВСН 600-IV-87",
+  "name": "Техника безопасности при монтаже технологического оборудования связи и электропитающих устройств",
+  "date": "1987",
+  "status": "действует",
+  "directions": [
+   "OT",
+   "EL"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_600-IV-87.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_600-IV-87__md-600-IV-87.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ТРЕБОВАНИЯ К ПОМЕЩЕНИЯМ,",
+   "3. МОНТАЖНЫЕ РАБОТЫ НА СТАНЦИОННЫХ СООРУЖЕНИЯХ",
+   "4. НАСТРОЙКА, ТРЕНИРОВКА ОБОРУДОВАНИЯ",
+   "5. МОНТАЖ И НАСТРОЙКА РАДИОТЕХНИЧЕСКОГО",
+   "6. МОНТАЖ СИСТЕМЫ ОХЛАЖДЕНИЯ",
+   "7. МОНТАЖ И НАСТРОЙКА АНТЕННЫХ СИСТЕМ",
+   "8. МОНТАЖ ЭЛЕКТРОСНАБЖАЮЩИХ И ЭЛЕКТРОПИТАЮЩИХ УСТРОЙСТВ",
+   "9. ЭЛЕКТРИЧЕСКАЯ ПРОВЕРКА ЭЛЕКТРОПИТАЮЩИХ УСТРОЙСТВ",
+   "Приложение 1",
+   "Приложение 2"
+  ]
+ },
+ {
+  "id": "d1-48288",
+  "number": "ВСН 65 УССР 2-86",
+  "name": "Технология изготовления изделий из разогретых бетонных смесей с применением химических добавок",
+  "date": "1986",
+  "status": "действующий",
+  "directions": [
+   "BZB"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_65_УССР_2-86.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_65_УССР_2-86__d1-48288.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ТРЕБОВАНИЯ К МАТЕРИАЛАМ",
+   "3. ОБЛАСТЬ ПРИМЕНЕНИЯ РАЗОГРЕТЫХ ПАРОМ БЕТОННЫХ СМЕСЕЙ С",
+   "4. ХРАНЕНИЕ, ПРИГОТОВЛЕНИЕ И ДОЗИРОВАНИЕ ХИМИЧЕСКИХ ДОБАВОК",
+   "5. РАЗОГРЕВ И ПРИГОТОВЛЕНИЕ БЕТОННОЙ СМЕСИ",
+   "6. ФОРМОВАНИЕ ИЗДЕЛИЙ",
+   "7. ТЕПЛОВАЯ ОБРАБОТКА ИЗДЕЛИЙ",
+   "8. ТРЕБОВАНИЯ К СИСТЕМЕ И ОБОРУДОВАНИЮ ДЛЯ РАЗОГРЕВА СМЕСИ,",
+   "9. ОСОБЕННОСТИ КОНТРОЛЯ ТЕХНОЛОГИЧЕСКОГО ПРОЦЕССА И КАЧЕСТВА",
+   "10. ПРАВИЛА ОХРАНЫ ТРУДА И ТЕХНИКИ БЕЗОПАСНОСТИ",
+   "ПРИЛОЖЕНИЕ 1 Обязательное",
+   "ПРИЛОЖЕНИЕ 2 Рекомендуемое",
+   "ПРИЛОЖЕНИЕ 3 Рекомендуемое",
+   "ПРИЛОЖЕНИЕ 1",
+   "ПРИЛОЖЕНИЕ 2",
+   "ПРИЛОЖЕНИЕ 3"
+  ]
+ },
+ {
+  "id": "d1-9965",
+  "number": "ВСН 98-74",
+  "name": "Технические указания по проектированию, изготовлению и монтажу составных по длине конструкций железобетонных мостов",
+  "date": "1974",
+  "status": "не действующий",
+  "directions": [
+   "MOST",
+   "BZB"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_98-74.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_98-74__d1-9965.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ОСОБЕННОСТИ ПРОЕКТИРОВАНИЯ СОСТАВНЫХ КОНСТРУКЦИЙ",
+   "3. ОСОБЕННОСТИ РАСЧЕТА СОСТАВНЫХ КОНСТРУКЦИЙ",
+   "4. ИЗГОТОВЛЕНИЕ ЭЛЕМЕНТОВ СОСТАВНЫХ КОНСТРУКЦИЙ",
+   "5. СБОРКА КОНСТРУКЦИЙ И УСТРОЙСТВО СТЫКОВ",
+   "6. ОСОБЕННОСТИ УСТРОЙСТВА СТЫКОВ ПРИ НИЗКИХ ПОЛОЖИТЕЛЬНЫХ И",
+   "7. ИЗГОТОВЛЕНИЕ, УСТАНОВКА И НАТЯЖЕНИЕ ВЫСОКОПРОЧНОЙ ПУЧКОВОЙ",
+   "8. ИНЪЕКТИРОВАНИЕ ЗАКРЫТЫХ КАНАЛОВ К ЗАПОЛНЕНИЕ ОТКРЫТЫХ",
+   "Приложение 1",
+   "Приложение 2",
+   "Приложение 3",
+   "Приложение 4",
+   "Приложение 5",
+   "Приложение 6",
+   "Приложение 7",
+   "Приложение 8",
+   "Приложение 9",
+   "Приложение 10",
+   "Приложение 11",
+   "Приложение 12",
+   "Приложение 13",
+   "Приложение 14",
+   "Приложение 15",
+   "Приложение 16",
+   "Приложение 17",
+   "Приложение 18",
+   "7. ИЗГОТОВЛЕНИЕ, УСТАНОВКА И НАТЯЖЕНИЕ ВЫСОКОПРОЧНОЙ"
+  ]
+ },
+ {
+  "id": "4294848484",
+  "number": "ВСН АС 90",
+  "name": "Правила приемки в эксплуатацию законченных строительством энергоблоков атомных станций",
+  "date": "1990",
+  "status": "действующий",
+  "directions": [
+   "ISP",
+   "PROCH"
+  ],
+  "kind": "vsn",
+  "pdf_path": "files/user/ВСН_АС_90.pdf",
+  "htm_path": "",
+  "text_path": "text/ВСН_АС_90__4294848484.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. ОТВЕТСТВЕННОСТЬ СТОРОН",
+   "3. РАБОЧИЕ КОМИССИИ, ИХ ПРАВА, ОБЯЗАННОСТИ И ПО",
+   "4. ГОСУДАРСТВЕННЫЕ ПРИЕМОЧНЫЕ КОМИССИИ, ИХ"
+  ]
+ },
+ {
+  "id": "u-gost-23118-2019",
+  "number": "ГОСТ 23118-2019",
+  "name": "Конструкции стальные строительные. Общие технические условия",
+  "date": "2020",
+  "status": "действует",
+  "directions": [
+   "NTD",
+   "MK",
+   "ISP"
+  ],
+  "kind": "other",
+  "pdf_path": "files/user/ГОСТ_23118-2019.pdf",
+  "htm_path": "",
+  "text_path": "text/ГОСТ_23118-2019__u-gost-23118-2019.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "Раздел 1, первый абзац классов прочности С440 классов прочности С235 (ИУС № 3 2022 г.)",
+   "Раздел 2. Заменить ссылки:",
+   "Раздел 3. Пункт 3.4 изложить в новой редакции:",
+   "Раздел 4. Пункт 4.1 изложить в новой редакции:",
+   "Раздел 5. Пункт 5.2.2 дополнить абзацем:",
+   "Раздел 9. Пункт 9.2. Сноска «1Ь>. Заменить ссылку: «СП 1.1.11068— 01» на «СП 1.1.1058— 01»."
+  ]
+ },
+ {
+  "id": "u-kmk-3.03.01-98",
+  "number": "КМК 3.03.01-98",
+  "name": "Несущие и ограждающие конструкции (Госкомархитектстрой РУз)",
+  "date": "1998",
+  "status": "действует",
+  "directions": [
+   "NTD",
+   "BZB",
+   "MK",
+   "ISP"
+  ],
+  "kind": "other",
+  "pdf_path": "files/user/КМК_3.03.01-98.pdf",
+  "htm_path": "",
+  "text_path": "text/КМК_3.03.01-98__u-kmk-3.03.01-98.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. БЕТОННЫЕ РАБОТЫ",
+   "3. МОНТАЖ СБОРНЫХ ЖЕЛЕЗОБЕТОННЫХ И",
+   "5. МОНТАЖ ДЕРЕВЯННЫХ КОНСТРУКЦИЙ",
+   "8. СВАРКА МОНТАЖНЫХ СОЕДИНЕНИЙ",
+   "ПРИЛОЖЕНИЕ 1",
+   "ПРИЛОЖЕНИЕ 2",
+   "ПРИЛОЖЕНИЕ 3",
+   "ПРИЛОЖЕНИЕ 4",
+   "ПРИЛОЖЕНИЕ 5",
+   "ПРИЛОЖЕНИЕ 6",
+   "ПРИЛОЖЕНИЕ 7",
+   "ПРИЛОЖЕНИЕ 8",
+   "ПРИЛОЖЕНИЕ 9",
+   "ПРИЛОЖЕНИЕ 10",
+   "ПРИЛОЖЕНИЕ 11",
+   "ПРИЛОЖЕНИЕ 12",
+   "ПРИЛОЖЕНИЕ 13",
+   "ПРИЛОЖЕНИЕ 14",
+   "ПРИЛОЖЕНИЕ 15",
+   "ПРИЛОЖЕНИЕ 16",
+   "3. МОНТАЖ СБОРНЫХ ЖЕЛЕЗОБЕТОННЫХ И БЕТОННЫХ КОН-",
+   "ПРИЛОЖЕНИЕ 1 Обязательное Оформление обложек и страниц журнала работ по монтажу строительных конструкций",
+   "ПРИЛОЖЕНИЕ 2 Обязательное Оформление обложек и страниц журнала сварочных работ",
+   "ПРИЛОЖЕНИЕ 3 Обязательное Оформление обложек и страниц журнала антикоррозионной защиты сварных соединений",
+   "ПРИЛОЖЕНИЕ 4 Обязательное Оформление обложек и страниц журнала замоноличивания монтажных стыков и узлов",
+   "ПРИЛОЖЕНИЕ 5 Обязательное Оформление обложек и страниц журнала выполнения монтажных соединений на болтах с контролируемым натяжением",
+   "ПРИЛОЖЕНИЕ 6 Рекомендуемое Область применения цементов в строительстве",
+   "ПРИЛОЖЕНИЕ 7 Обязательное Материалы для бетонов",
+   "ПРИЛОЖЕНИЕ 8 Рекомендуемое Область применения добавок к бетонам",
+   "ПРИЛОЖЕНИЕ 9 Рекомендуемое Выбор наиболее экономичного метода выдерживания бетона при зимнем бетонировании монолитных конструкций",
+   "ПРИЛОЖЕНИЕ 10 Рекомендуемое Рекомендуемые марки порошка и связки алмазного инструмента для обработки бетона и железобетона 143",
+   "ПРИЛОЖЕНИЕ 11 Обязательное Нагрузки и данные для расчета опалубки монолитных бетонных и железобетонных конструкций",
+   "ПРИЛОЖЕНИЕ 12 Обязательное Акт испытания конструкций здания и сооружения (форма)",
+   "ПРИЛОЖЕНИЕ 13 Обязательное Паспорт вертикального цилиндрического резервуара (бака водонапорной башни)",
+   "ПРИЛОЖЕНИЕ 14 Обязательное Паспорт мокрого газгольдера",
+   "ПРИЛОЖЕНИЕ 15 Справочное Вяжущие для кладочных строительных растворов и их составы",
+   "ПРИЛОЖЕНИЕ 16 Справочное Противоморозные и пластифицирующие добавки в растворы, условия их применения и ожидаемая прочность раствора"
+  ]
+ },
+ {
+  "id": "u-sp-70.13330.2012",
+  "number": "СП 70.13330.2012",
+  "name": "Несущие и ограждающие конструкции. Актуализированная редакция СНиП 3.03.01-87",
+  "date": "2013",
+  "status": "действует",
+  "directions": [
+   "NTD",
+   "BZB",
+   "MK",
+   "ISP"
+  ],
+  "kind": "other",
+  "pdf_path": "files/user/СП_70.13330.2012.pdf",
+  "htm_path": "",
+  "text_path": "text/СП_70.13330.2012__u-sp-70.13330.2012.md",
+  "text_src": "pdf-print",
+  "toc": []
+ },
+ {
+  "id": "u-mds-53-1.2001",
+  "number": "МДС 53-1.2001",
+  "name": "Рекомендации по монтажу стальных строительных конструкций (к СНиП 3.03.01-87)",
+  "date": "2001",
+  "status": "действует",
+  "directions": [
+   "NTD",
+   "MK",
+   "ORG"
+  ],
+  "kind": "other",
+  "pdf_path": "files/user/МДС_53-1.2001.pdf",
+  "htm_path": "",
+  "text_path": "text/МДС_53-1.2001__u-mds-53-1.2001.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "ПРИЛОЖЕНИЕ А (обязательное)"
+  ]
+ },
+ {
+  "id": "u-posobie-geod-3.01.03-84",
+  "number": "Пособие к СНиП 3.01.03-84",
+  "name": "Пособие по производству геодезических работ в строительстве",
+  "date": "1985",
+  "status": "действует",
+  "directions": [
+   "NTD",
+   "ORG",
+   "ISP"
+  ],
+  "kind": "other",
+  "pdf_path": "files/user/Пособие_к_СНиП_3.01.03-84.pdf",
+  "htm_path": "",
+  "text_path": "text/Пособие_к_СНиП_3.01.03-84__u-posobie-geod-3.01.03-84.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "1. ОБЩИЕ ПОЛОЖЕНИЯ",
+   "2. СОСТАВ ПРОЕКТА ПРОИЗВОДСТВА ГЕОДЕЗИЧЕСКИХ РАБОТ",
+   "3. ГЕОДЕЗИЧЕСКАЯ РАЗБИВОЧНАЯ ОСНОВА ДЛЯ СТРОИТЕЛЬСТВА",
+   "4. ГЕОДЕЗИЧЕСКИЕ РАБОТЫ ПРИ ПРОКЛАДКЕ СЕТЕЙ ИНЖЕНЕРНЫХ",
+   "8. ГЕОДЕЗИЧЕСКИЕ ИСПОЛНИТЕЛЬНЫЕ СЪЕМКИ",
+   "10. ТЕХНИКА БЕЗОПАСНОСТИ ПРИ ВЫПОЛНЕНИИ ГЕОДЕЗИЧЕСКИХ",
+   "ПРИЛОЖЕНИЕ 1",
+   "ПРИЛОЖЕНИЕ 2",
+   "ПРИЛОЖЕНИЕ 3",
+   "ПРИЛОЖЕНИЕ 4",
+   "ПРИЛОЖЕНИЕ 5",
+   "ПРИЛОЖЕНИЕ 6",
+   "ПРИЛОЖЕНИЕ 7",
+   "ПРИЛОЖЕНИЕ 8",
+   "Приложение 1. Техническое задание на разработку проекта производства геодезических работ",
+   "Приложение 2. Примерные схемы построения внешней разбивочной сети здания (сооружения)",
+   "Приложение 3. Значения предельных погрешностей построения межосевых размеров большепролетных промышленных сооружений",
+   "Приложение 4. Графики относительных погрешностей построения межосевых размеров",
+   "Приложение 5. Типы постоянных знаков внешней разбивочной сети здания (сооружения)",
+   "Приложение 6. Нормы технического обеспечения строительно-монтажных организаций для производства геодезических работ",
+   "Приложение 7. Примерные схемы построения разбивочной сети строительной площадки",
+   "Приложение 8. Схема закрепления оси трассы магистрального трубопровода"
+  ]
+ },
+ {
+  "id": "u-p-787-83",
+  "number": "П-787-83/Гидропроект",
+  "name": "Руководство по полевой инженерно-геологической документации",
+  "date": "1983",
+  "status": "действует",
+  "directions": [
+   "NTD",
+   "ZR",
+   "ORG"
+  ],
+  "kind": "other",
+  "pdf_path": "files/user/П-787-83-Гидропроект.pdf",
+  "htm_path": "",
+  "text_path": "text/П-787-83-Гидропроект__u-p-787-83.md",
+  "text_src": "pdf-print",
+  "toc": [
+   "ГЛАВА 1. ЗАДАЧИ ИЗЫСКАНИЙ И ОБЯЗАННОСТИ ТЕХНИКА-ГЕОЛОГА",
+   "ГЛАВА 2. БУРОВЫЕ РАЗВЕДОЧНЫЕ РАБОТЫ",
+   "ГЛАВА 3. ГОРНОПРОХОДЧЕСКИЕ РАЗВЕДОЧНЫЕ РАБОТЫ",
+   "ГЛАВА 4. ОПЫТНО-ФИЛЬТРАЦИОННЫЕ РАБОТЫ И РЕЖИМНЫЕ НАБЛЮДЕНИЯ",
+   "ГЛАВА 5. ОПЫТНО-ФИЛЬТРАЦИОННОЕ ОБОРУДОВАНИЕ И ПРИБОРЫ",
+   "ГЛАВА 6. ОТБОР ПРОБ ГРУНТА, ВОДЫ И ГАЗА.",
+   "Приложение 1",
+   "Приложение 2",
+   "Приложение 3",
+   "Приложение 4",
+   "Приложение 5",
+   "Приложение 6",
+   "Приложение 7",
+   "Приложение 8",
+   "Приложение 9",
+   "Приложение 10",
+   "Приложение 11",
+   "Приложение 12",
+   "Приложение 13",
+   "Приложение 14",
+   "Приложение 15"
   ]
  }
 ]
