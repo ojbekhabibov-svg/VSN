@@ -25,6 +25,23 @@ OUT.mkdir(exist_ok=True)
 seen_pages = set()
 
 
+DBG = OUT / "debug"
+DBG.mkdir(exist_ok=True)
+LOG = open(OUT / "crawl_log.txt", "w", encoding="utf-8")
+_print = print
+
+
+def print(*a, **k):  # noqa: A001
+    _print(*a, **k)
+    LOG.write(" ".join(map(str, a)) + "\n")
+    LOG.flush()
+
+
+def save_debug(url, h):
+    name = re.sub(r"[^\w.-]+", "_", url.split("//", 1)[-1])[:120]
+    (DBG / name).write_text(h[:300000], encoding="utf-8")
+
+
 def get(url):
     for i in range(3):
         try:
@@ -90,8 +107,10 @@ def crawl_category(first_url, source):
 
 def crawl_base(root, list_name):
     h = get(f"{root}/{list_name}.htm")
+    print("base", root, list_name, "len", len(h) if h else None)
     if not h:
         return []
+    save_debug(f"{root}/{list_name}.htm", h)
     rows = []
     for href, label in re.findall(r'(?is)<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', h):
         label = txt(label)
@@ -110,8 +129,10 @@ def crawl_megadoc():
         seen_pages.add(u)
         h = get(u)
         time.sleep(1)
+        print("mega_doc page", u, "len", len(h) if h else None)
         if not h:
             continue
+        save_debug(u, h)
         before = len(rows)
         for a_href, a_txt in re.findall(r'(?is)<a[^>]+href="([^"]*/vsn_vedomstvennye-stroitelnye-normy/\d+/[^"]+\.html)"[^>]*>(.*?)</a>', h):
             t = txt(a_txt)
