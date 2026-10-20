@@ -282,11 +282,45 @@ def import_figures(doc_id: str):
     shutil.copytree(src, dst)
 
 
+def _znorm(s):
+    s = s.upper().replace("—", "-").replace("–", "-")
+    s = re.sub(r"^\s*(?:ВСН|ВНЭ)[\s-]*", "", s)
+    m = re.match(r"((?:[IVX]+-)?\d+(?:[.\-]\d+)*)", s.replace(" ", ""))
+    return m.group(1) if m else ""
+
+
+def apply_zamena(rows):
+    """registers/zamena.csv: отметить заменённые документы библиотеки (статус meganorm часто устарел)."""
+    zp = ROOT / "registers" / "zamena.csv"
+    if not zp.exists():
+        return
+    by_num = {}
+    for r in rows:
+        by_num.setdefault(_znorm(r["number"]), []).append(r)
+    names = {_znorm(r["number"]): r["name"] for r in rows}
+    words = lambda t: {w[:6] for w in re.findall(r"[а-яё]{4,}", t.lower())}
+    n_marked = 0
+    for z in csv.DictReader(open(zp, encoding="utf-8-sig"), delimiter=";"):
+        if not z["old"].upper().startswith("ВСН"):
+            continue
+        cands = by_num.get(_znorm(z["old"]), [])
+        if len(cands) > 1:  # одинаковый номер у разных документов — берём ближайший по названию к заменяющему
+            ref = " ".join(names.get(_znorm(x), "") for x in z["new"].split(", "))
+            cands = [max(cands, key=lambda r: len(words(r["name"]) & words(ref)))]
+        for r in cands:
+            if "заменён" not in r["status"]:
+                r["status"] = f"{r['status']}; заменён {z['new']}".strip("; ")
+                r["zamena_src"] = z["source"]
+                n_marked += 1
+    print("отмечено заменённых:", n_marked, flush=True)
+
+
 def main():
     rows = [dict(r, kind="vsn") for r in csv.DictReader(open(ROOT / "index.csv", encoding="utf-8-sig"), delimiter=";")]
     extra = ROOT / "index_extra.csv"   # документы из архива пользователя
     if extra.exists():
         rows += list(csv.DictReader(open(extra, encoding="utf-8-sig"), delimiter=";"))
+    apply_zamena(rows)
     manual = {}
     cpath = ROOT / "registers" / "classification.csv"
     if cpath.exists():
@@ -496,7 +530,8 @@ def write_ai_index(docs):
         "2. Читать `text/<файл>.md`: шапка + автоглавление в начале, дальше чистый текст. Сначала оглавление, "
         "потом только нужный раздел (grep по номеру пункта/ключевому слову), а не весь файл.",
         "3. Поиск по всем текстам: `grep -ril \"ключевое слово\" text/`. PDF/HTM — только для формул, рисунков и таблиц.",
-        "4. Приоритет: действующие (статус не «заменен»/«не действует»). Заменённые — только справочно; для РУз "
+        "4. Приоритет: действующие. «ЗАМЕНЁН → …» — по титулам/текстам ВСН и подтверждениям пользователя "
+        "(registers/zamena.csv); такой документ брать только справочно, ссылаться на заменяющий. Для РУз "
         "проверять наличие действующего ШНК/КМК.",
         "",
         "Коды направлений: " + "; ".join(f"{c}={DIR[c][2]}" for c in CODES),
@@ -514,7 +549,8 @@ def write_ai_index(docs):
             continue
         lines.append(f"## {code} — {title}")
         for d in sel:
-            st = "ДЕЙСТВ" if is_valid(d["status"]) else d["status"]
+            st = "ДЕЙСТВ" if is_valid(d["status"]) else ("ЗАМЕНЁН → " + d["status"].split("заменён ", 1)[1]
+                                                          if "заменён " in d["status"] else d["status"])
             lines.append(f"{d['number']} | {st} | {','.join(d['directions'])} | {d['name']} | "
                          f"{d['text_path'].removeprefix('text/') or '—'} | {d['text_kb']} | {d['text_src'] or '—'} | {d['figures']}")
         lines.append("")

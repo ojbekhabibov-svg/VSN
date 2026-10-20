@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Анализ ссылок на ВСН внутри текстов библиотеки: какие упоминаемые ВСН отсутствуют.
 Классы: Отсутствует / Заменён / Есть другая редакция / Ошибка распознавания. Выход: registers/_gap_refs.json"""
-import re,json,collections
+import re,json,collections,csv
 idx=json.load(open('registers/registers.json',encoding='utf-8'))
 def norm(s):
     s=s.upper().replace('ВСН','').replace('—','-').replace('–','-')
@@ -31,6 +31,7 @@ SUP=re.compile(r'(?i)утрачива\w*\s+сил\w*|утратил\w*\s+сил\
 TITLE=re.compile(r'[«"„“]([^»"”]{8,170})[»"”]')
 ORG=re.compile(r'(Миннефтегазстро\w*|Мингазпром\w*|Миннефтепром\w*|Минмонтажспецстро\w*|ММСС|Минтрансстро\w*|Минавтодор\w*|Минэнерго|Минсвязь|Главмосстро\w*|Госгражданстро\w*|Миннефтехимпром\w*|Минобороны|МО СССР|Минхимпром\w*|Минсельстро\w*|Минпромстро\w*|Минтяжстро\w*|Мингазпром|ОАО «Газпром»|Газпром|Минтопэнерго|ВНИИСТ\w*)')
 dirs={d['number']:d['directions'] for d in idx}
+AUTO={}
 R=collections.defaultdict(lambda:dict(edge=set(),by=set(),sup_by=set(),ref_by=set(),titles=collections.Counter(),orgs=collections.Counter(),ctx=''))
 for d in idx:
     if not d['text_path']: continue
@@ -39,9 +40,11 @@ for d in idx:
     for m in SUP.finditer(t):
         tail=t[m.end():m.end()+1600]
         e=re.search(r'\n(?:## |\d+\.\d*\.?\s+[А-ЯЁ]|<!-- стр)',tail)
-        spans.append((m.start()-120, m.end()+(e.start() if e and e.start()>60 else min(len(tail),400))))
+        spans.append((m.start()-120, m.end()+(e.start() if e and e.start()>60 else (min(len(tail),400) if e else len(tail)))))
     for m in rx.finditer(t):
         n=norm(m.group(1))
+        if n in have and n!=norm(d['number']) and any(a<=m.start()<=b for a,b in spans):
+            AUTO.setdefault(n,set()).add(d['number'])
         if not n or not re.search(r'-\d',n) or len(n)<4 or n in have: continue
         r=R[n]; r['by'].add(d['number'])
         if m.start()<3500 or m.start()>len(t)-2500: r['edge'].add(d['number'])
@@ -66,6 +69,11 @@ def words(t):
 def sim(a,b):
     A,B=words(a),words(b)
     return len(A&B)/max(1,min(len(A),len(B))) if A and B else 0
+ZAMENA={}
+import csv as _csv, os as _os
+if _os.path.exists('registers/zamena.csv'):
+    for z in _csv.DictReader(open('registers/zamena.csv',encoding='utf-8-sig'),delimiter=';'):
+        ZAMENA[norm(z['old'])]=z
 rows=[]
 for n,r in R.items():
     by=sorted(r['by'])
@@ -104,6 +112,8 @@ for n,r in R.items():
         status,note='Заменён',f'заменён: {", ".join(sorted(r["sup_by"]))}; упоминается также в {", ".join(sorted(r["ref_by"]))}'
     else:
         status,note='Отсутствует',(f'номер близок к {", ".join("ВСН "+x for x in near[:2])} — сверить' if len(by)==1 and near and not r['titles'] else '')
+    if n in ZAMENA:
+        z=ZAMENA[n]; status,note='Заменён',f"заменён {z['new']} ({z['source']})"
     ds=collections.Counter(c for x in by for c in dirs.get(x,[]))
     rows.append(dict(num='ВСН '+n,status=status,note=note,
         title=(r['titles'].most_common(1)[0][0] if r['titles'] else ''),
@@ -116,6 +126,15 @@ for x in rows:
     if (ds & HIGH) or OILGAS.search(x['org']+' '+x['title']+' '+x['ctx']): x['prio']='Высокий'
     elif ds & MID: x['prio']='Средний'
     else: x['prio']='Низкий'
+def _yr(x):
+    m=re.search(r'-(\d{2,4})$',norm(x))
+    if not m: return 0
+    y=int(m.group(1)); return y if y>1000 else y+(1900 if y>30 else 2000)
+with open('registers/_zamena_candidates.csv','w',newline='',encoding='utf-8-sig') as f:
+    w=csv.writer(f,delimiter=';'); w.writerow(['old','new','source'])
+    for n,bys in sorted(AUTO.items()):
+        newer=[b for b in sorted(bys) if _yr(b)>=_yr(n) and _yr(n)]
+        if newer: w.writerow(['ВСН '+n,', '.join(newer),'авто: «взамен/утрачивает силу» в тексте'])
 json.dump(rows,open('registers/_gap_refs.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
 c=collections.Counter(x['status'] for x in rows); print(c)
 core={'LCH','TT','SV','AKZ','ISP','ZR','ORG','OT','BZB','MK'}

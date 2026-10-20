@@ -167,6 +167,8 @@ for k, e in catalog_missing.items():
     newer = [d for h in have_base.get(base(n) or "-", []) for d in have[h]
              if sim(e["name"], d["name"]) >= 0.5 and yr(h) > yr(n)] if base(n) else []
     rx = refs_by_num.get(n)
+    if newer and False:
+        pass
     if newer:
         superseded.append(dict(num=e["number"], status="Есть другая редакция",
                                note=f"в библиотеке более новая: {newer[0]['number']} «{newer[0]['name'][:70]}» (по каталогу: {e['status']})",
