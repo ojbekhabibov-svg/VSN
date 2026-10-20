@@ -7,7 +7,7 @@
 <!-- registers:start -->
 ## Регистры по направлениям
 
-Excel: [`registers/Реестр_ВСН.xlsx`](registers/Реестр_ВСН.xlsx) · сводка: [`registers/`](registers/README.md) · упрощённые тексты: `text/` · индекс для Claude: [`AI_INDEX.md`](AI_INDEX.md)
+Excel: [`registers/Реестр_ВСН.xlsx`](registers/Реестр_ВСН.xlsx) · сводка: [`registers/`](registers/README.md) · упрощённые тексты: `text/` · индекс для Claude: [`AI_INDEX.md`](AI_INDEX.md) · анализ недостающих: [`registers/Недостающие_ВСН.xlsx`](registers/Недостающие_ВСН.xlsx)
 
 | Направление | Документов | Действующих |
 |---|---|---|

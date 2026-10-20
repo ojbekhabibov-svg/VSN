@@ -27,7 +27,7 @@ def lev(a,b):
             prev,dp[j]=dp[j],min(dp[j]+1,dp[j-1]+1,prev+(ca!=cb))
     return dp[-1]
 rx=re.compile(r'ВСН\s*№?\s*((?:[IVX]+-)?\d+(?:(?:\s?[\-–—]\s?|\.)\d+){1,4})(?![\d.]\d)(\*{0,2})\s*(/\s*[А-ЯЁA-Za-zа-яё .]{2,25})?')
-SUP=re.compile(r'(?i)утрачива\w*\s+сил\w*|утратил\w*\s+сил\w*|отменя\w+|аннулир\w+|взамен|вместо')
+SUP=re.compile(r'(?i)утрачива\w*\s+сил\w*|утратил\w*\s+сил\w*|отменя\w+|аннулир\w+|в[зв]амен|вместо|теряют\s+силу')
 TITLE=re.compile(r'[«"„“]([^»"”]{8,170})[»"”]')
 ORG=re.compile(r'(Миннефтегазстро\w*|Мингазпром\w*|Миннефтепром\w*|Минмонтажспецстро\w*|ММСС|Минтрансстро\w*|Минавтодор\w*|Минэнерго|Минсвязь|Главмосстро\w*|Госгражданстро\w*|Миннефтехимпром\w*|Минобороны|МО СССР|Минхимпром\w*|Минсельстро\w*|Минпромстро\w*|Минтяжстро\w*|Мингазпром|ОАО «Газпром»|Газпром|Минтопэнерго|ВНИИСТ\w*)')
 dirs={d['number']:d['directions'] for d in idx}
@@ -52,7 +52,7 @@ for d in idx:
         tm=TITLE.search(post[:220])
         gap_pre=len(pre)-tp[-1].end() if tp else 999
         gap_post=tm.start() if tm else 999
-        if gap_pre<=4 and gap_pre<=gap_post: r['titles'][' '.join(tp[-1].group(1).split())]+=2
+        if gap_pre<=8 and gap_pre<=gap_post: r['titles'][' '.join(tp[-1].group(1).split())]+=2
         elif gap_post<=40 and not re.search(r'ВСН\s*\d', post[:gap_post]): r['titles'][' '.join(tm.group(1).split())]+=1
         g=m.group(3) or post[:40]
         om=ORG.search(g)

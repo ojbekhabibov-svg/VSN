@@ -72,7 +72,7 @@ def parse_table(page_html, base_url, source):
         tds = re.findall(r"(?is)<td[^>]*>(.*?)</td>", tr)
         if len(tds) < 2:
             continue
-        links = [urllib.parse.urljoin(base_url, h) for h in re.findall(r'(?i)href="([^"]+)"', tds[0] + tds[1])]
+        links = [urllib.parse.urljoin(base_url, h) for h in re.findall(r"""(?i)href=["']([^"']+)["']""", tds[0] + tds[1])]
         anchors = [txt(a) for a in re.findall(r"(?is)<a[^>]*>(.*?)</a>", tds[0])]
         number = next((a for a in reversed(anchors) if re.match(r"(?i)(ВСН|ВНЭ|BCH)", a)), "") or txt(tds[0])
         if not re.search(r"(?i)\bВСН|ВНЭ", number + " " + txt(tds[1])[:30]):
@@ -112,10 +112,31 @@ def crawl_base(root, list_name):
         return []
     save_debug(f"{root}/{list_name}.htm", h)
     rows = []
-    for href, label in re.findall(r'(?is)<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', h):
+    for href, label in re.findall(r"""(?is)<a[^>]+href=["']([^"']+)["'][^>]*>(.*?)</a>""", h):
         label = txt(label)
         if re.match(r"(?i)^(ВСН|ВНЭ)\b", label) and re.search(r"\d+-0\.htm$", href):
+            if root.endswith("stroyinf.ru"):
+                continue  # зеркало баз meganorm
             rows += crawl_category(urllib.parse.urljoin(f"{root}/{list_name}.htm", href), f"{root.split('//')[1]}/{list_name}:{label}")
+    return rows
+
+
+def parse_megadoc(h, u):
+    rows = []
+    for row in re.findall(r'(?is)<div class="row">(.*?)</div>\s*</div>', h):
+        m = re.search(r'(?is)<a href="([^"]+)">(.*?)</a>', row)
+        st = re.search(r'(?is)<div class="cell[^"]*">([^<]*)$', row)
+        if not m:
+            continue
+        t = txt(m.group(2)).strip('"«» ')
+        head = t.split(". ", 1)
+        number = head[0].strip('"') if re.match(r"(?i)\"?(ВСН|ВНЭ)", head[0]) else ""
+        name = head[1] if number and len(head) > 1 else t
+        appr = re.search(r"\((утв[^)]*)\)", name)
+        name = re.sub(r'"?\s*\(утв.*$', "", name).strip('" ')
+        rows.append({"source": "meganorm.ru/mega_doc", "number": number or "б/н", "name": name,
+                     "date": appr.group(1)[:120] if appr else "", "status": txt(st.group(1)) if st else "",
+                     "links": urllib.parse.urljoin(u, m.group(1))})
     return rows
 
 
@@ -134,12 +155,7 @@ def crawl_megadoc():
             continue
         save_debug(u, h)
         before = len(rows)
-        for a_href, a_txt in re.findall(r'(?is)<a[^>]+href="([^"]*/vsn_vedomstvennye-stroitelnye-normy/\d+/[^"]+\.html)"[^>]*>(.*?)</a>', h):
-            t = txt(a_txt)
-            if t:
-                rows.append({"source": "meganorm.ru/mega_doc", "number": t.split(" ")[0] + (" " + t.split(" ")[1] if len(t.split(" ")) > 1 else ""),
-                             "name": t, "date": "", "status": "", "links": urllib.parse.urljoin(u, a_href)})
-        rows += [dict(r, source="meganorm.ru/mega_doc") for r in parse_table(h, u, "meganorm.ru/mega_doc")]
+        rows += parse_megadoc(h, u)
         for p in set(re.findall(r'href="([^"]*vsn_vedomstvennye-stroitelnye-normy_\d+\.html)"', h)):
             queue.append(urllib.parse.urljoin(u, p))
         print("mega_doc", u, len(rows) - before, flush=True)
