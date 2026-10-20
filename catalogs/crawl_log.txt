@@ -1,0 +1,16 @@
+base https://meganorm.ru list0 len 7416
+base https://meganorm.ru list1 len 46931
+meganorm.ru/list1:ВНЭ: https://meganorm.ru/list1/108-0.htm -> 2
+meganorm.ru/list1:ВСН: https://meganorm.ru/list1/30-0.htm -> 457
+meganorm.ru/list1:ВСН АПК: https://meganorm.ru/list1/488-0.htm -> 2
+meganorm.ru/list1:ВСН АС: https://meganorm.ru/list1/298-0.htm -> 2
+meganorm.ru/list1:ВСН ВК: https://meganorm.ru/list1/299-0.htm -> 2
+base https://meganorm.ru list2 len 174079
+base https://meganorm.ru list3 len 2125
+base https://files.stroyinf.ru list0 len 13583
+base https://files.stroyinf.ru list1 len 72491
+base https://files.stroyinf.ru list2 len 136451
+base https://files.stroyinf.ru list3 len 28
+mega_doc page https://meganorm.ru/mega_doc/norm/vsn_vedomstvennye-stroitelnye-normy/vsn_vedomstvennye-stroitelnye-normy_0.html len 154885
+mega_doc https://meganorm.ru/mega_doc/norm/vsn_vedomstvennye-stroitelnye-normy/vsn_vedomstvennye-stroitelnye-normy_0.html 0
+Итого строк: 465
