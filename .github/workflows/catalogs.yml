@@ -1,0 +1,31 @@
+name: Каталоги ВСН (сбор для анализа)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            catalogs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python scripts/crawl_catalogs.py catalogs
+      - name: Коммит
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add catalogs
+          git diff --cached --quiet || git commit -q -m "ВСН: каталоги источников для анализа недостающих"
+          git pull --rebase -q || true
+          git push
